@@ -1,0 +1,47 @@
+name: Neues Lab anlegen
+description: Ein neues KI-Lab bzw. eine neue Initiative in den Hub aufnehmen.
+title: "[Neues Lab] "
+labels: ["eingabe", "neues-lab"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Name des Labs
+      placeholder: z. B. Lab AI & Recht
+    validations:
+      required: true
+  - type: input
+    id: heimat
+    attributes:
+      label: Heimat (Working Group / Initiative)
+      placeholder: z. B. Working Group Search
+  - type: dropdown
+    id: themenfeld
+    attributes:
+      label: Themenfeld
+      options:
+        - "1 · Agentic Economy & Commerce"
+        - "2 · Data, Tech-Stack & Infrastruktur"
+        - "3 · Search & Medienmodelle"
+        - "4 · Content, Kreativität & Creator"
+        - "5 · Vertrauen, Recht, Governance & Politik"
+        - "6 · Arbeit, Kompetenz & Zukunftsradar"
+        - "7 · Prozesse & Wertschöpfungskette"
+    validations:
+      required: true
+  - type: textarea
+    id: kurz
+    attributes:
+      label: Kurzbeschreibung
+    validations:
+      required: true
+  - type: textarea
+    id: leitung
+    attributes:
+      label: Lab-Leitung
+      description: Eine Person pro Zeile im Format „Name | Unternehmen | Rolle“.
+  - type: textarea
+    id: bvdw
+    attributes:
+      label: Verantwortlich BVDW
+      description: Eine Person pro Zeile im Format „Name | E-Mail“.

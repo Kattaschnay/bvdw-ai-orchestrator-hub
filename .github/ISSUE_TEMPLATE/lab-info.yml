@@ -1,0 +1,61 @@
+name: Lab-Infos aktualisieren
+description: Lab-Leitung, Kurzbeschreibung, Status oder Ziele 2027 eines Labs ändern.
+title: "[Lab-Info] "
+labels: ["eingabe", "lab-info"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Leere Felder bleiben unverändert. Ausgefüllte Felder **ersetzen** den bisherigen Inhalt.
+  - type: input
+    id: lab
+    attributes:
+      label: Lab
+      description: Kürzel oder Name des Labs.
+    validations:
+      required: true
+  - type: textarea
+    id: leitung
+    attributes:
+      label: Lab-Leitung
+      description: Eine Person pro Zeile im Format „Name | Unternehmen | Rolle“ (Rolle optional, Standard „Lab-Leitung“).
+      placeholder: |
+        Max Mustermann | Beispiel GmbH | Lab-Leitung
+        Erika Musterfrau | Muster AG | Stellv. Lab-Leitung
+  - type: textarea
+    id: bvdw
+    attributes:
+      label: Verantwortlich BVDW
+      description: Eine Person pro Zeile im Format „Name | E-Mail“.
+      placeholder: Katharina Schneeberg | schneeberg@bvdw.org
+  - type: input
+    id: termine
+    attributes:
+      label: Termine
+      placeholder: z. B. alle 3 Wochen, mittwochs 10 Uhr
+  - type: textarea
+    id: aktuell
+    attributes:
+      label: Aktuelle Projekte
+      description: Ein Projekt pro Zeile.
+  - type: textarea
+    id: kurz
+    attributes:
+      label: Kurzbeschreibung
+      description: Ein Satz für die Kachel auf der Startseite.
+  - type: dropdown
+    id: status
+    attributes:
+      label: Status des Labs
+      options: ["(unverändert)", "aktiv", "im Aufbau", "in Planung", "pausiert"]
+  - type: textarea
+    id: ziele
+    attributes:
+      label: Ziele 2027
+      description: Ein Ziel pro Zeile.
+  - type: textarea
+    id: links
+    attributes:
+      label: Links
+      description: Ein Link pro Zeile im Format „Bezeichnung | URL“.
+      placeholder: SharePoint-Ordner | https://…

@@ -1,0 +1,62 @@
+name: Roadmap-Eintrag 2027
+description: Neuen Meilenstein für die Roadmap 2027 eines Labs vorschlagen.
+title: "[Roadmap] "
+labels: ["eingabe", "roadmap"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Danke für deine Eingabe! Nach Freigabe durch den Bereich KI erscheint der Meilenstein automatisch im AI Orchestrator Hub.
+  - type: input
+    id: lab
+    attributes:
+      label: Lab
+      description: Kürzel oder Name des Labs (wird automatisch ausgefüllt, wenn du über den Hub kommst).
+      placeholder: z. B. agentic-media-buying
+    validations:
+      required: true
+  - type: dropdown
+    id: quartal
+    attributes:
+      label: Quartal
+      options: ["Q1", "Q2", "Q3", "Q4"]
+    validations:
+      required: true
+  - type: input
+    id: titel
+    attributes:
+      label: Titel des Meilensteins
+      placeholder: z. B. Whitepaper „AI Value Framework“
+    validations:
+      required: true
+  - type: textarea
+    id: beschreibung
+    attributes:
+      label: Beschreibung
+      description: Ein bis drei Sätze – was entsteht, für wen?
+  - type: dropdown
+    id: typ
+    attributes:
+      label: Format
+      options:
+        - Publikation
+        - Studie
+        - Event
+        - Interaktives Format / Tool
+        - Positionspapier
+        - Arbeitsgruppen-Sitzung
+        - Sonstiges
+    validations:
+      required: true
+  - type: dropdown
+    id: status
+    attributes:
+      label: Status
+      options: ["geplant", "in Arbeit", "abgeschlossen"]
+    validations:
+      required: true
+  - type: input
+    id: verantwortlich
+    attributes:
+      label: Verantwortlich
+      placeholder: Name, Unternehmen

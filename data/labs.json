@@ -1,0 +1,461 @@
+{
+  "stand": "2026-11-25",
+  "quelle": "https://www.bvdw.org/kuenstliche-intelligenz-im-bvdw/",
+  "themenfelder": [
+    {
+      "nr": 1,
+      "name": "Agentic Economy & Commerce",
+      "leitfrage": "Wie handeln, kaufen und buchen Agenten – und wer setzt die Regeln?"
+    },
+    {
+      "nr": 2,
+      "name": "Data, Tech-Stack & Infrastruktur",
+      "leitfrage": "Auf welchen Daten, Modellen und Infrastrukturen baut die KI der Digitalen Wirtschaft auf?"
+    },
+    {
+      "nr": 3,
+      "name": "Search & Medienmodelle",
+      "leitfrage": "Wie bleiben Marken und Publisher in KI-Antworten sichtbar und refinanzierbar?"
+    },
+    {
+      "nr": 4,
+      "name": "Content, Kreativität & Creator",
+      "leitfrage": "Wie entsteht kreative Wertschöpfung mit KI – und wie wird sie fair vergütet?"
+    },
+    {
+      "nr": 5,
+      "name": "Vertrauen, Recht, Governance & Politik",
+      "leitfrage": "Wie setzen wir KI rechtssicher, transparent und markensicher ein?"
+    },
+    {
+      "nr": 6,
+      "name": "Arbeit, Kompetenz & Zukunftsradar",
+      "leitfrage": "Wie verändern sich Rollen, Führung und Qualifikation – und welche Technologien kommen als Nächstes?"
+    },
+    {
+      "nr": 7,
+      "name": "Prozesse & Wertschöpfungskette",
+      "leitfrage": "Wie verändert KI Prozesse und Wertschöpfungsketten, und welche Geschäftsmodelle entstehen daraus?"
+    }
+  ],
+  "labs": [
+    {
+      "id": "ai-value-chain",
+      "name": "Lab AI Value Chain",
+      "heimat": "Bereich KI",
+      "themenfeld": 7,
+      "status": "aktiv",
+      "kurz": "KI-gestützte Geschäftsmodelle, Wertschöpfung und Vergütung entlang der Wertschöpfungskette.",
+      "aktuell": [
+        "Whitepaper „ROI of AI – AI Value Framework“, vorgestellt in einer Masterclass auf der DMEXCO 2026; Leitfaden „KI-Wertbeitrag messen“ veröffentlicht am 24.11.2026"
+      ],
+      "leitung": [
+        {
+          "name": "Jens-Christian Jensen",
+          "unternehmen": "CSO, Plan.Net",
+          "rolle": "Lab-Leitung"
+        },
+        {
+          "name": "Kai Ebert",
+          "unternehmen": "Founder, Brainhuggers Bureau",
+          "rolle": "Lab-Leitung"
+        },
+        {
+          "name": "Fabian Göbel",
+          "unternehmen": "Managing Director, Nunatak",
+          "rolle": "Lab-Leitung"
+        }
+      ],
+      "bvdw": [
+        {
+          "name": "Katharina Schneeberg",
+          "email": "schneeberg@bvdw.org"
+        }
+      ],
+      "termine": "alle 3 Wochen, mittwochs 10 Uhr",
+      "hinweis": "",
+      "ziele2027": [],
+      "roadmap2027": [],
+      "links": []
+    },
+    {
+      "id": "ai-technology",
+      "name": "Lab AI Technology",
+      "heimat": "Bereich KI",
+      "themenfeld": 2,
+      "status": "aktiv",
+      "kurz": "Technologische und strategische Entwicklung von KI, Transparenz bei Modellen – Brücke zwischen Entwicklung und Anwendung.",
+      "aktuell": [
+        "Entscheidungsbaum zur Einführung von KI-Agenten",
+        "LLM-Atlas: Überblick über Large Language Models nach Leistung, Einsatzgebiet, Verfügbarkeit und Governance"
+      ],
+      "leitung": [
+        {
+          "name": "Bosse Küllenberg",
+          "unternehmen": "PAIDAI",
+          "rolle": "Lab-Leitung"
+        }
+      ],
+      "bvdw": [
+        {
+          "name": "Katharina Schneeberg",
+          "email": "schneeberg@bvdw.org"
+        }
+      ],
+      "termine": "alle 3 Wochen, mittwochs 9 Uhr",
+      "hinweis": "",
+      "ziele2027": [],
+      "roadmap2027": [],
+      "links": []
+    },
+    {
+      "id": "ag-data-future-tech",
+      "name": "AG Data & (Future) Technology",
+      "heimat": "Homebase · politische AG",
+      "themenfeld": 5,
+      "status": "aktiv",
+      "kurz": "Interessenvertretung für datenbasierte Technologien wie KI und XR – mit Fokus auf die Umsetzung der KI-Verordnung in EU und Deutschland.",
+      "aktuell": [],
+      "leitung": [],
+      "bvdw": [
+        {
+          "name": "Janek Kuberzig",
+          "email": "kuberzig@bvdw.org"
+        }
+      ],
+      "termine": "",
+      "hinweis": "",
+      "ziele2027": [],
+      "roadmap2027": [],
+      "links": []
+    },
+    {
+      "id": "ag-data-driven-markets",
+      "name": "AG Data Driven Markets",
+      "heimat": "Homebase · politische AG",
+      "themenfeld": 5,
+      "status": "aktiv",
+      "kurz": "Medien- und Wettbewerbsfragen mit KI-Bezug: AVMD-Richtlinie, Digitale-Medien-Staatsvertrag, Digitalabgabe, Urheberrecht.",
+      "aktuell": [],
+      "leitung": [],
+      "bvdw": [
+        {
+          "name": "Katharina Czarnian",
+          "email": "czarnian@bvdw.org"
+        }
+      ],
+      "termine": "",
+      "hinweis": "",
+      "ziele2027": [],
+      "roadmap2027": [],
+      "links": []
+    },
+    {
+      "id": "ovk-publisher",
+      "name": "OVK-Workstream KI/LLMs & Publisher",
+      "heimat": "OVK",
+      "themenfeld": 3,
+      "status": "aktiv",
+      "kurz": "Auswirkungen von KI/LLMs auf Geschäftsmodelle von Publishern und Vermarktern: Datenabflüsse, Kontrolle gegenüber KI-Crawlern, technologische Souveränität.",
+      "aktuell": [
+        "Whitepaper zum Medienwandel durch KI mit Fokus auf GEO und AEO"
+      ],
+      "hinweis": "Mitarbeit nur für OVK-Mitglieder und Publisher.",
+      "leitung": [
+        {
+          "name": "Alwin Viereck",
+          "unternehmen": "VP Product Management, United Internet Media",
+          "rolle": "Lab-Leitung"
+        }
+      ],
+      "bvdw": [
+        {
+          "name": "Nicole Dreyer",
+          "email": "dreyer@bvdw.org"
+        }
+      ],
+      "termine": "",
+      "ziele2027": [],
+      "roadmap2027": [],
+      "links": []
+    },
+    {
+      "id": "ki-search",
+      "name": "Auswirkungen von KI/LLMs auf Search",
+      "heimat": "Working Group Search",
+      "themenfeld": 3,
+      "status": "aktiv",
+      "kurz": "Wandel von SEO und SEA hin zu KI-Chats, neue Werbemodelle in KI-Systemen und neue Erfolgsmessung.",
+      "aktuell": [
+        "„Search im Umbruch – Die 10 wichtigsten GEO-KPIs“"
+      ],
+      "leitung": [
+        {
+          "name": "Uli Zimmermann",
+          "unternehmen": "EMinded",
+          "rolle": "Lab-Leitung"
+        },
+        {
+          "name": "Nico Loges",
+          "unternehmen": "webnetz",
+          "rolle": "Lab-Leitung"
+        }
+      ],
+      "bvdw": [
+        {
+          "name": "Jana Hamalides",
+          "email": "hamalides@bvdw.org"
+        }
+      ],
+      "termine": "individuelle Termine",
+      "hinweis": "",
+      "ziele2027": [],
+      "roadmap2027": [],
+      "links": []
+    },
+    {
+      "id": "audio",
+      "name": "Lab Innovation x Audio",
+      "heimat": "Working Group Digital Audio",
+      "themenfeld": 4,
+      "status": "aktiv",
+      "kurz": "Neue Audiotechnologien erforschen und transparent einordnen – mit Standards für Zugänglichkeit und Nutzerfreundlichkeit.",
+      "aktuell": [],
+      "leitung": [
+        {
+          "name": "Eric Siegmund",
+          "unternehmen": "Acast",
+          "rolle": "Lab-Leitung"
+        },
+        {
+          "name": "Robert Scharni",
+          "unternehmen": "smartclip",
+          "rolle": "Lab-Leitung"
+        }
+      ],
+      "bvdw": [
+        {
+          "name": "Katharina Schneeberg",
+          "email": "schneeberg@bvdw.org"
+        },
+        {
+          "name": "Irina Schmitz",
+          "email": "schmitz@bvdw.org"
+        }
+      ],
+      "termine": "individuelle Termine",
+      "hinweis": "",
+      "ziele2027": [],
+      "roadmap2027": [],
+      "links": []
+    },
+    {
+      "id": "retail-media-ki",
+      "name": "Lab Retail Media x KI",
+      "heimat": "Working Group Retail Media Ecosystem",
+      "themenfeld": 1,
+      "status": "aktiv",
+      "kurz": "Verantwortungsvoller KI-Einsatz im Retail Media, Markttransparenz und Wettbewerbsfähigkeit im digitalen Handel.",
+      "aktuell": [
+        "Whitepaper „iROAS 2.0“: inkrementellen Wert mit KI messen"
+      ],
+      "leitung": [
+        {
+          "name": "Jan Schmitz",
+          "unternehmen": "Zalando Partner Marketing Services",
+          "rolle": "Lab-Leitung"
+        },
+        {
+          "name": "Olga Puzhko",
+          "unternehmen": "Skai",
+          "rolle": "Lab-Leitung"
+        },
+        {
+          "name": "Jens Bargmann",
+          "unternehmen": "mrge",
+          "rolle": "Lab-Leitung"
+        }
+      ],
+      "bvdw": [
+        {
+          "name": "Irina Schmitz",
+          "email": "schmitz@bvdw.org"
+        }
+      ],
+      "termine": "alle 3 Wochen, dienstags 12 Uhr",
+      "hinweis": "",
+      "ziele2027": [],
+      "roadmap2027": [],
+      "links": []
+    },
+    {
+      "id": "ai-commerce",
+      "name": "Lab AI Commerce",
+      "heimat": "Initiative E-Commerce",
+      "themenfeld": 1,
+      "status": "aktiv",
+      "kurz": "Technologische Entwicklungen in zukunftsfähige Commerce-Modelle übersetzen – von KI-optimierten Shops bis zu autonomen Einkaufsagenten.",
+      "aktuell": [],
+      "leitung": [],
+      "bvdw": [
+        {
+          "name": "Irina Schmitz",
+          "email": "schmitz@bvdw.org"
+        }
+      ],
+      "termine": "",
+      "hinweis": "",
+      "ziele2027": [],
+      "roadmap2027": [],
+      "links": []
+    },
+    {
+      "id": "arbeitsmarkt-leadership",
+      "name": "Taskforce Arbeitsmarktveränderungen & Leadership",
+      "heimat": "Working Group Digitale Arbeitswelten",
+      "themenfeld": 6,
+      "status": "aktiv",
+      "kurz": "Was KI für Arbeitgeber*innen und Beschäftigte bedeutet: moderne Führung, Reskilling und Upskilling.",
+      "aktuell": [],
+      "leitung": [],
+      "bvdw": [
+        {
+          "name": "Beatriz Bilfinger",
+          "email": "bilfinger@bvdw.org"
+        }
+      ],
+      "termine": "",
+      "hinweis": "",
+      "ziele2027": [],
+      "roadmap2027": [],
+      "links": []
+    },
+    {
+      "id": "responsible-ai",
+      "name": "Lab Responsible AI for Business",
+      "heimat": "Working Group Digital Responsibility",
+      "themenfeld": 5,
+      "status": "aktiv",
+      "kurz": "Verantwortungsvoller und sicherer KI-Einsatz in Unternehmen: Governance, Transparenz, Best Practices.",
+      "aktuell": [],
+      "leitung": [],
+      "bvdw": [
+        {
+          "name": "Beatriz Bilfinger",
+          "email": "bilfinger@bvdw.org"
+        }
+      ],
+      "termine": "",
+      "hinweis": "",
+      "ziele2027": [],
+      "roadmap2027": [],
+      "links": []
+    },
+    {
+      "id": "content-creator",
+      "name": "KI in Content Creation & Influencer Marketing",
+      "heimat": "Working Group Content Creation & Influencer Marketing",
+      "themenfeld": 4,
+      "status": "aktiv",
+      "kurz": "Die Rolle von KI bei Content-Erstellung, Creator-Auswahl, Kampagnensteuerung und Performance-Messung.",
+      "aktuell": [],
+      "leitung": [],
+      "bvdw": [
+        {
+          "name": "Marla Ernst",
+          "email": "ernst@bvdw.org"
+        }
+      ],
+      "termine": "",
+      "hinweis": "",
+      "ziele2027": [],
+      "roadmap2027": [],
+      "links": []
+    },
+    {
+      "id": "affiliate-ki",
+      "name": "Lab Affiliate Marketing in der KI-Ära",
+      "heimat": "Affiliate & Partner Marketing Circle (APMC)",
+      "themenfeld": 1,
+      "status": "aktiv",
+      "kurz": "Wie sich Affiliate- und Partner-Marketing im KI-Zeitalter verändert.",
+      "aktuell": [],
+      "leitung": [],
+      "bvdw": [],
+      "termine": "",
+      "hinweis": "",
+      "ziele2027": [],
+      "roadmap2027": [],
+      "links": []
+    },
+    {
+      "id": "agentic-media-buying",
+      "name": "Lab Agentic Media Buying",
+      "heimat": "Working Group Programmatic Advertising",
+      "themenfeld": 3,
+      "status": "aktiv",
+      "kurz": "Agentengetriebener Mediahandel: neue KI-Standards und Protokolle, Folgen für DSPs, SSPs, Messung, Attribution und Fraud-Prevention.",
+      "aktuell": [
+        "Panelstudie Agentic Media Buying"
+      ],
+      "leitung": [],
+      "bvdw": [
+        {
+          "name": "Katharina Schneeberg",
+          "email": "schneeberg@bvdw.org"
+        },
+        {
+          "name": "Ina Franke",
+          "email": "franke@bvdw.org"
+        }
+      ],
+      "termine": "",
+      "hinweis": "",
+      "ziele2027": [],
+      "roadmap2027": [],
+      "links": []
+    },
+    {
+      "id": "email-ki",
+      "name": "KI im E-Mail-Marketing",
+      "heimat": "Working Group E-Mail",
+      "themenfeld": 7,
+      "status": "aktiv",
+      "kurz": "KI-gestütztes, personalisiertes und automatisiertes E-Mail-Marketing – mit Blick auf Datenschutz, Barrierefreiheit und Standards.",
+      "aktuell": [],
+      "leitung": [],
+      "bvdw": [
+        {
+          "name": "Jana Hamalides",
+          "email": "hamalides@bvdw.org"
+        }
+      ],
+      "termine": "",
+      "hinweis": "",
+      "ziele2027": [],
+      "roadmap2027": [],
+      "links": []
+    },
+    {
+      "id": "ai-law",
+      "name": "Lab AI Law & Governance",
+      "heimat": "KI-Regulierung & Governance",
+      "themenfeld": 5,
+      "status": "aktiv",
+      "kurz": "KI-Regulierung wie die KI-Verordnung an der Schnittstelle von Recht und Technik einordnen – mit Checklisten und Deep Dives.",
+      "aktuell": [],
+      "leitung": [],
+      "bvdw": [
+        {
+          "name": "Philipp Hagen",
+          "email": "hagen@bvdw.org"
+        }
+      ],
+      "termine": "",
+      "hinweis": "",
+      "ziele2027": [],
+      "roadmap2027": [],
+      "links": []
+    }
+  ]
+}

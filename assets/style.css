@@ -1,0 +1,180 @@
+/* BVDW AI Orchestrator Hub – Design angelehnt an „BVDW KI-Strategie 2027–2029“ */
+@font-face {
+  font-family: "PP Telegraf";
+  src: url("../fonts/PPTelegraf-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "PP Telegraf";
+  src: url("../fonts/PPTelegraf-Ultrabold.otf") format("opentype");
+  font-weight: 600 900;
+  font-display: swap;
+}
+
+:root {
+  --blau: #0045C3;
+  --orange: #FF5833;
+  --schwarz: #000;
+  --weiss: #fff;
+  --beige: #efe9e2;
+  --beige-rand: #d6cec3;
+  --grau: #666;
+  --grau-hell: #f6f4f1;
+  --ok: #1f7a4d;
+  --font: "PP Telegraf", Arial, sans-serif;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body { font-family: var(--font); color: var(--schwarz); background: var(--weiss); line-height: 1.45; -webkit-font-smoothing: antialiased; }
+a { color: inherit; }
+b, strong, h1, h2, h3, h4 { font-weight: 700; }
+.wrap { max-width: 1240px; margin: 0 auto; padding: 0 32px; }
+
+/* Kopfleiste */
+.topbar { display: flex; justify-content: space-between; align-items: center; gap: 24px; padding: 22px 0; border-bottom: 2px solid var(--schwarz); position: relative; z-index: 2; }
+.logo-link { display: flex; align-items: center; gap: 14px; text-decoration: none; }
+.logo { height: 34px; width: auto; display: block; }
+.wortmarke { font-weight: 700; font-size: 30px; letter-spacing: .01em; line-height: 1; }
+.logo-zusatz { font-size: 14px; color: var(--grau); border-left: 2px solid var(--schwarz); padding-left: 14px; line-height: 1.2; }
+.topbar nav { display: flex; gap: 22px; flex-wrap: wrap; font-size: 15px; }
+.topbar nav a { text-decoration: none; }
+.topbar nav a:hover { color: var(--blau); }
+
+/* Hero wie Cover der KI-Strategie */
+.hero { position: relative; overflow: hidden; padding: 72px 0 64px; }
+.hero-block { position: absolute; top: 0; right: max(32px, calc((100vw - 1240px) / 2 + 32px)); width: 300px; height: 330px; background: var(--blau); border-radius: 0 0 36px 36px; }
+.hero-bild { position: absolute; top: 40px; right: max(32px, calc((100vw - 1240px) / 2 + 32px)); width: 290px; height: 500px; object-fit: contain; pointer-events: none; }
+.hero-inhalt { position: relative; max-width: 760px; }
+.eyebrow { font-weight: 700; font-size: 14px; letter-spacing: 2px; text-transform: uppercase; color: var(--orange); margin: 0 0 16px; }
+h1 { font-size: clamp(40px, 6.4vw, 84px); line-height: 1.04; color: var(--blau); margin: 0 0 22px; letter-spacing: -.01em; }
+.lead { font-size: 21px; color: #333; margin: 0; max-width: 640px; }
+.kennzahlen { display: flex; gap: 0; margin-top: 44px; border-top: 2px solid var(--schwarz); max-width: 640px; }
+.kennzahl { padding: 16px 32px 0 0; margin-right: 32px; }
+.kennzahl b { display: block; font-size: 44px; line-height: 1; color: var(--blau); }
+.kennzahl span { font-size: 14px; color: var(--grau); }
+
+/* Filter */
+.filter { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; padding: 22px 0; border-top: 2px solid var(--schwarz); border-bottom: 2px solid var(--schwarz); position: sticky; top: 0; background: var(--weiss); z-index: 3; }
+.chip { font: inherit; font-size: 14px; border: 2px solid var(--schwarz); background: var(--weiss); padding: 6px 14px; border-radius: 999px; cursor: pointer; color: var(--schwarz); }
+.chip:hover { border-color: var(--blau); color: var(--blau); }
+.chip[aria-pressed="true"] { background: var(--blau); border-color: var(--blau); color: var(--weiss); }
+.suche { margin-left: auto; font: inherit; font-size: 14px; padding: 8px 16px; border-radius: 999px; border: 2px solid var(--schwarz); min-width: 240px; }
+.suche:focus { outline: none; border-color: var(--blau); }
+
+/* Themenfelder */
+.feldgruppe { padding: 48px 0 8px; }
+.feldkopf { display: flex; justify-content: space-between; align-items: flex-end; gap: 24px; margin-bottom: 18px; }
+.feldkopf h2 { font-size: 30px; line-height: 1.15; color: var(--blau); margin: 0; }
+.feldkopf p { margin: 6px 0 0; color: var(--grau); font-size: 16px; max-width: 760px; }
+.feldnr { color: var(--orange); }
+
+/* Kacheln wie Lab-Übersicht in der Strategie */
+.kacheln { display: grid; grid-template-columns: repeat(auto-fill, minmax(262px, 1fr)); gap: 14px; }
+.kachel {
+  background: var(--weiss); border: 2px solid var(--schwarz); border-left: 10px solid var(--blau); border-radius: 12px;
+  padding: 18px 20px; text-decoration: none; display: flex; flex-direction: column; gap: 8px; min-height: 200px;
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+.kachel:hover, .kachel:focus-visible { transform: translateY(-3px); box-shadow: 6px 6px 0 var(--blau); outline: none; }
+.kachel .kopf { display: flex; justify-content: space-between; align-items: center; }
+.nr { width: 38px; height: 38px; border-radius: 50%; background: var(--blau); color: var(--weiss); font-weight: 700; font-size: 18px; display: grid; place-items: center; flex: none; }
+.kachel h3 { font-size: 21px; line-height: 1.15; margin: 4px 0 0; }
+.kachel .heimat { color: var(--grau); font-size: 15px; margin: 0; }
+.kachel .kurz { margin: 0; font-size: 15px; color: #333; }
+.kachel .fuss { margin-top: auto; display: flex; justify-content: space-between; align-items: center; font-size: 13px; color: var(--grau); padding-top: 10px; border-top: 1px solid #ddd; }
+.pfeil { font-size: 22px; color: var(--blau); font-weight: 700; }
+
+.badge { display: inline-block; font-size: 12px; padding: 3px 10px; border-radius: 999px; border: 1.5px solid currentColor; white-space: nowrap; line-height: 1.3; }
+.badge.aktiv, .badge.abgeschlossen { color: var(--ok); }
+.badge.in-arbeit, .badge.im-aufbau { color: var(--blau); }
+.badge.in-planung, .badge.in-klaerung { color: var(--orange); }
+.badge.geplant, .badge.pausiert { color: var(--grau); }
+
+/* Lab-Seite */
+.zurueck { display: inline-block; margin-bottom: 26px; text-decoration: none; font-size: 15px; color: var(--blau); }
+.lab-meta { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; font-size: 17px; color: #333; margin-top: -6px; }
+section.block { padding-top: 52px; }
+section.block > h2 { font-size: 34px; color: var(--schwarz); margin: 0 0 6px; }
+section.block > .unter { margin: 0 0 22px; color: var(--grau); }
+.personen { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 14px; }
+.person { border: 2px solid var(--schwarz); border-radius: 12px; padding: 18px 20px; }
+.person .rolle { font-weight: 700; font-size: 12px; text-transform: uppercase; letter-spacing: 1.5px; color: var(--orange); }
+.person .name { font-weight: 700; font-size: 21px; margin: 6px 0 2px; }
+.person .firma { color: var(--grau); font-size: 15px; }
+.ziele { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
+.ziele li { background: var(--beige); border: 1px solid var(--beige-rand); border-radius: 12px; padding: 14px 18px 14px 50px; position: relative; font-size: 17px; }
+.ziele li::before { content: "→"; position: absolute; left: 20px; font-weight: 700; color: var(--blau); }
+
+.roadmap { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
+.quartal { background: var(--beige); border: 1px solid var(--beige-rand); border-radius: 20px; padding: 18px; min-height: 220px; display: flex; flex-direction: column; gap: 8px; }
+.quartal h3 { margin: 0 0 4px; font-size: 26px; color: var(--blau); display: flex; justify-content: space-between; align-items: baseline; }
+.quartal h3 small { font-weight: 400; font-size: 14px; color: var(--grau); }
+.meilenstein { background: var(--weiss); border-radius: 10px; padding: 12px 14px; }
+.meilenstein .typ { font-weight: 700; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; color: var(--orange); }
+.meilenstein .titel { font-weight: 700; font-size: 16px; margin: 3px 0 4px; line-height: 1.25; }
+.meilenstein p { margin: 0 0 8px; font-size: 14px; color: #444; }
+.meilenstein .wer { font-size: 12px; color: var(--grau); }
+.leer { color: var(--grau); font-size: 14px; margin: 0; }
+.hinweis { background: var(--beige); border: 1px solid var(--beige-rand); border-radius: 12px; padding: 16px 20px; font-size: 16px; color: #333; margin: 0; }
+
+.aktionen { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 30px; }
+.btn { display: inline-flex; align-items: center; gap: 8px; text-decoration: none; font-size: 15px; font-weight: 700; padding: 12px 22px; border-radius: 999px; border: 2px solid var(--blau); background: var(--blau); color: var(--weiss); }
+.btn:hover { background: var(--schwarz); border-color: var(--schwarz); }
+.btn.sekundaer { background: var(--weiss); color: var(--schwarz); border-color: var(--schwarz); }
+.btn.sekundaer:hover { color: var(--blau); border-color: var(--blau); background: var(--weiss); }
+
+/* Fußzeile: dunkle Flächen sind schwarz */
+footer { margin-top: 80px; background: var(--schwarz); color: var(--weiss); padding: 40px 0; font-size: 14px; }
+footer .wrap { display: flex; justify-content: space-between; gap: 24px; flex-wrap: wrap; align-items: center; }
+footer .wortmarke { font-size: 22px; }
+footer a { color: var(--weiss); }
+
+@media (max-width: 1000px) {
+  .hero-block, .hero-bild { display: none; }
+  .roadmap { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 600px) {
+  .roadmap { grid-template-columns: 1fr; }
+  .suche { margin-left: 0; width: 100%; }
+  .topbar nav { display: none; }
+  .filter { position: static; }
+}
+
+/* Intro & Leitlinien */
+.intro { padding: 8px 32px 24px; }
+.intro-text { font-size: 22px; line-height: 1.4; max-width: 900px; margin: 0 0 28px; }
+.leitlinien { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-bottom: 40px; }
+.leitlinie { background: var(--beige); border: 1px solid var(--beige-rand); border-radius: 20px; padding: 20px 22px; }
+.leitlinie h3 { color: var(--blau); font-size: 26px; margin: 12px 0 4px; }
+.leitlinie p { margin: 0; color: #333; }
+
+/* Blöcke Startseite */
+section.block > h2, .block h2 { font-size: 38px; line-height: 1.1; margin: 0 0 22px; }
+.formate { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
+.format { position: relative; display: flex; flex-direction: column; gap: 6px; text-decoration: none; border: 2px solid var(--schwarz); border-radius: 12px; padding: 18px 20px 40px; }
+.format h3 { margin: 0; font-size: 19px; color: var(--blau); }
+.format p { margin: 0; font-size: 15px; color: #333; }
+.format .pfeil { position: absolute; right: 18px; bottom: 10px; }
+a.format:hover { box-shadow: 6px 6px 0 var(--blau); }
+.publis { border-top: 2px solid var(--schwarz); }
+.publi { display: grid; grid-template-columns: 130px 1fr 30px; gap: 16px; align-items: center; padding: 16px 0; border-bottom: 1px solid #ccc; text-decoration: none; font-size: 18px; }
+.publi .datum { color: var(--orange); font-weight: 700; font-size: 15px; }
+.publi:hover .titel { color: var(--blau); }
+.kontakt { background: var(--blau); color: var(--weiss); border-radius: 20px; padding: 36px 40px; display: flex; justify-content: space-between; align-items: center; gap: 24px; flex-wrap: wrap; }
+.kontakt .eyebrow { color: var(--weiss); opacity: .8; }
+.kontakt h2 { color: var(--weiss); margin: 0 0 8px !important; }
+.kontakt p { margin: 0; font-size: 17px; }
+.kontakt .btn { background: var(--weiss); color: var(--blau); border-color: var(--weiss); }
+.kontakt .btn:hover { background: var(--schwarz); color: var(--weiss); border-color: var(--schwarz); }
+
+/* Lab-Seite Ergänzungen */
+.person.bvdw { border-color: var(--blau); }
+.person.bvdw .rolle { color: var(--blau); }
+.person a.firma { color: var(--blau); text-decoration: none; display: inline-block; margin-top: 2px; }
+.person.leer-person { border-style: dashed; color: var(--grau); }
+.termine { margin: 18px 0 0; font-size: 16px; }
+
+@media (max-width: 1000px) { .formate { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 600px) { .leitlinien, .formate { grid-template-columns: 1fr; } .publi { grid-template-columns: 1fr 24px; } .publi .datum { grid-column: 1 / -1; } }

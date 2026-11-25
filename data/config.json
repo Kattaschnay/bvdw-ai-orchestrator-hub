@@ -1,0 +1,32 @@
+{
+  "titel": "AI Orchestrator Hub",
+  "untertitel": "Alle KI-Labs, Working Groups und Initiativen des BVDW – mit Lab-Leitungen, aktuellen Projekten und Roadmap 2027.",
+  "repo": "Kattaschnay/bvdw-ai-orchestrator-hub",
+  "intro": "Künstliche Intelligenz verändert Geschäftsmodelle, Wertschöpfung und Machtverhältnisse grundlegend. Die Digitale Wirtschaft will schneller werden – und dabei die Kontrolle behalten. Der BVDW bündelt seine KI-Arbeit unter einer gemeinsamen KI-Agenda, orchestriert vom Bereich KI.",
+  "leitlinien": [
+    { "titel": "Daten", "text": "Die Grundlage jeder KI-gestützten Wertschöpfung." },
+    { "titel": "Kreativität", "text": "Neue Wertschöpfung mit KI – fair vergütet." },
+    { "titel": "Verantwortung", "text": "Als Systemfrage verstanden und von Anfang an in Strukturen eingebaut." }
+  ],
+  "versprechen": ["Exklusive Informationen", "Netzwerk", "Qualifizierung", "Verlässliche Leitplanken", "Starke politische Stimme"],
+  "formate": [
+    { "titel": "Monatlicher KI-Statuscall", "text": "Austausch für alle Mitglieder: KI-Radar, Berichte aus den Labs, Termine und offene Diskussion.", "url": "" },
+    { "titel": "KI-Update-Newsletter", "text": "Einmal im Monat alle KI-Neuigkeiten aus dem BVDW.", "url": "https://www.bvdw.org/kuenstliche-intelligenz-im-bvdw/" },
+    { "titel": "KI Meet Up", "text": "Das zentrale KI-Event für Mitglieder – 18. November 2026 in Berlin.", "url": "https://www.bvdw.org/events/bvdw-ki-meet-up/" },
+    { "titel": "Call for AI & Agentic Use Cases", "text": "Praktische Use Cases aus dem eigenen Unternehmen einreichen.", "url": "https://forms.office.com/e/08dc26CWLP" }
+  ],
+  "publikationen": [
+    { "datum": "24.11.2026", "titel": "Leitfaden „KI-Wertbeitrag messen“ – das erste AI Value Framework des BVDW", "url": "https://www.bvdw.org/news-und-publikationen/bvdw-veroeffentlicht-erstes-ai-value-framework/" },
+    { "datum": "05.11.2026", "titel": "Whitepaper: der erste KI-Knigge des BVDW", "url": "https://www.bvdw.org/news-und-publikationen/ki-knigge-bvdw/" },
+    { "datum": "27.10.2026", "titel": "IAB Europe: Impact of AI on Digital Advertising Report 2026", "url": "https://www.bvdw.org/news-und-publikationen/iab-europe-veroeffetnlicht-impact-of-ai-on-digital-advertising-report-2026/" }
+  ],
+  "alle_publikationen": "https://www.bvdw.org/news-und-publikationen/?thema=kuenstliche-intelligenz",
+  "academy": "https://bvdw-academy.de/topic-hub/kunstliche-intelligenz",
+  "kontakt": {
+    "name": "Katharina Schneeberg",
+    "rolle": "Head of Innovation & Technology · KI-Orchestratorin",
+    "telefon": "+49 30 2062186-16",
+    "url": "https://www.bvdw.org/kontakt/?kontakt=schneeberg@bvdw.org"
+  },
+  "quelle": "https://www.bvdw.org/kuenstliche-intelligenz-im-bvdw/"
+}

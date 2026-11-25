@@ -1,0 +1,67 @@
+name: Eingabe übernehmen
+
+# Wenn eine Eingabe (Issue) das Label „freigegeben“ bekommt, wird sie in
+# data/labs.json übernommen und als Pull Request zur Prüfung angelegt.
+on:
+  issues:
+    types: [labeled]
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+jobs:
+  uebernehmen:
+    if: github.event.label.name == 'freigegeben'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Eingabe in labs.json schreiben
+        id: verarbeiten
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_LABELS: ${{ join(github.event.issue.labels.*.name, ',') }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: |
+          set +e
+          ergebnis=$(node .github/scripts/eingabe-verarbeiten.js 2>fehler.txt)
+          code=$?
+          set -e
+          if [ $code -ne 0 ]; then
+            echo "fehler<<EOF" >> "$GITHUB_OUTPUT"; cat fehler.txt >> "$GITHUB_OUTPUT"; echo "EOF" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          echo "zusammenfassung=$ergebnis" >> "$GITHUB_OUTPUT"
+
+      - name: Fehler im Issue melden
+        if: steps.verarbeiten.outputs.fehler != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          FEHLER: ${{ steps.verarbeiten.outputs.fehler }}
+        run: |
+          gh issue comment ${{ github.event.issue.number }} --body "⚠️ Die Eingabe konnte nicht übernommen werden: $FEHLER"
+          gh issue edit ${{ github.event.issue.number }} --remove-label freigegeben
+
+      - name: Pull Request anlegen
+        if: steps.verarbeiten.outputs.zusammenfassung != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TEXT: ${{ steps.verarbeiten.outputs.zusammenfassung }}
+          NR: ${{ github.event.issue.number }}
+        run: |
+          zweig="eingabe/issue-$NR"
+          git config user.name "AI Orchestrator Hub"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$zweig"
+          git add data/labs.json
+          git commit -m "$TEXT (#$NR)"
+          git push --force origin "$zweig"
+          gh pr create --title "$TEXT" --body "Übernimmt die Eingabe aus #$NR in den Hub. Nach dem Mergen ist die Änderung live. Closes #$NR" --head "$zweig" \
+            || echo "PR existiert bereits"
+          gh issue comment "$NR" --body "✅ Übernommen – Pull Request angelegt. Sobald er gemergt ist, steht die Änderung im Hub."
