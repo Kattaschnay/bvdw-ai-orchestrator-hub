@@ -28,19 +28,44 @@
       <span class="logo-zusatz">AI Orchestrator<br>Hub</span>
     </a>`;
 
-  const topbar = (cfg) => `
-    <div class="wrap"><div class="topbar">
-      ${logo()}
-      <nav>
-        <a href="index.html#labs">Labs</a>
-        <a href="index.html#formate">Formate</a>
-        <a href="index.html#publikationen">Publikationen</a>
-      </nav>
-    </div></div>`;
+  /* Navigationsmenü links */
+  function sidebar({ felder, labs }, aktiv = {}) {
+    const feldLink = (f) => {
+      const offen = String(aktiv.feld) === String(f.nr);
+      const unter = offen && aktiv.zeigeLabs ? `
+        <ul class="nav-labs">${labs.filter((l) => l.themenfeld === f.nr).map((l) => `
+          <li><a href="lab.html?id=${encodeURIComponent(l.id)}"${aktiv.lab === l.id ? ' aria-current="page"' : ""}>${esc(l.name)}</a></li>`).join("")}
+        </ul>` : "";
+      return `<li><a class="nav-feld${offen ? " aktiv" : ""}" href="index.html#feld-${f.nr}" data-feld="${f.nr}">
+        <span class="nav-nr">${f.nr}</span><span>${esc(f.name)}</span></a>${unter}</li>`;
+    };
+    return `
+      <div class="sidebar-kopf">${logo()}
+        <button class="menue-knopf" type="button" aria-expanded="false" aria-controls="sidebar-nav">Menü</button>
+      </div>
+      <nav id="sidebar-nav" class="sidebar-nav" aria-label="Hauptnavigation">
+        <ul class="nav-haupt">
+          <li><a href="index.html#start"${aktiv.seite === "start" ? ' class="aktiv"' : ""}>Übersicht</a></li>
+        </ul>
+        <p class="nav-titel">Themenfelder</p>
+        <ul class="nav-felder">
+          ${felder.map(feldLink).join("")}
+          <li><a class="nav-feld${aktiv.feld === "alle" ? " aktiv" : ""}" href="index.html#feld-alle" data-feld="alle"><span class="nav-nr alle">∑</span><span>Alle ${labs.length} Labs</span></a></li>
+        </ul>
+        <p class="nav-titel">Mitmachen</p>
+        <ul class="nav-haupt">
+          <li><a href="index.html#leitlinien">Leitlinien</a></li>
+          <li><a href="index.html#formate">Formate & Einstieg</a></li>
+          <li><a href="index.html#publikationen">Publikationen</a></li>
+          <li><a href="index.html#kontakt">Kontakt</a></li>
+        </ul>
+        <p class="nav-fuss">Bereich KI · <a href="https://www.bvdw.org/kuenstliche-intelligenz-im-bvdw/" ${extern}>bvdw.org</a></p>
+      </nav>`;
+  }
 
   const footer = (cfg, stand) => `
     <footer><div class="wrap">
-      <span class="wortmarke">BVDW</span>
+      <span class="wortmarke" data-logo>BVDW</span>
       <span>Bereich KI · Datenstand ${esc(stand || "–")} · Inhalte: <a href="${esc(cfg.quelle)}" ${extern}>bvdw.org</a></span>
     </div></footer>`;
 
@@ -76,13 +101,34 @@
       </svg>`;
   }
 
+  /* Illustrationen für die Leitlinien Daten, Kreativität, Verantwortung */
+  const LEITLINIEN_BILD = {
+    daten: () => {
+      const spalten = [2, 3, 3, 4, 5, 6];
+      return `<svg viewBox="0 0 220 140" aria-hidden="true">${spalten.map((h, i) =>
+        Array.from({ length: h }, (_, j) => `<circle cx="${24 + i * 34}" cy="${122 - j * 20}" r="${j === h - 1 ? 9 : 7}" fill="${j === h - 1 ? "#FF5833" : "#fff"}"${j === h - 1 ? "" : ' opacity="' + (0.55 + j * 0.08).toFixed(2) + '"'}/>`).join("")).join("")}
+        <polyline points="${spalten.map((h, i) => `${24 + i * 34},${122 - (h - 1) * 20}`).join(" ")}" fill="none" stroke="#FF5833" stroke-width="3" stroke-dasharray="2 6" stroke-linecap="round"/></svg>`;
+    },
+    kreativitaet: () => `<svg viewBox="0 0 220 140" aria-hidden="true">
+        <circle cx="86" cy="76" r="50" fill="#fff"/>
+        <circle cx="136" cy="68" r="44" fill="#0045C3" style="mix-blend-mode:multiply"/>
+        <circle cx="112" cy="104" r="26" fill="none" stroke="#000" stroke-width="3"/>
+        <path d="M176 14 L182 34 L202 40 L182 46 L176 66 L170 46 L150 40 L170 34 Z" fill="#000"/>
+        <path d="M36 16 L39 26 L49 29 L39 32 L36 42 L33 32 L23 29 L33 26 Z" fill="#fff"/></svg>`,
+    verantwortung: () => `<svg viewBox="0 0 220 140" aria-hidden="true">
+        <ellipse cx="110" cy="72" rx="92" ry="34" fill="none" stroke="#FF5833" stroke-width="3" transform="rotate(-12 110 72)"/>
+        <path d="M110 12 L158 28 V70 C158 100 136 120 110 130 C84 120 62 100 62 70 V28 Z" fill="#0045C3" stroke="#fff" stroke-width="3"/>
+        <path d="M88 72 L104 88 L134 56" fill="none" stroke="#fff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="196" cy="60" r="7" fill="#FF5833"/></svg>`,
+  };
+  const leitlinieBild = (titel) => (LEITLINIEN_BILD[slug(titel).replace(/-/g, "")] || (() => ""))();
+
   /* ---------- Startseite ---------- */
   function startseite(root, { cfg, labs, felder, stand }) {
     const leitungen = labs.reduce((n, l) => n + (l.leitung || []).length, 0);
 
     root.innerHTML = `
-      ${topbar(cfg)}
-      <header class="hero"><div class="wrap">
+      <header class="hero" id="start"><div class="wrap">
         ${heroNetz(felder)}
         <div class="hero-inhalt">
           <p class="eyebrow">Künstliche Intelligenz im BVDW</p>
@@ -96,10 +142,14 @@
         </div>
       </div></header>
 
-      <section class="wrap intro">
+      <section class="wrap intro" id="leitlinien">
         <p class="intro-text">${esc(cfg.intro)}</p>
         <div class="leitlinien">
-          ${(cfg.leitlinien || []).map((x, i) => `<div class="leitlinie"><span class="nr">${i + 1}</span><h3>${esc(x.titel)}</h3><p>${esc(x.text)}</p></div>`).join("")}
+          ${(cfg.leitlinien || []).map((x) => `
+            <div class="leitlinie ${slug(x.titel)}">
+              <div class="leitlinie-bild">${leitlinieBild(x.titel)}</div>
+              <h3>${esc(x.titel)}</h3><p>${esc(x.text)}</p>
+            </div>`).join("")}
         </div>
       </section>
 
@@ -156,7 +206,7 @@
         </div>
       </section>
 
-      <section class="wrap block">
+      <section class="wrap block" id="kontakt">
         <div class="kontakt">
           <div>
             <p class="eyebrow">Kontakt</p>
@@ -191,7 +241,7 @@
     const passt = (l, q) => !q || [l.name, l.kurz, l.heimat, ...(l.leitung || []).map((p) => `${p.name} ${p.unternehmen}`), ...(l.bvdw || []).map((b) => b.name)]
       .join(" ").toLowerCase().includes(q);
 
-    function zeichnen(scrollen) {
+    let zeichnen = function (scrollen) {
       const q = suchbegriff.trim().toLowerCase();
       feldKacheln.forEach((k) => {
         const an = !q && k.dataset.feld === aktivesFeld;
@@ -233,7 +283,11 @@
         root.querySelector("#labs").scrollIntoView({ behavior: "smooth", block: "start" });
       });
       if (scrollen) panel.scrollIntoView({ behavior: "smooth", block: "start" });
-    }
+    };
+
+    const navSync = () => document.querySelectorAll(".nav-feld").forEach((a) => a.classList.toggle("aktiv", a.dataset.feld === aktivesFeld));
+    const _zeichnen = zeichnen;
+    zeichnen = (scrollen) => { _zeichnen(scrollen); navSync(); };
 
     feldKacheln.forEach((k) => k.addEventListener("click", () => {
       suchbegriff = ""; root.querySelector(".suche").value = "";
@@ -243,8 +297,12 @@
     }));
     root.querySelector(".suche").addEventListener("input", (e) => { suchbegriff = e.target.value; zeichnen(); });
 
-    const m = location.hash.match(/^#feld-(\d+|alle)$/);
-    if (m) { aktivesFeld = m[1]; zeichnen(true); }
+    const ausHash = () => {
+      const m = location.hash.match(/^#feld-(\d+|alle)$/);
+      if (m) { suchbegriff = ""; root.querySelector(".suche").value = ""; aktivesFeld = m[1]; zeichnen(true); }
+    };
+    window.addEventListener("hashchange", ausHash);
+    ausHash();
   }
 
   /* ---------- Lab-Seite ---------- */
@@ -252,7 +310,7 @@
     const id = new URLSearchParams(location.search).get("id");
     const lab = labs.find((l) => l.id === id);
     if (!lab) {
-      root.innerHTML = `${topbar(cfg)}<header class="hero"><div class="wrap"><h1>Lab nicht gefunden</h1>
+      root.innerHTML = `<header class="hero"><div class="wrap"><h1>Lab nicht gefunden</h1>
         <div class="aktionen"><a class="btn" href="index.html">Zur Übersicht</a></div></div></header>`;
       return;
     }
@@ -276,7 +334,6 @@
 
 
     root.innerHTML = `
-      ${topbar(cfg)}
       <header class="hero"><div class="wrap">
         ${heroBild()}
         <div class="hero-inhalt">
@@ -350,14 +407,39 @@
       img.onerror = () => versuche(quellen.slice(1));
       img.src = quellen[0];
     };
-    versuche(["assets/bvdw-logo.svg", "assets/bvdw-logo.png"]);
+    versuche(["assets/bvdw-logo.png"]);
+  }
+
+  /* Mobil: Menü auf- und zuklappen */
+  function menueEinrichten() {
+    const knopf = document.querySelector(".menue-knopf");
+    const sb = document.getElementById("sidebar");
+    if (!knopf) return;
+    knopf.addEventListener("click", () => {
+      const offen = sb.classList.toggle("offen");
+      knopf.setAttribute("aria-expanded", String(offen));
+      knopf.textContent = offen ? "Schließen" : "Menü";
+    });
+    sb.querySelectorAll(".sidebar-nav a").forEach((a) => a.addEventListener("click", () => {
+      sb.classList.remove("offen"); knopf.setAttribute("aria-expanded", "false"); knopf.textContent = "Menü";
+    }));
   }
 
   document.addEventListener("DOMContentLoaded", async () => {
-    const root = document.getElementById("app");
+    const app = document.getElementById("app");
+    app.innerHTML = `<div class="layout"><aside class="sidebar" id="sidebar"></aside><div class="inhalt" id="inhalt"></div></div>`;
+    const root = document.getElementById("inhalt");
     try {
       const d = await laden();
-      (document.body.dataset.seite === "lab" ? labseite : startseite)(root, d);
+      const istLab = document.body.dataset.seite === "lab";
+      let aktiv = { seite: "start" };
+      if (istLab) {
+        const lab = d.labs.find((l) => l.id === new URLSearchParams(location.search).get("id"));
+        aktiv = { seite: "lab", feld: lab?.themenfeld, lab: lab?.id, zeigeLabs: true };
+      }
+      document.getElementById("sidebar").innerHTML = sidebar(d, aktiv);
+      (istLab ? labseite : startseite)(root, d);
+      menueEinrichten();
       logoEinsetzen();
     } catch (e) {
       root.innerHTML = `<div class="wrap" style="padding:48px 0"><p class="hinweis">Daten konnten nicht geladen werden (${esc(e.message)}).</p></div>`;
