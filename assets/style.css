@@ -368,3 +368,10 @@ footer .logo { height: 44px; width: 44px; }
   .sc-inhalt { padding: 4px 16px 18px; }
   .sc-zeile { grid-template-columns: 1fr; gap: 2px; }
 }
+
+/* Keine Schrift über dem Visual: Textspalte endet vor der Grafik */
+.hero-netz ~ .hero-inhalt { max-width: calc(100% - 480px); }
+.hero h1 { hyphens: auto; overflow-wrap: break-word; }
+.hero-netz ~ .hero-inhalt h1 { font-size: clamp(38px, 4.6vw, 76px); }
+@media (max-width: 1200px) and (min-width: 901px) { .hero-netz ~ .hero-inhalt { max-width: calc(100% - 380px); } }
+@media (max-width: 900px) { .hero-netz ~ .hero-inhalt { max-width: none; } }

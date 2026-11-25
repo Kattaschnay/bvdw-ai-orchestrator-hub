@@ -322,7 +322,7 @@
   }
 
   /* ---------- Lab-Seite ---------- */
-  function labseite(root, { cfg, labs, stand }) {
+  function labseite(root, { cfg, labs, felder, stand }) {
     const id = new URLSearchParams(location.search).get("id");
     const lab = labs.find((l) => l.id === id);
     if (!lab) {
@@ -351,7 +351,7 @@
 
     root.innerHTML = `
       <header class="hero"><div class="wrap">
-        ${heroBild()}
+        ${(window.labVisual && window.labVisual(lab.id)) || heroNetz(felder)}
         <div class="hero-inhalt">
           <a class="zurueck" href="index.html#feld-${lab.themenfeld}">← Themenfeld ${lab.feld ? esc(lab.feld.name) : ""}</a>
           <p class="eyebrow">Themenfeld ${lab.feld ? `${lab.feld.nr} · ${esc(lab.feld.name)}` : ""}</p>
