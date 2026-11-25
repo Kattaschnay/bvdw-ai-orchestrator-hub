@@ -47,6 +47,7 @@
         <ul class="nav-haupt">
           <li><a href="index.html#start"${aktiv.seite === "start" ? ' class="aktiv"' : ""}>Übersicht</a></li>
           <li><a href="blog.html"${aktiv.seite === "blog" ? ' class="aktiv"' : ""}>AI Blog</a></li>
+          <li><a href="statuscall.html"${aktiv.seite === "statuscall" ? ' class="aktiv"' : ""}>Statuscall KI</a></li>
         </ul>
         <p class="nav-titel">Themenfelder</p>
         <ul class="nav-felder">
@@ -196,7 +197,7 @@
         <h2>Formate & Einstieg</h2>
         <div class="formate">
           ${(cfg.formate || []).map((f) => `
-            <${f.url ? `a href="${esc(f.url)}" ${extern}` : "div"} class="format">
+            <${f.url ? `a href="${esc(f.url)}"${/^https?:/.test(f.url) ? " " + extern : ""}` : "div"} class="format">
               <h3>${esc(f.titel)}</h3><p>${esc(f.text)}</p>${f.url ? '<span class="pfeil">→</span>' : ""}
             </${f.url ? "a" : "div"}>`).join("")}
         </div>
@@ -544,6 +545,128 @@
       ${footer(cfg, stand)}`;
   }
 
+  /* ---------- Statuscall KI ---------- */
+  const WOCHENTAGE = ["Sonntag", "Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag"];
+  const MONATSNAMEN = ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember"];
+  const datumLang = (iso) => {
+    const [j, m, t] = iso.split("-").map(Number);
+    const d = new Date(Date.UTC(j, m - 1, t));
+    return { tag: String(t).padStart(2, "0"), monat: MONATSNAMEN[m - 1], jahr: j, wochentag: WOCHENTAGE[d.getUTCDay()] };
+  };
+
+  function textHtml(s) {
+    return String(s || "").split("\n").map((z) => inline(z.replace(/(^|\s)à(?=\s|$)/g, "$1→"))
+      .replace(/(^|[\s(])(https?:\/\/[^\s<]+)/g, (_, vor, u) => `${vor}<a href="${u}" ${extern}>${u.length > 70 ? u.slice(0, 67) + "…" : u}</a>`)
+      .replace(/^(→|à)\s*/, "→ ")).join("<br>");
+  }
+
+  function bloeckeHtml(bloecke) {
+    let html = "";
+    for (const b of bloecke) {
+      if (b.t === "h") html += `<h3 class="sc-h">${textHtml(b.text)}</h3>`;
+      else if (b.t === "p") html += `<p>${textHtml(b.text)}</p>`;
+      else if (b.t === "li") html += `<div class="sc-li${b.b ? " fett" : ""}" style="--lvl:${b.lvl || 0}">${textHtml(b.text)}</div>`;
+      else if (b.t === "tab") {
+        const zeilen = b.zeilen || [];
+        const kv = zeilen.every((z) => z.length >= 2 && z[0].length < 40);
+        if (kv) {
+          html += `<div class="sc-tabelle">${zeilen.map((z) => `<div class="sc-zeile">${z.map((c, i) => `<div class="${i === 0 ? "sc-key" : "sc-val"}">${textHtml(c)}</div>`).join("")}</div>`).join("")}</div>`;
+        } else {
+          html += zeilen.map((z) => `<div class="sc-karte">${z.map((c) => {
+            const [erste, ...rest] = c.split("\n");
+            return `<div><strong>${textHtml(erste)}</strong>${rest.length ? "<br>" + textHtml(rest.join("\n")) : ""}</div>`;
+          }).join("")}</div>`).join("");
+        }
+      }
+    }
+    return html;
+  }
+
+  async function statuscallseite(root, { cfg, stand }) {
+    const daten = await fetch("data/statuscalls.json", { cache: "no-store" }).then((r) => r.json()).catch(() => ({ termine: [] }));
+    const termine = (daten.termine || []).slice().sort((a, b) => b.datum.localeCompare(a.datum));
+    const sc = cfg.statuscall || {};
+    const heute = new Date().toISOString().slice(0, 10);
+    const naechste = (sc.naechste || []).filter((t) => t.datum >= heute);
+    const jahre = [...new Set(termine.map((t) => t.datum.slice(0, 4)))];
+    const sauber = (x) => x.replace(/\[|\]\([^)]*\)/g, "").replace(/[:\s→à]+$/, "").trim();
+    const themen = (t) => {
+      const h = t.bloecke.filter((b) => b.t === "h" && !/^agenda$/i.test(b.text) && b.text.length > 6 && !/^\d/.test(b.text));
+      const quelle = h.length >= 3 ? h : t.bloecke.filter((b) => b.t === "li" && b.b && !b.lvl && b.text.length < 60);
+      return [...new Set(quelle.map((b) => sauber(b.text)))].filter((x) => x.length > 2).slice(0, 5);
+    };
+
+    root.innerHTML = `
+      <header class="hero blog-hero"><div class="wrap">
+        <div class="hero-inhalt">
+          <p class="eyebrow">Monatlicher KI-Statuscall</p>
+          <h1>Statuscall KI</h1>
+          <p class="lead">${esc(sc.beschreibung || "")}</p>
+          <div class="sc-infos">
+            <div class="sc-info"><span class="sc-info-label">Rhythmus</span><b>${esc(sc.rhythmus || "")}</b></div>
+            ${naechste.length ? `<div class="sc-info naechster"><span class="sc-info-label">Nächster Termin</span><b>${(() => { const d = datumLang(naechste[0].datum); return `${d.wochentag}, ${d.tag}. ${d.monat} ${d.jahr}`; })()}</b></div>` : ""}
+            <div class="sc-info"><span class="sc-info-label">Archiv</span><b>${termine.length} Agenden seit ${termine.length ? datumLang(termine[termine.length - 1].datum).jahr : "–"}</b></div>
+          </div>
+          ${sc.hinweis ? `<p class="unter" style="margin-top:14px">${esc(sc.hinweis)}</p>` : ""}
+        </div>
+      </div></header>
+      <main class="wrap">
+        <div class="felder-kopf">
+          <div>
+            <p class="eyebrow">Agenden & Protokolle</p>
+            <h2>Alle Termine</h2>
+            <p class="unter">Nach Datum sortiert, der neueste zuerst. Termin anklicken, um die Agenda zu öffnen.</p>
+          </div>
+          <input class="suche" type="search" placeholder="In allen Agenden suchen …" aria-label="In allen Agenden suchen">
+        </div>
+        <div class="blog-filter sc-jahre" role="toolbar" aria-label="Nach Jahr filtern">
+          <button class="chip" data-jahr="" aria-pressed="true">Alle Jahre</button>
+          ${jahre.map((j) => `<button class="chip" data-jahr="${j}" aria-pressed="false">${j}</button>`).join("")}
+        </div>
+        <div class="sc-liste" id="sc-liste"></div>
+      </main>
+      ${footer(cfg, stand)}`;
+
+    const liste = root.querySelector("#sc-liste");
+    let jahr = "", q = "";
+    const suchtext = termine.map((t) => JSON.stringify(t.bloecke).toLowerCase());
+
+    function zeichnen() {
+      const treffer = termine.map((t, i) => ({ t, i })).filter(({ t, i }) => (!jahr || t.datum.startsWith(jahr)) && (!q || suchtext[i].includes(q)));
+      liste.innerHTML = treffer.length ? treffer.map(({ t }, n) => {
+        const d = datumLang(t.datum);
+        const anders = t.titel && t.titel !== "Statuscall KI";
+        return `
+          <details class="sc-termin${anders ? " sonder" : ""}" id="call-${t.datum}"${n === 0 && !q ? " open" : ""}>
+            <summary>
+              <span class="sc-datum"><b>${d.tag}</b><span>${d.monat.slice(0, 3)} ${d.jahr}</span></span>
+              <span class="sc-kopf">
+                <span class="sc-titel">${esc(t.titel)} <span class="sc-wt">· ${d.wochentag}</span></span>
+                <span class="sc-themen">${themen(t).map((x) => `<span class="tag">${esc(x)}</span>`).join("")}</span>
+              </span>
+              <span class="pfeil" aria-hidden="true">↓</span>
+            </summary>
+            <div class="sc-inhalt" data-i="${termine.indexOf(t)}"></div>
+          </details>`;
+      }).join("") : `<p class="hinweis">Keine Agenden gefunden.</p>`;
+      const fuellen = (det) => { const c = det.querySelector(".sc-inhalt"); if (!c.dataset.fertig) { c.innerHTML = bloeckeHtml(termine[+c.dataset.i].bloecke); c.dataset.fertig = "1"; } };
+      liste.querySelectorAll("details").forEach((det) => {
+        if (det.open || q) { fuellen(det); if (q) det.open = true; }
+        det.addEventListener("toggle", () => det.open && fuellen(det));
+      });
+    }
+    root.querySelectorAll(".sc-jahre .chip").forEach((c) => c.addEventListener("click", () => {
+      jahr = c.dataset.jahr;
+      root.querySelectorAll(".sc-jahre .chip").forEach((x) => x.setAttribute("aria-pressed", String(x === c)));
+      zeichnen();
+    }));
+    let timer;
+    root.querySelector(".suche").addEventListener("input", (e) => { clearTimeout(timer); timer = setTimeout(() => { q = e.target.value.trim().toLowerCase(); zeichnen(); }, 200); });
+    zeichnen();
+    const ziel = location.hash.match(/^#call-(\d{4}-\d{2}-\d{2})$/);
+    if (ziel) { const det = document.getElementById(`call-${ziel[1]}`); if (det) { det.open = true; det.scrollIntoView({ block: "start" }); } }
+  }
+
   /* Mobil: Menü auf- und zuklappen */
   function menueEinrichten() {
     const knopf = document.querySelector(".menue-knopf");
@@ -567,13 +690,13 @@
       const d = await laden();
       const seite = document.body.dataset.seite;
       const istLab = seite === "lab";
-      let aktiv = { seite: seite === "blog" ? "blog" : "start" };
+      let aktiv = { seite: ["blog", "statuscall"].includes(seite) ? seite : "start" };
       if (istLab) {
         const lab = d.labs.find((l) => l.id === new URLSearchParams(location.search).get("id"));
         aktiv = { seite: "lab", feld: lab?.themenfeld, lab: lab?.id, zeigeLabs: true };
       }
       document.getElementById("sidebar").innerHTML = sidebar(d, aktiv);
-      await ({ lab: labseite, blog: blogseite }[seite] || startseite)(root, d);
+      await ({ lab: labseite, blog: blogseite, statuscall: statuscallseite }[seite] || startseite)(root, d);
       menueEinrichten();
       logoEinsetzen();
     } catch (e) {

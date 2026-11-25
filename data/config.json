@@ -27,8 +27,8 @@
   "formate": [
     {
       "titel": "Monatlicher KI-Statuscall",
-      "text": "Austausch für alle Mitglieder: KI-Radar, Berichte aus den Labs, Termine und offene Diskussion.",
-      "url": ""
+      "text": "Austausch für alle Mitglieder: KI-Radar, Berichte aus den Labs, Termine und offene Diskussion. Alle Agenden im Archiv.",
+      "url": "statuscall.html"
     },
     {
       "titel": "KI Meet Up",
@@ -66,5 +66,16 @@
     "telefon": "+49 30 2062186-16",
     "url": "https://www.bvdw.org/kontakt/?kontakt=schneeberg@bvdw.org"
   },
-  "quelle": "https://www.bvdw.org/kuenstliche-intelligenz-im-bvdw/"
+  "quelle": "https://www.bvdw.org/kuenstliche-intelligenz-im-bvdw/",
+  "statuscall": {
+    "beschreibung": "Der Statuscall ist das zentrale, horizontale Austauschformat für alle BVDW-Mitglieder, die sich für KI interessieren: KI-Radar, Politik-Update, neue Veröffentlichungen, Events und Updates aus allen Labs.",
+    "rhythmus": "Einmal im Monat, freitags 11:30–12:30 Uhr, online",
+    "naechste": [
+      {
+        "datum": "2026-12-18",
+        "titel": "Statuscall KI"
+      }
+    ],
+    "hinweis": "Die Serie für 2027 wird im Dezember neu aufgesetzt."
+  }
 }

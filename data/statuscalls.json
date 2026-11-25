@@ -1,0 +1,5690 @@
+{
+ "termine": [
+  {
+   "datum": "2026-10-23",
+   "titel": "Statuscall KI",
+   "bloecke": [
+    {
+     "t": "h",
+     "text": "AGENDA"
+    },
+    {
+     "t": "tab",
+     "zeilen": [
+      [
+       "01",
+       "Allgemeines",
+       "Vernetzt statt isoliert"
+      ],
+      [
+       "02",
+       "Politik-Update",
+       "Janek Kuberzig"
+      ],
+      [
+       "03",
+       "Veröffentlichungen Thema KI",
+       "seit dem letzten Call"
+      ],
+      [
+       "04",
+       "Kooperationen, Rabatte & Events",
+       "4 Termine"
+      ],
+      [
+       "05",
+       "Updates aus unseren Labs",
+       "17 Labs & Gruppen, A–Q"
+      ],
+      [
+       "06",
+       "Nächste Termine",
+       "Statuscall-Rhythmus"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "text": "ALLGEMEINES"
+    },
+    {
+     "t": "p",
+     "text": "Unsere KI-Aktivitäten im Überblick:  [bvdw.org/kuenstliche-intelligenz-im-bvdw](https://www.bvdw.org/kuenstliche-intelligenz-im-bvdw/)"
+    },
+    {
+     "t": "tab",
+     "zeilen": [
+      [
+       "VERNETZT STATT ISOLIERT\nKI ist kein Silo-Thema. Deshalb braucht es die enge Zusammenarbeit mit unseren Mitgliedern.\nWir wollen synergievoll, ressourcenschonend und effizient arbeiten: abgestimmt als Verband und offen für unterschiedliche Blickwinkel.\nDafür vernetzen wir unsere KI-Aktivitäten bewusst über Labs und Projektgruppen hinweg.\nErkenntnisse werden geteilt, gebündelt und weiterentwickelt, statt parallel oder isoliert zu entstehen.\nSo schaffen wir gemeinsame Orientierung und vermeiden Doppelarbeit. Unsere Mitglieder bringen ihre Perspektiven entlang der gesamten digitalen Wertschöpfungskette ein. Diese Vielfalt ermöglicht es uns, technologische, wirtschaftliche und regulatorische Entwicklungen ganzheitlich zu betrachten und den BVDW fundiert, abgestimmt und wirksam zu positionieren.\n→  Die Webseite wird sukzessive um Lableitungen, Projektzusammenfassungen etc. erweitert."
+      ]
+     ]
+    },
+    {
+     "t": "tab",
+     "zeilen": [
+      [
+       "DMEXCO 2026\nDMEXCO Rückblick\nDie DMEXCO stand 2026 unter dem Motto „Scaling Intelligence“ und KI ist entsprechend in vielen Sessions, Gesprächen und Ankündigungen präsent. Mich interessiert dabei vor allem, was hinter den großen Schlagworten steckt: Was habt ihr konkret mitgenommen? Welche Entwicklungen haben euch überrascht, zum Nachdenken gebracht oder eure bisherige Einschätzung verändert?\nMit dieser kurzen Umfrage möchte ich eure wichtigsten Beobachtungen und Erkenntnisse zusammentragen.\n.\n→  [DMEXCO 2026: Eure wichtigsten KI-Erkenntnisse – Formular ausfüllen](https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=NLTYK5xfYEyOSIfOV_ixqcJF81yY0y9IkGiSy9F3vktUODBINEoxVzFUV1pHWkdTUTBSS1FBQzdPNi4u)"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "text": "POLITIK-UPDATE"
+    },
+    {
+     "t": "p",
+     "text": "Janek Kuberzig, BVDW"
+    },
+    {
+     "t": "tab",
+     "zeilen": [
+      [
+       "Urheberrecht\nDeine Perspektive zählt\nKI, Urheberrecht und digitale Wertschöpfung\nGenerative KI verändert Märkte, Wertschöpfung und die politische Debatte über das Urheberrecht.\nNicht eine Position.\nViele Perspektiven.\nHilf mit, die Vielfalt der BVDW-Mitglieder in der politischen und regulatorischen Debatte sichtbar zu machen.\n→  Zur [Umfrage](https://forms.cloud.microsoft/pages/responsepage.aspx?id=NLTYK5xfYEyOSIfOV_ixqbjqhDCL8S5Dgjyt4z6tPAVUQ1cwSTNHRDE0SkNRUEoxNE83T0gwRE4zVC4u&route=shorturl&utm_campaign=444838116-Umfragen%202026&utm_medium=email&_hsenc=p2ANqtz--Bo52xn6PdQKd53MXAD7C-MLcvMWULia1NOiaAHLYxYwocLKdciZPJURXWCHXl7qYm9M4PDEf7LDXkeCvCpTkyVq4LgA&_hsmi=147430067&utm_content=147430067&utm_source=hs_email)"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "text": "VERÖFFENTLICHUNGEN THEMA KI"
+    },
+    {
+     "t": "p",
+     "text": "Seit dem letzten Call: bitte live ergänzen"
+    },
+    {
+     "t": "tab",
+     "zeilen": [
+      [
+       "NEUE VERÖFFENTLICHUNGEN (TITEL · LAB · LINK)"
+      ],
+      [
+       "BVDW-Veröffentlichungen mit KI-Bezug (Sept./Okt. 2026)\nKI im Fokus\n[Marketing-Trends 2026: Agentische KI steigt in Top 3 ein](https://www.bvdw.org/news-und-publikationen/marketing-trends-2026-agentische-ki-steigt-in-top-3-ein/) – News, 08.09.2026\nDie marketing-börse hat ihre Sommer-Trendumfrage gemeinsam mit Horizont, DMEXCO und dem BVDW durchgeführt. Befragt wurden 1.310 Personen. KI bleibt der wichtigste Marketingtrend. „Agentic AI“ steigt neu ein und landet direkt auf Platz 2: Aktuell halten 50 % das Thema für relevant, mit Blick auf die Zukunft sind es 61 %. Dahinter folgen AI Search, AI Content Creation und GEO.\n[OVK-Leitfaden: So wird Content KI-fähig](https://www.bvdw.org/news-und-publikationen/ovk-leitfaden-contentaufbereitung-im-ki-zeitalter/) – Leitfaden, 09.09.2026 (16 S.)\nDer Online-Vermarkterkreis zeigt, wie Inhalte für KI-Systeme auffindbar, verständlich und zitierfähig werden. GEO und AEO ergänzen dabei klassisches SEO. Der Leitfaden empfiehlt eine „Answer-first“-Struktur, Primärquellen und eigene Daten, Präsenz auf Drittplattformen sowie semantisches HTML und strukturierte Daten. Außerdem erklärt er, wie sich Sichtbarkeit in KI-Antworten messen lässt.\n[Trendmonitor der Mediaagenturen 2026](https://www.bvdw.org/news-und-publikationen/trendmonitor-der-mediaagenturen-2026/) – Studie, 23.09.2026 (34 S.)\nDie Nachfrage nach digitaler Werbung ist auf einem Rekordhoch: 70 % der Agenturen bewerten sie als „stark“. KI verschiebt dabei den Fokus. 94 % erwarten, dass KI-Werbung an Bedeutung gewinnt, bei GEO/SEO sind es 88 %. Klassische Suchmaschinenwerbung verliert dagegen an Gewicht. Bei 63 % der Agenturen ist KI bereits fest im Arbeitsalltag verankert, und die Agenturen sehen ihre Rolle zunehmend in der strategischen Beratung.\n[IAB Europe: Impact of AI on Digital Advertising Report 2026](https://iabeurope.eu/news-impact-of-ai-report-2026/), Studie IAB Europe, 24.09.2026 (veröffentlicht auf der DMEXCO)\nDie jährliche Studie von IAB Europe AI Working Group zeigt eine Branche, die von der Einführung zur Skalierung übergeht. 86 % nutzen KI im Marketing, und 72 % investieren mehr als 2025. 78 % haben eine feste Verantwortung für AI Governance benannt, aber nur 48 % haben eigene KI-Richtlinien für Werbung und Marketing. 58 % erwarten, dass agentisches Ad Buying innerhalb eines Jahres operativ oder skaliert eingesetzt wird. Große Unternehmen sind beim Autonomiegrad deutlich weiter als kleinere. Die größten Bedenken sind Sicherheit und Datenschutz. 62 % wünschen sich KI-Leitlinien von einem Branchenverband.\nKI als Nebenthema\n[Trendmonitor Retail Media 2026](https://www.bvdw.org/news-und-publikationen/trendmonitor-retail-media-2026/) – Studie, 24.09.2026 (26 S.)\nRetail Media wird zum etablierten Kanal. Erwartet wird ein Wachstum von 12 % im Jahr 2026 und 15 % im Jahr 2027. Stärker wachsen sollen nur KI-Werbung (60 %) und GEO (16 %). Im Mittelpunkt der Debatte stehen inzwischen Inkrementalität, Datentransparenz und Data Clean Rooms.\n[BVDW zur ersten Bundespressekonferenz des neuen BfDI](https://www.bvdw.org/news-und-publikationen/bvdw-zur-ersten-bpk-des-neuen-bfdi/) – News, 07.10.2026\nBVDW-Präsident Dirk Freytag unterstützt die Forderung von Moritz Hennemann, die Datenschutzaufsicht beim BfDI zu zentralisieren. Die föderale Zersplitterung bremst aus seiner Sicht digitale Innovation und KI in Deutschland. Eine gebündelte Aufsicht soll Rechtssicherheit schaffen und Unternehmen entlasten."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "text": "KOOPERATIONEN, RABATTE & EVENTS"
+    },
+    {
+     "t": "tab",
+     "zeilen": [
+      [
+       "ab 09.11.2026",
+       "Innovationsreise AHK\nFür Unternehmen aus Baden-Württemberg & Bayern\n[Zur Eventseite →](https://www.bvdw.org/events/innovation-camps-ins-siliconvalley-fuer-unternehmen-aus-bayern-und-baden-wuerttemberg/)"
+      ],
+      [
+       "9.11.2026",
+       "TedxBerlin Salon – Leadership in the Age of AI\nWährend KI verändert, wie wir arbeiten, Entscheidungen treffen und zusammenarbeiten, entwickelt sich auch die Rolle von Führungskräften mit hoher Geschwindigkeit weiter. Der Wandel beschleunigt sich, Sicherheit wird zunehmend zur Seltenheit, und die Fragen, mit denen Führungskräfte konfrontiert sind, werden immer komplexer.\nTickets mit 15 % Rabatt – exklusiv für unsere BVDW-Mitglieder: https://booking.tedxberlin.de/Leadership-in-the-age-of-AI/redeem?voucher=BVDW+15 \n\n[Zur Eventseite →](https://www.bvdw.org/events/tedxberlin-salon/)"
+      ],
+      [
+       "18.11.2026",
+       "BVDW KI Meet-up\nBerlin, bei Google · 10–17 Uhr\nAgenda: https://www.bvdw.org/events/bvdw-ki-meet-up/ \nAnmeldeformular: https://share-eu1.hsforms.com/1Etn4lml2S4eYrc53xsSf7Qf1ff1 \n\nAI IS THE MIRROR.\nJe leistungsfähiger KI wird, desto deutlicher zeigt sie, wie Organisationen wirklich funktionieren. Was hat sich seit den großen KI-Versprechen tatsächlich verändert? Wo schafft KI messbaren Mehrwert – und was verrät uns der Blick in den Spiegel über Unternehmen im Jahr 2027?\n[Zur Eventseite →](https://www.bvdw.org/events/bvdw-ki-meet-up/)"
+      ],
+      [
+       "30.11.–04.12.2026",
+       "Innovationsreise AHK: Manufacturing & Physical AI\nKI-Innovationstour ins Silicon Valley / San Francisco\n[Zur Eventseite →](https://www.bvdw.org/events/ki-innovationstour-ins-silicon-valley-san-francisco-manufacturing-physical-ai/)"
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "text": "UPDATES AUS UNSEREN LABS"
+    },
+    {
+     "t": "p",
+     "text": "Jedes Lab berichtet kurz: Was läuft? Wann sind die nächsten Termine? Wo können sich Mitglieder einbringen?"
+    },
+    {
+     "t": "tab",
+     "zeilen": [
+      [
+       "A   Lab Responsible AI for Business"
+      ],
+      [
+       "LABLEITUNG",
+       "Maike Scholz & Ivana Radovanovic"
+      ],
+      [
+       "TURNUS",
+       "Alle zwei Wochen mittwochs, 14 Uhr"
+      ],
+      [
+       "Update",
+       "Whitepaper KI Knigge – Veröffentlichung in den kommenden Wochen"
+      ]
+     ]
+    },
+    {
+     "t": "tab",
+     "zeilen": [
+      [
+       "WORKING GROUP PROGRAMMATIC ADVERTISING\nB   Lab Agentic Media Buying"
+      ],
+      [
+       "LABLEITUNG",
+       "Sven Wegholz (Publicis Media) & Benedict Gründig (Criteo)"
+      ],
+      [
+       "Update",
+       "STUDIE: Agentic Media Buying\nZwischen technischer Reife und struktureller Blockade\nEine qualitative Panelstudie aus Publisher-, AdTech- und (Media-)Agenturperspektive\nVeröffentlichung im November, Vorstellung KI Meet up"
+      ]
+     ]
+    },
+    {
+     "t": "tab",
+     "zeilen": [
+      [
+       "OVK WORKSTREAM\nC   Auswirkungen KI/LLMs auf die Geschäftsmodelle der Publisher/Vermarkter"
+      ],
+      [
+       "LABLEITUNG",
+       "Alwin Viereck (United Internet Media), Björn Kaspring (Ströer)"
+      ],
+      [
+       "Update",
+       "[Vermarkter über die Auswirkungen von KI-Suche auf Publisher-Geschäftsmodelle](https://www.bvdw.org/news-und-publikationen/ovk-ueber-auswirkungen-von-ki-suche-auf-publisher-geschaeftsmodelle/)\n[So bringen Publisher Kontrolle in KI-Zugriffe](https://www.bvdw.org/news-und-publikationen/ki-bot-zugriffe-managen/)\ninsgesamt 4 Publikationen\nContent x KI"
+      ]
+     ]
+    },
+    {
+     "t": "tab",
+     "zeilen": [
+      [
+       "WG SEARCH\nD   Arbeitsgruppe Auswirkungen KI/LLMs auf Search"
+      ],
+      [
+       "VORSITZ",
+       "Jens Fauldrath (Vorsitzender, get:traction GmbH) · Christoph Baur (stellv., Bits & Passion GmbH) · Lena Kapp (stellv., eology GmbH) · Nico Loges (stellv., web-netz GmbH) · Uli Zimmermann (stellv., eMinded GmbH)"
+      ],
+      [
+       "Update",
+       "Veröffentlichung Whitepaper Sichtbarkeit im KI-Zeitalter messen: Die neun wichtigsten GEO-KPI\nKooperationsstudie mit LARK Digital zu GEO: Eine empirische Analyse zur Sichtbarkeit von Unternehmen in der KI-Suche\nSearch Award in finaler Abstimmung – zur SMX"
+      ]
+     ]
+    },
+    {
+     "t": "tab",
+     "zeilen": [
+      [
+       "E   Lab AI Law & Governance"
+      ],
+      [
+       "LABLEITUNG",
+       "Sonja Guhn, Ströer und Marian Klingebiel, eprivacy"
+      ],
+      [
+       "BVDW",
+       "[Philipp Hagen, Director Legal Affairs & Data Privacy](mailto:hagen@bvdw.org)"
+      ],
+      [
+       "Update",
+       ""
+      ]
+     ]
+    },
+    {
+     "t": "tab",
+     "zeilen": [
+      [
+       "F   Lab AI Value Chain"
+      ],
+      [
+       "LABLEITUNG",
+       "Jens-Christian Jensen (Plan.Net), Kai Ebert (Brainhuggers),"
+      ],
+      [
+       "TURNUS",
+       "Lab-Call, alle drei Wochen Mittwochs um 10 Uhr"
+      ],
+      [
+       "Update",
+       "Projekt „ROI von KI-Einsatz“: Framework zur Bewertung von KI-Investitionen über konkrete Value-Cases und klare Wertdimensionen\nWhitepaper in der Finalisierung, Wurde bereits auf der DMEXCO vorgestellt\nVorstellung auf dem KI Meet UP"
+      ]
+     ]
+    },
+    {
+     "t": "tab",
+     "zeilen": [
+      [
+       "INITIATIVE E-COMMERCE\nG   Lab AI Commerce"
+      ],
+      [
+       "LABLEITUNG",
+       "Alexander Steenbakkers-Noffke (Koddi), Bastian Scherbeck (segmenta), Jörg Heinemann (OTTO)"
+      ],
+      [
+       "FOKUS & ERGEBNISSE",
+       "[AI Commerce: Wie KI Entscheidungslogiken im Handel neu ordnet](https://www.bvdw.org/news-und-publikationen/ai-commerce/)\n[Webinar AI Commerce & Recht (10.09.26)](https://www.bvdw.org/events/ai-commerce-recht/)"
+      ],
+      [
+       "",
+       "Gast Kommentar im E-Comm Magazin: Innovation Future: Darum macht AI Commerce den Unterschied\nNächste Woche Abstimmung der Themenblöcke für 2027\nDez.: DMEXCO Masterclass reloaded als Webinar"
+      ]
+     ]
+    },
+    {
+     "t": "tab",
+     "zeilen": [
+      [
+       "WORKING GROUP DIGITALE ARBEITSWELTEN\nH   Taskforce Arbeitsmarktveränderungen & Leadership"
+      ],
+      [
+       "LABLEITUNG",
+       "Sarah Böhning"
+      ],
+      [
+       "BVDW",
+       "[Beatriz Bilfinger, Senior Programm Managerin](mailto:bilfinger@bvdw.org)"
+      ],
+      [
+       "Update",
+       "Arbeitsmarktentwicklung und Veränderung von Jobprofilen durch KI\nBefragung „Arbeitsmarktveränderung durch KI“\nStudie wird beim KI Meet Up vorgestellt"
+      ]
+     ]
+    },
+    {
+     "t": "tab",
+     "zeilen": [
+      [
+       "I   Politische Arbeitsgruppen"
+      ],
+      [
+       "LEAD",
+       "Janek Kuberzig, BVDW & Katharina Czarnian, BVDW"
+      ],
+      [
+       "FOKUS & ERGEBNISSE",
+       "Umsetzung der KI-Verordnung (AI Act), insbesondere Transparenzpflichten, Codes of Practice und GPAI-Regulierung\nDigital Omnibus on AI und mögliche Vereinfachungen bei der praktischen Anwendung der KI-Regulierung\nDatennutzung und Datenzugang im Zusammenspiel von DSGVO, Data Act und KI-Anwendungen\nDatenschutzrechtliche Rahmenbedingungen für die Entwicklung und Nutzung von KI-Systemen"
+      ]
+     ]
+    },
+    {
+     "t": "tab",
+     "zeilen": [
+      [
+       "WORKING GROUP CONTENT CREATION & INFLUENCER MARKETING\nJ   KI-gestützte Content- & Creator-Wertschöpfung"
+      ],
+      [
+       "LABLEITUNG",
+       "Lab In Gründung"
+      ],
+      [
+       "BVDW",
+       "[Marla Ernst, Programm Managerin Digital Business](mailto:ernst@bvdw.org)"
+      ],
+      [
+       "UPDATE",
+       "Lab in Gründung, erste Themen bereits identifiziert, Interessenten bei Marla Ernst melden"
+      ]
+     ]
+    },
+    {
+     "t": "tab",
+     "zeilen": [
+      [
+       "K   WG Digitalagenturen"
+      ],
+      [
+       "VORSITZ",
+       "Jens-Christian Jensen (Plan.Net), Kai Ebert (Brainhuggers), Stefan Mohr (antoni) & Anke Herbener (digital Changers), Tina Schaffrzick (la red)"
+      ],
+      [
+       "BVDW",
+       "[Marla Ernst, Programm Managerin Digital Business](mailto:ernst@bvdw.org)"
+      ],
+      [
+       "FOKUS & ERGEBNISSE",
+       "Agenturenbefragung „Agenturen & Marketing im Wandel“ (Veröffentlichung in den kommenden Monaten)\nEvent: „Wenn KI alles liefert, wofür braucht es Agenturen?!“\n1.12.2026, 14 – 17:30; Hamburg\nTeilnahme erfolgt auf Einladung, wer dabei sein möchte, meldet euch bei Marla Ernst\n26.11. – Agency Academy, Cases aus dem DDA  - https://www.bvdw.org/events/agency-academy-dda-loves-gerety/"
+      ]
+     ]
+    },
+    {
+     "t": "tab",
+     "zeilen": [
+      [
+       "L   Lab AI Technology"
+      ],
+      [
+       "LABLEITUNG",
+       "Bosse Küllenberg (paid.ai)"
+      ],
+      [
+       "TURNUS",
+       "Mittwochs, 9 Uhr, alle drei wochen"
+      ],
+      [
+       "FOKUS & ERGEBNISSE",
+       "LLM Overview / Cards: strukturierte Übersicht der LLM-Landschaft, inkl. Quartettkarten\nContent Snippets zu KI-Grundlagen (LLMs, RAG, Open vs. Closed Source)\nGesprächssession beim KI Meet up zu LLMs etc.\nCheat Sheet Token Optimization"
+      ]
+     ]
+    },
+    {
+     "t": "tab",
+     "zeilen": [
+      [
+       "WG DIGITAL AUDIO\nM   Lab Innovation x Audio"
+      ],
+      [
+       "LABLEITUNG",
+       "Eric Siegmund (Acast), Robert Scharni (Smartclip)"
+      ],
+      [
+       "Update",
+       "[Gattungskampagne „Digital Audio – näher als du denkst“ mit KI-generierten Spots](https://www.bvdw.org/news-und-publikationen/digital-audio-naeher-als-du-denkst/)\nWeitere Themen für das Lab in Planung"
+      ]
+     ]
+    },
+    {
+     "t": "tab",
+     "zeilen": [
+      [
+       "WORKING GROUP RETAIL MEDIA ECOSYSTEM\nN   Lab Retail Media x KI"
+      ],
+      [
+       "LABLEITUNG",
+       "Olga Puzhko (Kenshoo/Skai), Jan Schmitz (Zalando), Jens Bargmann (adform)"
+      ],
+      [
+       "FOKUS & ERGEBNISSE",
+       "[KI-Agenten im Retail- und Commerce-Media-Ökosystem](https://www.bvdw.org/news-und-publikationen/ki-agenten-retail-und-commerce-media/)\nWeitere Themen in Planung"
+      ]
+     ]
+    },
+    {
+     "t": "tab",
+     "zeilen": [
+      [
+       "FIT EXPERT GROUP\nO   Embodied Artificial Intelligence"
+      ],
+      [
+       "LABLEITUNG",
+       "Robin de Brujin, denkwerk"
+      ],
+      [
+       "BVDW",
+       "Katharina Schneeberg, bvdw"
+      ],
+      [
+       "Update",
+       "[Kick-off Sprint 04 „Embodied AI“, 21.10.26, München (Office UIM)](https://www.bvdw.org/events/meet-up-der-fit-expert-group-sprint-04-embodied-ai/)\nMagazin zum Sprint in Planung, Veröffentlichung Feb 2027\nTreffen alle 2 Wochen, Donnerstag um 15 Uhr\nJeder, der mit dabei sein möchte und einen Artikel beisteuern will, meldet euch gern bei Katharina"
+      ]
+     ]
+    },
+    {
+     "t": "tab",
+     "zeilen": [
+      [
+       "P   WG E-Mail Marketing"
+      ],
+      [
+       "VORSITZ",
+       "Andre Görmer (mapp digital)"
+      ],
+      [
+       "FOKUS & ERGEBNISSE",
+       "[Gastbeitrag: Barrierefreiheit in E-Mails – der unterschätzte AI-Ready-Faktor](https://www.bvdw.org/news-und-publikationen/barrierefreiheit-ai-readiness/)\nWeitere Themen in Planung"
+      ]
+     ]
+    },
+    {
+     "t": "tab",
+     "zeilen": [
+      [
+       "Q   APMC"
+      ],
+      [
+       "LABLEITUNG",
+       "Florian Jetzlsperger & Georg Wolf"
+      ],
+      [
+       "Update",
+       "AI & Partner Marketing im APMC – Projekt wird gestartet\nMit einem Whitepaper wollen wir Unternehmen Orientierung geben, wie sie Affiliate und Partner Marketing im Umfeld KI-gestützter Suche weiterentwickeln können. Im Mittelpunkt stehen Sichtbarkeit, belastbare Messung und vergleichende Übersichten der im Markt vorhandenen Tools."
+      ]
+     ]
+    },
+    {
+     "t": "h",
+     "text": "NÄCHSTE TERMINE"
+    },
+    {
+     "t": "tab",
+     "zeilen": [
+      [
+       "23.10.2026",
+       "Freitag",
+       "Statuscall KI"
+      ],
+      [
+       "18.11.2026",
+       "Mittwoch",
+       "BVDW KI Meet-up in Berlin bei Google (Präsenz)"
+      ],
+      [
+       "20.11.2026",
+       "Freitag",
+       "Statuscall entfällt wegen des KI Meet-ups"
+      ],
+      [
+       "18.12.2026",
+       "Freitag",
+       "Statuscall KI"
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "text": "Bereits stattgefunden 2026: 10.04. · 08.05. · 12.06. · 03.07. · 31.07. · 28.08. (ausgefallen) · 25.09. (DMEXCO)"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Serie für kommendes Jahr im Dezember neu aufgesetzt",
+     "b": false
+    },
+    {
+     "t": "tab",
+     "zeilen": [
+      [
+       "OFFENE PUNKTE / TO-DOS AUS DEM CALL"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "datum": "2026-08-10",
+   "titel": "Lableitungsrunde",
+   "bloecke": [
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Agenda & Programm KI Meet Up, 18.11.26, Berlin bei Google",
+     "b": true
+    },
+    {
+     "t": "p",
+     "text": "[Inhalte_KI Meet up_18.11.26_Berlin.docx](https://bvdwev.sharepoint.com/:w:/s/RessortKI/IQC8IJjBk-FOTJykf6J2hQy6AVwMw0jSreRTkDMJLWiWaE0?e=MEITfR)"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Gemeinsames übergreifendes Paper/ Projekt aus allen Perspektiven",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "DMEXCO KI Outlook 26 (Fynn S.)",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Programm und BVDW Masterclasses",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Preevent bei Microsoft",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Sonstiges:",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "KI Statuscall",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Newsletter",
+     "b": true
+    }
+   ]
+  },
+  {
+   "datum": "2026-07-31",
+   "titel": "Statuscall KI",
+   "bloecke": [
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "ALLGEMEINES",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Unsere KI-Aktivitäten im Überblick: https://www.bvdw.org/kuenstliche-intelligenz-im-bvdw/",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Vernetzt statt isoliert",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Ein zentrales Prinzip unserer KI-Aktivitäten lautet dabei: KI ist kein Silo‑Thema, weswegen es eine enge Zusammenarbeit mit unseren Mitgliedern benötigt.",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Unser Anspruch ist es, synergievoll, ressourcenschonend und effizient zu arbeiten – abgestimmt als Verband und zugleich offen für unterschiedliche Blickwinkel.",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Dafür vernetzen wir unsere KI‑Aktivitäten bewusst über Labs und Projektgruppen hinweg.",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Erkenntnisse werden geteilt, gebündelt und weiterentwickelt, statt parallel oder isoliert zu entstehen.",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "So schaffen wir gemeinsame Orientierung und vermeiden Doppelarbeit. Gleichzeitig bringen unsere Mitglieder ihre unterschiedlichen Perspektiven entlang der gesamten digitalen Wertschöpfungskette ein. Genau diese Vielfalt ermöglicht es uns, technologische, wirtschaftliche und regulatorische Entwicklungen ganzheitlich zu betrachten und als BVDW fundiert, abgestimmt und wirksam zu positionieren.",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "à Skuzzesive Erweiterung der Webseite um Lableiter Namen, Projektzusammenfassungen etc.",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "In 2 Wochen versenden wir auch einen KI Quartals Newsletter",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "POLITIK UPDATE (Katharina C.)",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "KI Regulierung: was Unternehmen jetzt beachten müssen: https://www.bvdw.org/news-und-publikationen/bvdw-update-zur-ki-regulierung/",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "EU-Konsultation zu KI in Kultur und Kreativsektor – \n3 Wochen Zeit! – Meldet euch, wenn ihr mitwirken wollt!\n11 September Frist – Bis zum 25. August Teilnahme Möglich",
+     "b": false
+    },
+    {
+     "t": "p",
+     "text": "https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/18592-Strategie-fur-kunstliche-Intelligenz-in-der-Kultur-und-Kreativbranche_de"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "VERÖFFENTLICHUNGEN THEMA KI SEIT DEM LETZTEN CALL",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Gastbeitrag: [Barrierefreiheit in E-Mails: Der unterschätzte AI-Ready-Faktor](https://www.bvdw.org/news-und-publikationen/barrierefreiheit-ai-readiness/)",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "KI Regulierung: was Unternehmen jetzt beachten müssen: https://www.bvdw.org/news-und-publikationen/bvdw-update-zur-ki-regulierung/",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "KOOPERATIONEN, RABATTE & EVENTS",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "20.08.26, 13 – 18 Uhr, Düsseldorf\nMeet up der Working Group Programmatic Advertising \nhttps://www.bvdw.org/events/meet-up-working-group-programmatic-advertising-ecosystem/",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "25.08.26, 11 – 12 Uhr, online\nWebinar: KI-Fördermilttel – Von der Förderlandschaft bis zum erfolgreichen Antrag\nhttps://www.bvdw.org/events/webinar-ki-foerdermittel/",
+     "b": true
+    },
+    {
+     "t": "p",
+     "text": "Hier geht’s zum [Anmeldeformular](https://share-eu1.hsforms.com/1FYr0AVQuSq-c_Hn7FEjdzAf1ff1). \nMailing geht heute raus"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "10.09.26 – 13:00 – 14:00 Uhr \nWebinar: AI COMMERCE & RECHT \nhttps://www.bvdw.org/events/ai-commerce-recht/ \nHier gehts zum [Anmeldeformular](https://share-eu1.hsforms.com/1nRiTuY73Re2ffdDtYf8P3gf1ff1)",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "10.09.26 – IAB EUROPE – The Great Debate on AI – 14.00 – 16.00 Uhr Paris & Online \nhttps://iabeurope.eu/events/the-great-debate-ai/",
+     "b": true
+    },
+    {
+     "t": "p",
+     "text": "!!! Call for Speaker (Paris)!!!  Ihr wollt als Speaker mit dabei sein? \n\nDebate 1 - This house believes that agentic advertising is overhyped\nDebate 2 - This house believes that AI-generated creative will commodify brand communication"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "22.09.26 - .Online Ad Summit - Köln\nhttps://www.bvdw.org/events/online-ad-summit-2026/",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "22.09.26 – ca. 17.30 Uhr – BVDW KI Preevent x Microsoft\nWir haben ein gemeinsames Preevent – wie im letzten Jahr – gemeinsam mit und bei Microsoft für euch organisiert: \n\n- Einladungen und weitere Informationen gehen zeitnah raus. \n- Haben die Möglichkeit ein Panel zu besetzten. \n- Wenn du Interesse hast, hier mit dabei zu sein, melde dich bei mir!",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "23.09 – 24.09. DMEXCO  - KÖLN\nhttps://dmexco.com/",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Kooperation NeulandPro Connect, 16./17. Oktober in Berlin\nhttps://connect.neulandpro.com/\nWir können Panel kuratieren & Ihr erhaltet einen Ticketrabatt!",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "21.10.26 – Kick off Sprint 04 – Embodied AI \nMünchen; Office von UIM \nhttps://www.bvdw.org/events/meet-up-der-fit-expert-group-sprint-04-embodied-ai/\nEinladung geht zeitnah raus, Agenda in Progress",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "INNOVATIONSREISE AHK: \nab 9.11. 26 - Für Unternehmen aus Baden-Württemberg & Bayern \nhttps://www.bvdw.org/events/innovation-camps-ins-siliconvalley-fuer-unternehmen-aus-bayern-und-baden-wuerttemberg/",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "BVDW KI MEET UP, 18.11. in Berlin bei Google, 10 – 16 Uhr \n\n- Im Lableitungsteam setzen wir uns in 2 Wochen zusammen und kuratieren gemeinsam die Agenda",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Einladungen im Anschluss versendet",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "INNOVATIONSREISE AHK – Thema: Manufacturing & Physical AI \n30.11. – 04.12.2026\nhttps://www.bvdw.org/events/ki-innovationstour-ins-silicon-valley-san-francisco-manufacturing-physical-ai/",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Updates aus unseren Labs",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Lab Responsible AI for Business\nLableitung: Maike Scholz & Ivana Radovanovic\nalle zwei Wochen Mittwochs, \nNächster Call vom Lab Responsible AI for Business ist am 5.8. von 14-14:30 Uhr",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Working Group Programmatic Advertising | Lab Agentic Media Buying\nLableitung: Sven Wegholz; Publicis Media & Benedict Gründig, Criteo",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "OVK Workstream – Auswirkungen KI/LLMs auf die Geschäftsmodelle der Publisher/Vermarkter\nLead: Alwin Viereck (United Internet Media), Björn Kaspring (Ströer)",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "WG Search. Arbeitsgruppe Auswirkungen KI/LLMs auf Search\nVorsitz: Jens Fauldrath, Vorsitzender, get:traction GmbH · Christoph Baur, stellv. Vorsitzender, Bits & Passion GmbH · Lena Kapp, stellv. Vorsitzende, eology GmbH · Nico Loges, stellv. Vorsitzender, web-netz GmbH · Uli Zimmermann, stellv. Vorsitzender, eMinded GmbH\n\nSearch Award auf der SMX!",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Lab AI Law & Governance",
+     "b": true
+    },
+    {
+     "t": "p",
+     "text": "Verantwortlich im BVDW: [Philipp Hagen, Director Legal Affairs & Data Privacy](mailto:%20hagen@bvdw.org)"
+    },
+    {
+     "t": "p",
+     "text": "Lableiter*innen: Sonja und Marian"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Lab AI Value Chain\nLableiter: Jens-Christian Jensen (Plan.Net), Kai Ebert (Brainhuggers), Dr. Fabian Göbel (nunatak) & Lea Horn",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Initiative E-Commerce | Lab AI Commerce",
+     "b": true
+    },
+    {
+     "t": "p",
+     "text": "Lableitung: Alexander Steenbakkers-Noffke, Koddi; Bastian Scherbeck, segmenta; Jörg Heinemann, OTTO"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Working Group Digitale Arbeitswelten | Taskforce Arbeitsmarktveränderungen & Leadership\nVerantwortlich im BVDW: [Beatriz Bilfinger, Senior Programm Managerin](mailto:%20bilfinger@bvdw.org)",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Politische Arbeitsgruppen \nLead: Janek Kuberzig, BVDW",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Working Group Content Creation & Influencer Marketing | KIgestützte Content & CreatorWertschöpfung\n\nVerantwortlich im BVDW: [Katharina Czarnian](mailto:%20Czarnian@bvdw.org)",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "WG Digitalagenturen \nVorsitz: Jens-Christian Jensen (Plan.Net), Kai Ebert (Brainhuggers), Stefan Mohr (antoni) & Anke Herbener",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Lab AI Technology\nLableiter: Bosse Küllenberg",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "WG Digital Audio | Lab Innovation x Audio \nLableiter: Eric Siegmund, Acast, Robert Scharni, Smartclip",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Working Group Retail Media Ecosystem | Lab Retail Media x KI\nLableiter*innen: Olga Puzhko, Kenshoo Skai; Jan Schmitz, Zalando, Jens Bargmann, adform",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "FIT Expert Group | Embodied Artificial Intelligence",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "WG E-Mail Marketing \nVorsitz: Andre Görmer",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Nächste Termine:",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Freitags, 10.4.,",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Freitag 8.5.,",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Freitag 5.6. (muss verschoben werden auf den 12.6.)",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Freitag, 3. Juli",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Freitag 31.Juli",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Freitag 28. 8.",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Freitag 25.9. (DMEXCO Version - wird eine Woche vorgezogen auf den 18.9.)",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Freitag 23.10",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Freitag 20.11. fällt aus, da am 18.11. Präsenz KI Meet Up",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Freitag, 18.12.",
+     "b": false
+    }
+   ]
+  },
+  {
+   "datum": "2026-07-03",
+   "titel": "Statuscall KI",
+   "bloecke": [
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "ALLGEMEINES",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Unsere KI Aktivitäten im Überblick: https://www.bvdw.org/kuenstliche-intelligenz-im-bvdw/",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "BVDW Convention: https://www.bvdw.org/news-und-publikationen/bvdw-convention-und-sommerfest-2026-from-buzzword-to-business/",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "KURZES POLITIK UPDATE (Janek)",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Mentibefragung Outlook 2026 (Q3/Q4)",
+     "b": true
+    },
+    {
+     "t": "p",
+     "text": "Eure Themen / Roadmap für die kommenden 6 Monate \nDas erste Halbjahr ist vorbei, die neue KI-Strategie läuft, die Convention ist durch – Zeit für einen ehrlichen Puls-Check. \nWir sammeln heute gemeinsam per Mentimeter eure Impulse ein. \nEs gibt keine falschen Antworten – nur ehrliche. \nAlles anonym, alles fließt direkt in die Planung fürs H2, unsere Inhaltliche Roadmap und ins KI Meet Up am 18.11. in Berlin ein."
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "VERÖFFENTLICHUNGEN Thema KI",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Schulterblick in die Ergebnisse der Agenturenbefragung (Marla)",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Call to ACTION",
+     "b": true
+    },
+    {
+     "t": "h",
+     "text": "Wir brauchen euren Input!"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Arbeitsmarktveränderung durch KI (Bea)\nhttps://forms.cloud.microsoft/pages/responsepage.aspx?id=NLTYK5xfYEyOSIfOV_ixqbOyjgcyDOdIvxJ5262JiQFUNERBUjAxSFZPOTc4SDRPMVVWQVhWVUZQSy4u&route=shorturl",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Call For Cases\nhttps://forms.office.com/pages/responsepage.aspx?id=NLTYK5xfYEyOSIfOV_ixqcJF81yY0y9IkGiSy9F3vktUOEVUT0kyNEJOWEVRSTRGV0NLRzNENzNFTy4u&route=shorturl",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Updates aus unseren Labs",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Politische Arbeitsgruppen \nLead: Janek Kuberzig, BVDW",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Lab Lab Responsible AI for Business",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Working Group Content Creation & Influencer Marketing | KIgestützte Content & CreatorWertschöpfung\n\nVerantwortlich im BVDW: [Katharina Czarnian](mailto:%20Czarnian@bvdw.org)",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Lab AI Value Chain\nLableiter: Jens-Christian Jensen (Plan.Net), Kai Ebert (Brainhuggers), Dr. Fabian Göbel (nunatak)",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "WG Digitalagenturen \nVorsitz: Jens-Christian Jensen (Plan.Net), Kai Ebert (Brainhuggers), Stefan Mohr (antoni) & Anke Herbener",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Lab AI Technology\nLableiter: Bosse Küllenberg",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "OVK Workstream – Auswirkungen KI/LLMs auf die Geschäftsmodelle der Publisher/Vermarkter\nLead: Alwin Viereck (United Internet Media), Björn Kaspring (Ströer)",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "WG Search. Arbeitsgruppe Auswirkungen KI/LLMs auf Search\nVorsitz: Jens Fauldrath, Vorsitzender, get:traction GmbH · Christoph Baur, stellv. Vorsitzender, Bits & Passion GmbH · Lena Kapp, stellv. Vorsitzende, eology GmbH · Nico Loges, stellv. Vorsitzender, web-netz GmbH · Uli Zimmermann, stellv. Vorsitzender, eMinded GmbH\n\nLabgründung AI Search",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "WG Digital Audio | Lab Innovation x Audio \nLableiter: Eric Siegmund, Acast, Robert Scharni, Smartclip",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Working Group Retail Media Ecosystem | Lab Retail Media x KI\nLableiter*innen: Olga Puzhko, Kenshoo Skai; Jan Schmitz, Zalando, Jens Bargmann, adform",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Initiative E-Commerce | Lab AI Commerce",
+     "b": true
+    },
+    {
+     "t": "p",
+     "text": "Lableitung: Alexander Steenbakkers-Noffke, Koddi; Bastian Scherbeck, segmenta; Jörg Heinemann, OTTO"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Working Group Programmatic Advertising | Lab Agentic Media Buying\nLableitung: Sven Wegholz; Publicis Media & Benedict Gründig, Criteo",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Working Group Digitale Arbeitswelten | Taskforce Arbeitsmarktveränderungen & Leadership\nVerantwortlich im BVDW: [Beatriz Bilfinger, Senior Programm Managerin](mailto:%20bilfinger@bvdw.org)",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Working Group Digital Responsibility | Taskforce MFA & Brand Safety\nVerantwortlich im BVDW: [Beatriz Bilfinger, Senior Programm Managerin](mailto:%20bilfinger@bvdw.org)",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Lab AI Law & Governance",
+     "b": true
+    },
+    {
+     "t": "p",
+     "text": "Verantwortlich im BVDW: [Philipp Hagen, Director Legal Affairs & Data Privacy](mailto:%20hagen@bvdw.org)"
+    },
+    {
+     "t": "p",
+     "text": "Lableiter*innen: Sonja und Marian"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "FIT Expert Group | Embodied Artificial Intelligence",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "WG E-Mail Marketing \nVorsitz: Andre Görmer",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Nächste Termine:",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Freitags, 10.4.,",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Freitag 8.5.,",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Freitag 5.6. (muss verschoben werden auf den 12.6.)",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Freitag, 3. Juli",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Freitag 31.Juli",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Freitag 28. 8.",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Freitag 25.9. (wird eine Woche vorgezogen auf den 18.9.)",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Freitag 23.10",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Freitag 20.11. fällt aus, da am 18.11. Präsenz KI Meet Up",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Freitag, 18.12.",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Kooperationen, Rabatte & Events",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Online Ad Summit \nhttps://www.bvdw.org/events/online-ad-summit-2026/",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "DMEXCO \nhttps://dmexco.com/",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "KI Meet Up - Q4 \n18.11., Bei Google im AI- Center in Berlin",
+     "b": false
+    }
+   ]
+  },
+  {
+   "datum": "2026-06-12",
+   "titel": "Statuscall KI",
+   "bloecke": [
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "ALLGEMEINES",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Unsere KI Aktivitäten im Überblick: https://www.bvdw.org/kuenstliche-intelligenz-im-bvdw/",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Anmeldung KI Newsletter https://share-eu1.hsforms.com/14Kk0BGEBQIK8UJvkw7Fnugf1ff1",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Studie: Die Vermessung der Digitalen Wirtschaft (Fabian)",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "https://www.bvdw.org/news-und-publikationen/vermessung-der-digitalen-wirtschaft/",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "KURZES POLITIK UPDATE (Janek)",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Vorstellung und Einordnung der Politischen Entwicklungen",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "CoP Transparenz KI-generierte Inhalte [Code of Practice on Transparency of AI-Generated Content | Shaping Europe’s digital future](https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content)",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Vergleich 2. Draft zu finaler Version [https://25260877.fs1.hubspotusercontent-eu1.net/hubfs/25260877/Digitalpolitik/Data%20and%20Technolo…](https://25260877.fs1.hubspotusercontent-eu1.net/hubfs/25260877/Digitalpolitik/Data%20and%20Technology/CoP_Version2vs3.pdf)",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Entwurf der Leitlinien zur Umsetzung der Transparenzpflichten für bestimmte KI-Systeme gemäß Artikel 50 des KI-Gesetzes [Entwurf der Leitlinien zur Umsetzung der Transparenzpflichten für bestimmte KI-Systeme gemäß Artikel…](https://digital-strategy.ec.europa.eu/de/library/draft-guidelines-implementation-transparency-obligations-certain-ai-systems-under-article-50-ai-act)",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "BVDW-SN Leitlinien Transparenz [https://25260877.fs1.hubspotusercontent-eu1.net/hubfs/25260877/Digitalpolitik/Data%20and%20Technolo…](https://25260877.fs1.hubspotusercontent-eu1.net/hubfs/25260877/Digitalpolitik/Data%20and%20Technology/260603_Draft%20Guideline%20Art50_Konsultation_Einreichung.pdf)",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Konsultation zu Leitlinien zu Hoch-Risiko-KI:",
+     "b": true
+    },
+    {
+     "t": "p",
+     "text": "[Targeted consultation on the draft guidelines for the classification of high-risk artificial intelli…](https://digital-strategy.ec.europa.eu/en/consultations/targeted-consultation-draft-guidelines-classification-high-risk-artificial-intelligence-systems)"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "KI-MIG https://dserver.bundestag.de/btd/21/064/2106407.pdf",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Call to ACTION",
+     "b": true
+    },
+    {
+     "t": "h",
+     "text": "Wir brauchen euren Input!"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "IAB EUROPE State of AI in Advertising Survey: \nhttps://www.surveymonkey.com/r/PFQYPD6?X8zT2LpQrS=0DB7A60D4A8DFD96CE5DE518510331C2",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "BVDW Agenturenbefragung: \n[Agenturen & Marketing im Wandel: Status quo und Zukunft der Zusammenarbeit – Formular ausfüllen](https://forms.office.com/Pages/ResponsePage.aspx?id=NLTYK5xfYEyOSIfOV_ixqcJF81yY0y9IkGiSy9F3vktUQVRaNUVFUTM2NjVIODJSSzJZQ04yUFFaNS4u)",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Call For Cases\nhttps://forms.office.com/pages/responsepage.aspx?id=NLTYK5xfYEyOSIfOV_ixqcJF81yY0y9IkGiSy9F3vktUOEVUT0kyNEJOWEVRSTRGV0NLRzNENzNFTy4u&route=shorturl",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "VERÖFFENTLICHUNGEN Thema KI",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Studienergebnisse Digital Audio Gattungskampagne: https://www.bvdw.org/news-und-publikationen/digital-audio-naeher-als-du-denkst/ https://www.bvdw.org/news-und-publikationen/ki-bot-zugriffe-managen/",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "KI-Agenten im Retail Media Ökosystem  \nhttps://www.bvdw.org/news-und-publikationen/ki-agenten-retail-und-commerce-media/",
+     "b": true
+    },
+    {
+     "t": "h",
+     "text": "Zudem:"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Internetagenturranking:\nhttps://www.bvdw.org/news-und-publikationen/internetagentur-ranking-2026-plannet-verteidigt-spitzenposition/",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Magazin zu Quantencomputing:",
+     "b": true
+    },
+    {
+     "t": "p",
+     "text": "https://www.bvdw.org/news-und-publikationen/bvdw-impuls-magazin-quantencomputing/"
+    },
+    {
+     "t": "p",
+     "text": "5. OVK Studie – Was Online Werbung attraktiv macht: \nhttps://www.bvdw.org/news-und-publikationen/ovk-studie-zur-wahrnehmung-von-digitaler-werbung/"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Updates aus unseren Labs",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Politische Arbeitsgruppen \nLead: Janek Kuberzig, BVDW",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Lab AI Ethics (AT) (In Gründung) – \nalle 2 Wochen Mittwochs um 14 Uhr\nAnna-Lena (Kleinanzeigen)",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Working Group Content Creation & Influencer Marketing | KIgestützte Content & CreatorWertschöpfung\n\nVerantwortlich im BVDW: [Katharina Czarnian, Senior Public Affairs Managerin Data Driven Markets](mailto:%20Czarnian@bvdw.org)",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Lab AI Value Chain\nLableiter: Jens-Christian Jensen (Plan.Net), Kai Ebert (Brainhuggers), Dr. Fabian Göbel (nunatak)",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "WG Digitalagenturen \nVorsitz: Jens-Christian Jensen (Plan.Net), Kai Ebert (Brainhuggers), Stefan Mohr (antoni) & Anke Herbener",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Lab AI Technology\nLableiter: Bosse Küllenberg",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "OVK Workstream – Auswirkungen KI/LLMs auf die Geschäftsmodelle der Publisher/Vermarkter\nLead: Alwin Viereck (United Internet Media), Björn Kaspring (Ströer)",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "WG Search. Arbeitsgruppe Auswirkungen KI/LLMs auf Search\nVorsitz: Jens Fauldrath, Vorsitzender, get:traction GmbH · Christoph Baur, stellv. Vorsitzender, Bits & Passion GmbH · Lena Kapp, stellv. Vorsitzende, eology GmbH · Nico Loges, stellv. Vorsitzender, web-netz GmbH · Uli Zimmermann, stellv. Vorsitzender, eMinded GmbH\n\nLabgründung AI Search",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "WG Digital Audio | Lab Innovation x Audio \nLableiter: Eric Siegmund, Acast, Robert Scharni, Smartclip",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Working Group Retail Media Ecosystem | Lab Retail Media x KI\nLableiter*innen: Olga Puzhko, Kenshoo Skai; Jan Schmitz, Zalando, Jens Bargmann, adform",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Initiative E-Commerce | Lab AI Commerce",
+     "b": true
+    },
+    {
+     "t": "p",
+     "text": "Lableitung: Alexander Steenbakkers-Noffke, Koddi; Bastian Scherbeck, segmenta; Jörg Heinemann, OTTO"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Working Group Programmatic Advertising | Lab Agentic Media Buying\nLableitung: Sven Wegholz; Publicis Media & Benedict Gründig, Criteo",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Working Group Digitale Arbeitswelten | Taskforce Arbeitsmarktveränderungen & Leadership\nVerantwortlich im BVDW: [Beatriz Bilfinger, Senior Programm Managerin](mailto:%20bilfinger@bvdw.org)",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Working Group Digital Responsibility | Taskforce MFA & Brand Safety\nVerantwortlich im BVDW: [Beatriz Bilfinger, Senior Programm Managerin](mailto:%20bilfinger@bvdw.org)",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Lab AI Law & Governance",
+     "b": true
+    },
+    {
+     "t": "p",
+     "text": "Verantwortlich im BVDW: [Philipp Hagen, Director Legal Affairs & Data Privacy](mailto:%20hagen@bvdw.org)"
+    },
+    {
+     "t": "p",
+     "text": "Lableiter*innen: Sonja und Marian"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "FIT Expert Group | Embodied Artificial Intelligence",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "WG E-Mail Marketing \nVorsitz: Andre Görmer",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "WG Immersive Experiences \nVorsitz: Mark Wächter, Andreas Günter, Marcus Veigel, Kira Grabner",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Nächste Termine:",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Freitags, 10.4.,",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Freitag 8.5.,",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Freitag 5.6. (muss verschoben werden auf den 12.6.)",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Freitag, 3. Juli",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Freitag 31.Juli",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Freitag 28. 8.",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Freitag 25.9. (wird eine Woche vorgezogen auf den 18.9.)",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Freitag 23.10",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Freitag 20.11. fällt aus, da am 18.11. Präsenz KI Meet Up",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Freitag, 18.12.",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Kooperationen, Rabatte & Events",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "17.6. – Webinar Policy break",
+     "b": true
+    },
+    {
+     "t": "p",
+     "text": "https://www.bvdw.org/events/bvdw-policy-break-2/"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "25. Juni / Berlin – BVDW Convention & Sommerfehttps://www.bvdw.org/events/bvdw-convention/",
+     "b": false
+    },
+    {
+     "t": "p",
+     "text": "Anmeldung:\nhttps://share-eu1.hsforms.com/1druWdWIHT0ylQJqEMzmvvwf1ff1"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Retail Media Festival Vol. 5\n2.7. – Frankfurt https://www.bvdw.org/events/bvdw-retail-media-festival-vol-5/",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Online Ad Summit \nhttps://www.bvdw.org/events/online-ad-summit-2026/",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "DMEXCO \nhttps://dmexco.com/",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "KI Meet Up - Q4 \n18.11., Bei Google im AI- Center in Berlin",
+     "b": false
+    }
+   ]
+  },
+  {
+   "datum": "2026-05-08",
+   "titel": "Statuscall KI",
+   "bloecke": [
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "ALLGEMEINES",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "KI-Strategie - Vernetzt statt isoliert! [KI Statuscall_10.4..pptx](https://bvdwev.sharepoint.com/:p:/s/RessortKI/IQCnJlEsOpNoRq-wY1raTvMpAawLHLIK7RSl1cnIhnTaBWA?e=Oxa4gi)",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Unsere KI Aktivitäten im Überblick: https://www.bvdw.org/kuenstliche-intelligenz-im-bvdw/",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Anmeldung KI Newsletter https://share-eu1.hsforms.com/14Kk0BGEBQIK8UJvkw7Fnugf1ff1",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "DMEXCO Masterclasses – Fynn Schulze",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "So könnt ihr dabei sein!\nVorstellung des Masterclass Prozess",
+     "b": false
+    },
+    {
+     "t": "p",
+     "text": "https://www.bvdw.org/events/bvdw-masterclasses/"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Call to ACTION",
+     "b": true
+    },
+    {
+     "t": "h",
+     "text": "Wir brauchen euren Input!"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "IAB EUROPE State of AI in Advertising Survey: \nhttps://www.surveymonkey.com/r/PFQYPD6?X8zT2LpQrS=0DB7A60D4A8DFD96CE5DE518510331C2",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "BVDW Agenturenbefragung: \n[Agenturen & Marketing im Wandel: Status quo und Zukunft der Zusammenarbeit – Formular ausfüllen](https://forms.office.com/Pages/ResponsePage.aspx?id=NLTYK5xfYEyOSIfOV_ixqcJF81yY0y9IkGiSy9F3vktUQVRaNUVFUTM2NjVIODJSSzJZQ04yUFFaNS4u)",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Call For Cases\nhttps://forms.office.com/pages/responsepage.aspx?id=NLTYK5xfYEyOSIfOV_ixqcJF81yY0y9IkGiSy9F3vktUOEVUT0kyNEJOWEVRSTRGV0NLRzNENzNFTy4u&route=shorturl",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "VERÖFFENTLICHUNGEN",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "AI Commerce",
+     "b": true
+    },
+    {
+     "t": "h",
+     "text": "Wie Künstliche Intelligenz Entscheidungslogiken im Handel neu ordnet"
+    },
+    {
+     "t": "p",
+     "text": "https://www.bvdw.org/news-und-publikationen/ai-commerce/?highlight=AI+COmmerce"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "So bringen Publisher Kontrolle in KI Zugriffe: \nhttps://www.bvdw.org/news-und-publikationen/ki-bot-zugriffe-managen/",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Die neue Systemlogik digitaler Wertschöpfung \nhttps://www.bvdw.org/news-und-publikationen/systemlogik-digitale-wertschoepfung/?highlight=systemlogik",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Updates aus unseren Labs",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Politische Arbeitsgruppen \nLead: Janek Kuberzig, BVDW",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Lab AI Ethics (In Gründung)\nMaike Scholz",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Working Group Content Creation & Influencer Marketing | KIgestützte Content & CreatorWertschöpfung\n\nVerantwortlich im BVDW: [Katharina Czarnian, Senior Public Affairs Managerin Data Driven Markets](mailto:%20Czarnian@bvdw.org)",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Lab AI Value Chain\nLableiter: Jens-Christian Jensen (Plan.Net), Kai Ebert (Brainhuggers), Dr. Fabian Göbel (nunatak)",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "WG Digitalagenturen \nVorsitz: Jens-Christian Jensen (Plan.Net), Kai Ebert (Brainhuggers), Stefan Mohr (antoni) & Anke Herbener",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Lab AI Technology\nLableiter: Stephan Clasen (denkwerk), Bosse Küllenberg (pilot)",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "OVK Workstream – Auswirkungen KI/LLMs auf die Geschäftsmodelle der Publisher/Vermarkter\nLead: Alwin Viereck (United Internet Media), Björn Kaspring (Ströer)",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "WG Search. Arbeitsgruppe Auswirkungen KI/LLMs auf Search\nVorsitz: Jens Fauldrath, Vorsitzender, get:traction GmbH · Christoph Baur, stellv. Vorsitzender, Bits & Passion GmbH · Lena Kapp, stellv. Vorsitzende, eology GmbH · Nico Loges, stellv. Vorsitzender, web-netz GmbH · Uli Zimmermann, stellv. Vorsitzender, eMinded GmbH",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "WG Digital Audio | Lab Innovation x Audio \nLableiter: Eric Siegmund, Acast, Robert Scharni, Smartclip",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Working Group Retail Media Ecosystem | Lab Retail Media x KI\nLableiter*innen: Olga Puzhko, Kenshoo Skai; Jan Schmitz, Zalando, Jens Bargmann, adform",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Initiative E-Commerce | Lab AI Commerce",
+     "b": true
+    },
+    {
+     "t": "p",
+     "text": "Lableitung: Alexander Steenbakkers-Noffke, Koddi; Bastian Scherbeck, segmenta; Jörg Heinemann, OTTO"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Working Group Programmatic Advertising | Lab Agentic Media Buying\nLableitung: Sven Wegholz; Publicis Media & Benedict Gründig, Criteo",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Working Group Digitale Arbeitswelten | Taskforce Arbeitsmarktveränderungen & Leadership\nVerantwortlich im BVDW: [Beatriz Bilfinger, Senior Programm Managerin](mailto:%20bilfinger@bvdw.org)",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Working Group Digital Responsibility | Taskforce MFA & Brand Safety\nVerantwortlich im BVDW: [Beatriz Bilfinger, Senior Programm Managerin](mailto:%20bilfinger@bvdw.org)",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Lab AI Law & Governance (in Gründung)",
+     "b": true
+    },
+    {
+     "t": "p",
+     "text": "Verantwortlich im BVDW: [Philipp Hagen, Director Legal Affairs & Data Privacy](mailto:%20hagen@bvdw.org)"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "FIT Expert Group | Embodied Artificial Intelligence",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "WG E-Mail Marketing \nVorsitz: Andre Görmer",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "WG Immersive Experiences \nVorsitz: Mark Wächter, Andreas Günter, Marcus Veigel, Kira Grabner",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Nächste Termine:",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Freitags, 10.4.,",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Freitag 8.5.,",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Freitag 5.6. (muss verschoben werden auf den 12.6.)",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Freitag, 3. Juli,",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Freitag 31.Juli",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Freitag 28. 8.",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Freitag 25.9. (wird eine Woche vorgezogen auf den 18.9.)",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Freitag 23.10",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Freitag 20.11. fällt aus, da am 18.11. Präsenz KI Meet Up",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Freitag, 18.12.",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Kooperationen, Rabatte & Events",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Beim trade/off Summit in Heidelberg geht es am 12. Mai um praktische Anwendungen von KI und digitaler Transformation. Mit dabei sind rund 600 Entscheider*innen aus Industrie, Retail und Manufacturing, die sich über konkrete Use Cases, strartegische Fragestellungen und Best Practices austauschen. BVDW-Mitglieder erhalten bei diesem Event 25 % Rabatt (Code BVDW-25). Mehr Infos & Anmeldung unter [tradeoff.ai](https://d2-qT104.eu1.hubspotlinks.com/Ctc/2N+113/d2-qT104/VV-81c95JmBTW7Jm1MQ84lsP_W48Yhp75MGswjN4Rsyfx3m2nnW69sMD-6lZ3lDW3CfC5w88zkKFW5HFqHF2PcNcPV2mT7Z1JXHYTW94hBcL7jW2JQW8CdVZM2gVfMHW6DJGGL2Zn08ZW7H8PS07sMX-bW3c1jL61ZNrhlW1P8xfW11nRDGV-6lpC2z2lQsW7x7TDG1tjT_xW2X9dNZ4CdRS-W3zbCdJ4rSrFnW6Cf3-W6z_mthW7zXwQ46DdXfkN8b0MkjGc738W3dnSl68hDwRPW7RnQfg3D5WMfW5B5Rng61mDPFW6GQ_vw8hWTKXf3m9XNg04).",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "DEUTSCHER DIGITAL AWARD & Creativity Summit\n\nWir feierten die Stars der Branche!\nDie Einreichungsphase ist beendet. Jetzt geht’s weiter mit der Durchsicht der spannenden Cases. Du möchtest bei der Award-Show am 21. Mai in Berlin dabei sein?\nhttps://www.deutscherdigitalaward.de/",
+     "b": false
+    },
+    {
+     "t": "p",
+     "text": "DDA Creativity Summit ist am gleichen Tag (10-16 Uhr) für Mitglieder kostenfrei. First come, first served -> https://www.bvdw.org/events/dda-creativity-summit/"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "25. Juni / Berlin – \nBVDW Convention & Sommerfest",
+     "b": false
+    },
+    {
+     "t": "p",
+     "text": "https://www.bvdw.org/events/bvdw-convention/"
+    },
+    {
+     "t": "p",
+     "text": "Anmeldung:\nhttps://share-eu1.hsforms.com/1druWdWIHT0ylQJqEMzmvvwf1ff1"
+    },
+    {
+     "t": "p",
+     "text": "Offizielle Einladung geht kommende Woche raus!"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "KI Meet Up - Q4 \n18.11. , Bei Google im AI- Center in Berlin",
+     "b": false
+    }
+   ]
+  },
+  {
+   "datum": "2026-04-10",
+   "titel": "Statuscall KI",
+   "bloecke": [
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "ALLGEMEINES",
+     "b": true
+    },
+    {
+     "t": "p",
+     "text": "Vernetzt statt isoliert!\n[KI Statuscall_10.4..pptx](https://bvdwev.sharepoint.com/:p:/s/RessortKI/IQCnJlEsOpNoRq-wY1raTvMpAawLHLIK7RSl1cnIhnTaBWA?e=Oxa4gi)"
+    },
+    {
+     "t": "h",
+     "text": "Intro"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Unsere KI Aktivitäten im Überblick: https://www.bvdw.org/kuenstliche-intelligenz-im-bvdw/",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Anmeldung KI Newsletter https://share-eu1.hsforms.com/14Kk0BGEBQIK8UJvkw7Fnugf1ff1",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Call For Cases\nhttps://forms.office.com/pages/responsepage.aspx?id=NLTYK5xfYEyOSIfOV_ixqcJF81yY0y9IkGiSy9F3vktUOEVUT0kyNEJOWEVRSTRGV0NLRzNENzNFTy4u&route=shorturl",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Updates aus unseren Labs zur Ausrichtung und zu Projekten",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Politische Arbeitsgruppen \nLead: Janek Kuberzig, BVDW",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Lab AI Value Chain\nLableiter: Jens-Christian Jensen (Plan.Net), Kai Ebert (Brainhuggers), Dr. Fabian Göbel (nunatak)",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "WG Digitalagenturen \nVorsitz: Jens-Christian Jensen (Plan.Net), Kai Ebert (Brainhuggers), Stefan Mohr (antoni) & Anke Herbener",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Lab AI Technology\nLableiter: Stephan Clasen (denkwerk), Bosse Küllenberg (pilot)",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "OVK Workstream – Auswirkungen KI/LLMs auf die Geschäftsmodelle der Publisher/Vermarkter\nLead: Alwin Viereck (United Internet Media), Björn Kaspring (Ströer)",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "WG Search. Arbeitsgruppe Auswirkungen KI/LLMs auf Search\nVorsitz: Jens Fauldrath, Vorsitzender, get:traction GmbH · Christoph Baur, stellv. Vorsitzender, Bits & Passion GmbH · Lena Kapp, stellv. Vorsitzende, eology GmbH · Nico Loges, stellv. Vorsitzender, web-netz GmbH · Uli Zimmermann, stellv. Vorsitzender, eMinded GmbH",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "WG Digital Audio | Lab Innovation x Audio \nLableiter: Eric Siegmund, Acast, Robert Scharni, Smartclip",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Working Group Retail Media Ecosystem | Lab Retail Media x KI\nLableiter*innen: Olga Puzhko, Kenshoo Skai; Jan Schmitz, Zalando, Jens Bargmann, adform",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Initiative E-Commerce | Lab AI Commerce",
+     "b": true
+    },
+    {
+     "t": "p",
+     "text": "Lableitung: Alexander Steenbakkers-Noffke, Koddi; Bastian Scherbeck, segmenta; Jörg Heinemann, OTTO"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Working Group Programmatic Advertising | Lab Agentic Media Buying\nLableitung: Sven Wegholz; Publicis Media & Benedict Gründig, Criteo",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Working Group Digitale Arbeitswelten | Taskforce Arbeitsmarktveränderungen & Leadership\nVerantwortlich im BVDW: [Beatriz Bilfinger, Senior Programm Managerin](mailto:%20bilfinger@bvdw.org)",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Working Group Digital Responsibility | Taskforce MFA & Brand Safety\nVerantwortlich im BVDW: [Beatriz Bilfinger, Senior Programm Managerin](mailto:%20bilfinger@bvdw.org)",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Working Group Content Creation & Influencer Marketing | KIgestützte Content & CreatorWertschöpfung (soon mehr)\nVerantwortlich im BVDW: [Katharina Czarnian, Senior Public Affairs Managerin Data Driven Markets](mailto:%20Czarnian@bvdw.org)",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Lab AI Law & Governance (in Gründung)",
+     "b": true
+    },
+    {
+     "t": "p",
+     "text": "Verantwortlich im BVDW: [Philipp Hagen, Director Legal Affairs & Data Privacy](mailto:%20hagen@bvdw.org)"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "FIT Expert Group | Embodied Artificial Intelligence",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "WG E-Mail Marketing \nVorsitz: Andre Görmer",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Nächste Termine:",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Freitags, 10.4.,",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Freitag 8.5.,",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Freitag 5.6. (muss verschoben werden auf den 12.6.)",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Freitag, 3. Juli,",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Freitag 31.Juli",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Freitag 28. 8.",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Freitag 25.9. (wird eine Woche vorgezogen auf den 18.9.)",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Freitag 23.10",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Freitag 20.11. fällt aus, da am 18.11. Präsenz KI Meet Up",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Freitag, 18.12.",
+     "b": false
+    },
+    {
+     "t": "h",
+     "text": "Nächstes KI Meet Up (Bigger and noch Better, 18.11. – wer mag hosten? 😉 )"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Kooperationen,  Rabatte & Events",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "IAB Tech Lab‘s Signal Shift kommt nach Europa.​\nIAB Tech Lab’s Signal Shift bringt Branchenführer*innen zusammen, um die Zukunft von privacy und addressability zu erkunden, während Signalverlust und Regulierung die digitale Werbung neu gestalten.​\nDie Veranstaltung stellt die neuesten PETs, IDlose Lösungen und Strategien für eine effektive Zielgruppenansprache dar.​\nDas ganztägige Programm findet am Donnerstag, den 16. April 2026, von 9:00 bis 17:00 Uhr statt und wird auf Englisch präsentiert.​\nBVDWMitglieder erhalten mit dem Code TLSignal_BVDW25 einen Rabatt von 25 %.\nhttps://iabeurope.eu/events/iab-tech-lab-signal-shift-europe/",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "BVDW Agency Academy Agenten als Co-Worker – 23 April online\nWenn Agents nicht mehr auf Eingaben warten, sondern selbst loslegen. Briefing lesen, drei Recherche-Stränge parallel starten, Ergebnisse zusammenführen, Rückfragen stellen. Kein Mensch tippt dazwischen.",
+     "b": false
+    },
+    {
+     "t": "p",
+     "text": "Wenn Du auf der Suche nach frischen Ideen und praxisnahen Taktiken bist, dann ist unsere nächste Agency Academy genau das Richtige für Dich!"
+    },
+    {
+     "t": "p",
+     "text": "Nach den Vorträgen hast du die Möglichkeit, in einer offenen Paneldiskussion und Q&A-Session Deine Fragen zu stellen und direkt mit den Experten zu diskutieren."
+    },
+    {
+     "t": "p",
+     "text": "https://www.bvdw.org/events/bvdw-agency-academy/"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Beim trade/off Summit in Heidelberg geht es am 12. Mai um praktische Anwendungen von KI und digitaler Transformation. Mit dabei sind rund 600 Entscheider*innen aus Industrie, Retail und Manufacturing, die sich über konkrete Use Cases, strartegische Fragestellungen und Best Practices austauschen. BVDW-Mitglieder erhalten bei diesem Event 25 % Rabatt (Code BVDW-25). Mehr Infos & Anmeldung unter [tradeoff.ai](https://d2-qT104.eu1.hubspotlinks.com/Ctc/2N+113/d2-qT104/VV-81c95JmBTW7Jm1MQ84lsP_W48Yhp75MGswjN4Rsyfx3m2nnW69sMD-6lZ3lDW3CfC5w88zkKFW5HFqHF2PcNcPV2mT7Z1JXHYTW94hBcL7jW2JQW8CdVZM2gVfMHW6DJGGL2Zn08ZW7H8PS07sMX-bW3c1jL61ZNrhlW1P8xfW11nRDGV-6lpC2z2lQsW7x7TDG1tjT_xW2X9dNZ4CdRS-W3zbCdJ4rSrFnW6Cf3-W6z_mthW7zXwQ46DdXfkN8b0MkjGc738W3dnSl68hDwRPW7RnQfg3D5WMfW5B5Rng61mDPFW6GQ_vw8hWTKXf3m9XNg04).",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "DEUTSCHER DIGITAL AWARD & Creativity Summit\n\nWir feierten die Stars der Branche!\nDie Einreichungsphase ist beendet. Jetzt geht’s weiter mit der Durchsicht der spannenden Cases. Du möchtest bei der Award-Show am 21. Mai in Berlin dabei sein? [Sign](https://www.deutscherdigitalaward.de/)[Up!](https://www.deutscherdigitalaward.de/)\n\nAm Vormittag: Unser Creativity Summit bei Google in Berlin\nhttps://www.bvdw.org/en/events/dda-creativity-summit/",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "25. Juni / Berlin – \nBVDW Convention & Sommerfest sowie Mitgliederversammlung inkl. Präsidiumsneuwahl",
+     "b": false
+    },
+    {
+     "t": "p",
+     "text": "Offizielle Einladung folgt zeitnah."
+    }
+   ]
+  },
+  {
+   "datum": "2026-03-06",
+   "titel": "Statuscall KI",
+   "bloecke": [
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "BVDW KI-Strategie",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Es erfolgt hierzu noch ein offizielles Mailing am Ende der kommenden Woche",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "KI Meet Up am 25.3 in Köln",
+     "b": true
+    },
+    {
+     "t": "p",
+     "text": "https://www.bvdw.org/events/sitzung-der-working-group-ki/"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Agenda nahezu final",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Anmeldung https://share-eu1.hsforms.com/1Etn4lml2S4eYrc53xsSf7Qf1ff1",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Wenn ihr noch nicht angemeldet seid – kommt dazu!",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Vorabend für Frühanreisende! Kölner – ich brauch Tipps! \nGerne möchte ich ein lockeres Miteinander am Vorabend organisieren – eine Bar gerne. \nWer hat TippS?",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Struktur Statuscall",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "KI Statuscall - Routine wird neu aufgesetzt – ab dem 10. April immer 11.30 – 12.30 Uhr",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Der Statuscall der Working Group KI ist das zentrale, horizontale Austauschformat für alle Mitglieder des BVDW, die sich für KI-Themen interessieren. Als horizontal fungierende-WG versteht sich die WG KI nicht als abgeschlossenes Silo, sondern als verbindendes Element, das Wissen und Projekte über alle Working Groups hinweg vernetzt. Der Termin ist bewusst offen und integrativ gestaltet, um Mitgliedern einen reibungslosen Einstieg in die KI-Strukturen des BVDW zu ermöglichen.",
+     "b": false
+    },
+    {
+     "t": "h",
+     "text": "Rahmendaten"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Turnus: Einmal im Monat, immer freitags um 11:00 Uhr.",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Leitung/Moderation: Katharina Jäger (Head of Innovation & Technology).",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Zielgruppe: Alle interessierten BVDW-Mitglieder",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Einladungsmanagement: Die Einladung zum Statuscall wird zukünftig monatlich über das CRM des BVDW versendet",
+     "b": false
+    },
+    {
+     "t": "h",
+     "text": "Struktur & Inhalte"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "BVDW KI-Radar: Briefing zu aktuellen KI-Themen, politischen Entwicklungen und strategischen KI News aus dem BVDW.",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Projekt-Portfolio / Update der Projektverantwortlichen Mitglieder oder Programm-Managerinnen:",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Status-Update: Kompakter Bericht aller Verantwortlichen Lableiter / Projektleiter zu allen laufenden KI-Projekten und Querschnittslabs.",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Termine & Subcalls: Explizite Nennung der nächsten Termine für spezifische Lab-Sitzungen und Projekt-Deep-Dives,  um Beteiligungsmöglichkeiten aufzuzeigen.",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Beteiligung: Konkrete Aufrufe, wo und wie sich Mitglieder aktuell in die jeweiligen Projekte einbringen können.#",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Open Discussion & Ideen-Inkubator: Offener Raum für Diskussionen, um neue Impulse, Initiativen oder Lab-Ideen direkt aus dem Mitgliederkreis zu generieren.",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "AI Case Sammlung",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Wir suchen, insb. auch immer in unserem Presseteam oder für Events AI Cases zu den unterschiedlichsten Themen.",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Damit wir euch, eure Cases etc. im Überblick haben, werden wir eine Case Sammlung eröffnen",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Primär für uns als BVDW, um euch in Medien einzubeziehen, also für den internen gebrauch",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "SAVE THE DATE",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "16. März EINREICHEN !!\n\n21.Mai / Berlin – Creativity Summit & DDA",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "25. Juni / Berlin – BVDW Convention & Sommerfest sowie Mitgliederversammlung inkl. Präsidiumsneuwahl",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "https://www.spurcoalition.org/",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Kontaktieren und durchlesen",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "im Sparring mit Björn Kaspring",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "https://digital-strategy.ec.europa.eu/en/library/commission-publishes-second-draft-code-practice-marking-and-labelling-ai-generated-content",
+     "b": false
+    },
+    {
+     "t": "p",
+     "text": "Feedback bis zum 30. März"
+    }
+   ]
+  },
+  {
+   "datum": "2026-02-13",
+   "titel": "Statuscall KI",
+   "bloecke": [
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Struktur der Gruppe und zukünftig in diesem Statuscall",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "FoS zurück in WG KI",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "im Zuge der aktuellen BVDW KI-Strategie und der sich dynamisch entwickelnden Marktgegebenheiten haben wir festgestellt, dass Themen wie Future of Search (FoS), Agentic AI sowie die Monetarisierung neuer Geschäftsmodelle in der öffentlichen Debatte zunehmend verschwimmen.",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Um hier eine klare Abgrenzung und Schärfung unserer Positionen zu erreichen, nutzen wir das aktuelle Momentum für eine strukturelle Neusortierung und Synchronisation unserer Aktivitäten.",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Reintegration von Future of Search / FIT Expert Group: Die operative Federführung für das Thema „Future of Search“ kehrt mit sofortiger Wirkung von der FIT Expert Group zurück in die WG Künstliche Intelligenz.",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "In diesem Zusammenhang stehen jedoch noch zwei Veröffentlichungen aus, diese werden als Absender FIT EG geflagged",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Zentralisierung im KI-Statuscall",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Diese Call wird zukünftig strategisch Wichtiger.",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Dieser Termin wird künftig unser zentraler Anlaufpunkt für alle KI-relevanten Aktivitäten / Labs etc. im Verband.",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Angesichts der Gründung neuer, querschnittlicher Labs – wie dem Agentic Commerce Lab oder dem Agentic Programmatic Lab – wird der Statuscall als Plattform genutzt, auf der alle Lab-Verantwortlichen und Projektgruppen regelmäßig über ihre Fortschritte berichten.",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Idee: alle 2 Monate kommen die Lableitenden der Labs einmal in dieser Runde zusammen und berichten über ihre Themen, sodass wir Synergien erheben.",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Details zum genauen Reporting-Format folgen in Kürze.",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Überblick",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Newsletter / Landingpage / Umstrukturierung KI Statuscall\n- Ab März wird es einen monatlichen Newsletter geben, der offene Projekte, Veröffentlichungen, Termine, Etc. auch nochmal zusammenfasst",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Ab März wird dann dieser Statuscall auch „Offizieller“ Geflagged",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Landingpage mit allen KI Aktivitäten wird ebenso sauber gepflegt",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Ongoing Projekte in den Labs",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Lab AI Value Chain:",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "ROI von Einsatz von KI",
+     "b": true
+    },
+    {
+     "t": "p",
+     "text": "Dieses Projekt widmet sich der systematischen Bewertung von Investitionen in künstliche Intelligenz, wobei der Fokus auf der Identifikation und Umsetzung konkret realisierbarer Value-Cases liegt. Um die oft schwer greifbaren Vorteile von KI-Initiativen zu validieren, wird ein Framework entwickelt, das die Messbarkeit von Investitionen durch klare Wertdimensionen sicherstellt. Dabei geht es nicht nur um rein monetäre Kennzahlen, sondern um ein tieferes Verständnis dafür, an welchen Stellen im Unternehmen tatsächlicher Mehrwert entsteht und welche Denkmodelle notwendig sind, um diesen Prozess objektiv zu bewerten."
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Dabei sein? 10 Uhr im La VC Call",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Lab AI Technology:",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "LLM Overview / Cards:",
+     "b": true
+    },
+    {
+     "t": "p",
+     "text": "Dieses Projekt hat zum Ziel, eine fundierte und strukturierte Übersicht über die aktuelle Landschaft der Large Language Models (LLMs) zu erstellen. Im Kern geht es darum, die Vielfalt der existierenden Modelle transparent zu machen und ihre spezifischen Leistungsmerkmale sowie Einsatzgebiete detailliert herauszuarbeiten. Dabei wird analysiert, welche technologischen Ansätze die verschiedenen Modelle verfolgen und über welche individuellen Stärken sie in der praktischen Anwendung verfügen. Als besonderes Format zur Wissensvermittlung wird im weiteren Verlauf ein Set von Quartettkarten entwickelt."
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Dabei sein? Mittwoch um 9 Uhr im Lab AI TECH Call",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Lab AI Responsibilty:",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Webinar AI Act / Art. 50 – Transparenzanforderungen",
+     "b": true
+    },
+    {
+     "t": "p",
+     "text": "Dieses Projekt fokussiert sich auf die frühzeitige Analyse und praxisnahe Aufbereitung der Transparenzanforderungen gemäß Artikel 50 des EU AI Acts, um Unternehmen der Digitalen Wirtschaft bereits vor dem Vorliegen finaler Auslegungsleitlinien eine verlässliche Orientierung zu bieten. Im Zentrum steht die Sensibilisierung für spezifische Pflichten und potenzielle Haftungsrisiken, die sich aus der Kennzeichnungspflicht und Offenlegung von KI-Interaktionen ergeben. Dabei werden die komplexen regulatorischen Vorgaben in verständliche, handlungsorientierte Implikationen übersetzt, die direkt in die unternehmerische Praxis integriert werden können."
+    },
+    {
+     "t": "p",
+     "text": "Termin folgt zeitnah."
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Whitepaper: Sicherung der Brand Safety im Zeitalter generativer KI\nDieses Whitepaper adressiert die wachsenden Herausforderungen für die Markensicherheit in einer durch KI geprägten Medienlandschaft und bietet eine fundierte Einordnung der aktuellen Risikofaktoren. Im Fokus steht dabei die technische Analyse von Phänomenen wie dem „Brand Drift“ sowie die Bedrohung durch Deepfakes, die Marken ungewollt in falsche oder schädigende Kontexte setzen können. Neben den technologischen Aspekten beleuchtet das Papier intensiv die psychologische Komponente aufseiten der Endverbraucher, insbesondere im Hinblick auf die sinkende Akzeptanz und die drohende Vertrauenskrise durch intransparente KI-Inhalte. Ein besonderes Augenmerk liegt dabei auf der Dynamik in sozialen Netzwerken, wo sich Desinformation und markenschädigende Inhalte in Echtzeit verbreiten können. Abschließend werden die notwendigen Transparenzstandards und rechtlichen Rahmenbedingungen diskutiert, um Unternehmen Werkzeuge an die Hand zu geben, mit denen sie ihre Markenintegrität schützen und das Vertrauen ihrer Zielgruppen langfristig sichern können.",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Dabei sein? 9 Uhr im Lab Responsibilty Call",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Präsenzevent am 25.3. in Köln in Denkwerk",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Unser nächstes KI Meet Up (ehm. Sitzung) findet am 25.3. in Köln beim denkwerkstatt",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Wenn ihr hier dabei sein wollt: \nhttps://share-eu1.hsforms.com/1Etn4lml2S4eYrc53xsSf7Qf1ff1",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Das erwartet Dich!",
+     "b": true
+    },
+    {
+     "t": "p",
+     "text": "Unser Meet-up setzt auf ein offenes, kollaboratives Arbeitsformat mit Fokus auf Applied AI und konkrete Umsetzung. So entsteht ein gemeinsamer Arbeitsraum, in dem Erfahrungen geteilt und praxisnahe Lösungsansätze entlang der digitalen Wertschöpfungskette entwickelt werden. Wir starten mit kurzen inhaltlichen Impulsen. Danach teilt sich die Gruppe in mehrere Sessions auf, die Raum für echten Austausch und gemeinsames Arbeiten bieten. Geplant sind u. a. Sessions zum Aufbau und zur Orchestrierung von Agentensystemen, Tools, Prompting & methodische Grundlagen oder zu Modellarchitekturen. Das Format lebt vom offenen Austausch und der Bereitschaft, eigene Herausforderungen einzubringen. Es geht nicht um fertige Antworten, sondern um die gemeinsame Weiterentwicklung von Ansätzen und Best Practices.\nDa die Sessions parallel stattfinden werden, senden wir allen angemeldeten Teilnehmer*innen vor der Veranstaltung eine Übersicht, damit sie sich für die jeweiligen Sessions vorab eintragen können. So können wir die Gruppen sinnvoll planen.\nDie finale Agenda befindet sich jedoch noch in Ausarbeitung. Sobald diese final ist, kann das Programm hier eingesehen werden."
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Wenn ihr Ideen für Hands on Session habt, meldet euch bei mir.",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Innovationstour ins Silicon Valley",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Gespräche mit der AHK haben gestartet.",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Größtes Thema: Finanzierung der Reise.",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Wenn ihr hier Interesse habt, die Finanzierung supporten",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Vibe Coding Einblick by Kai Ebert",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "BVDW Academy Vorstellung by Chris",
+     "b": true
+    }
+   ]
+  },
+  {
+   "datum": "2026-01-09",
+   "titel": "Statuscall KI",
+   "bloecke": [
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Willkommen im KI Jahr 2026 !",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Slides der letzten Sitzung vom 3.12. in München: \n\nhttps://hs-25260877.f.hubspotemail-eu1.net/hubfs/25260877/Protokoll_Sitzung_KI_03.12_MUC_v2.pdf?utm_medium=email&_hsenc=p2ANqtz-9QBepkQ1rjg5meWOA5avPOWXiE0rOSrxOXXfea45PTee9GWwDUFmgPbnCqH8xt7SOg9lxf8ks4m2ORxrzaKulazC2Dhw&_hsmi=124005143&utm_content=124005143&utm_source=hs_email",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Agenda 2026",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Ziele, Mission Statemens, Projekte in den Labs",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "[BVDW_Ressort KI__2026.pptx](https://bvdwev.sharepoint.com/:p:/s/RessortKI/IQDgvUG89_pXSZqof2cPbbTTAXPlFrY0phoXybziYVWQjjw?e=bzfLJX)",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Termine / Events",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "28. Januar, Berlin – BVDW Convention und Neujahresempfang",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "25.Februar, Berlin – Digital Responsibilty Award",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "25. März, KÖLN – KI Sitzung der WG KI",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "21. Mai – Deutscher Digital Award, Berlin",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "18. November, tbd, KI Sitzung der WG KI",
+     "b": false
+    },
+    {
+     "t": "p",
+     "text": "Alle weiteren Events findet ihr hier: https://www.bvdw.org/events/"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "KI Querschnittslabs",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Retail Media x KI",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 2,
+     "text": "Projekt Ongoing: KI-Agenten im Retail Media",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Innovation x Audio",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 2,
+     "text": "Ongoing Projekt: Gattungsmarketing Kampagne: Digital Audio Wirkt – AI Generierte Spots über die Gattung Audio",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "FIT Expert Group",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 2,
+     "text": "Ongoing Topic in diesem Sprint: Future of Search (Statuscall kommenden Donnerstag, 16. Uhr)",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 2,
+     "text": "Ongoing Projekt: The Anwer Era – Verständnis von FoS, GEO Def, Perspektiven etc.",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 2,
+     "text": "Inhalte Statuscall:",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 3,
+     "text": "Politische Einordnung",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 3,
+     "text": "Vorstellung OVK Paper",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Agentic Commerce Lab (In Gründung)",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 2,
+     "text": "Kick-off am 22.1. um 15 Uhr",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Projekt mit der WG Digitalagenturen:",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 2,
+     "text": "Digitalagenturen Befragung (V.2)",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "WG Digitale Arbeitswelten",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 2,
+     "text": "Arbeitsmarktentwicklung und Jobprofil Veränderungen durch KI",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Einige weitere in Planung …",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "KI Veröffentlichungen / Projekte",
+     "b": true
+    },
+    {
+     "t": "p",
+     "text": "WG KI:"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Whitepaper RAGs –  https://www.bvdw.org/news-und-publikationen/retrieval-augmented-generation-rag/ (15.12.)",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Whitepaper | Wenn KI handelt: Vertrauen & Verantwortung in Zeiten von Agentic AI (in der Veröffentlichung-Schleife): [251108_LF_Agentic_AI.pdf](https://bvdwev.sharepoint.com/:b:/s/RessortKI/IQDbmMKnWFPyQYkzErFVLPDCAfwncYMH1Db9JH27vQ-6mL8?e=tPooJx)",
+     "b": false
+    },
+    {
+     "t": "p",
+     "text": "FIT (übergreifend):"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Future of Search Report 2025: https://www.bvdw.org/news-und-publikationen/future-of-search-report-2025/",
+     "b": false
+    },
+    {
+     "t": "p",
+     "text": "OVK:"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Vermarkter über die Auswirkungen von KI Suche auf Publisher Geschäftsmodelle: https://www.bvdw.org/news-und-publikationen/ovk-ueber-auswirkungen-von-ki-suche-auf-publisher-geschaeftsmodelle/",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Alle weiteren ongoing Projekte (KI Agenten Paper) werden zeitnah final abgeschlossen",
+     "b": false
+    },
+    {
+     "t": "h",
+     "text": "6.  Weiteres"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Aufgrund der umfangreichen KI Aktivitäten über den gesamten Verband erfolgt ein monatlicher KI Newsletter bzw. ein KI News Channel, begleitend zu diesem Call",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Nächste Session, geplant für den 6. Februar – um eine Woche verschieben,auf den 13. Februar",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "IAB Tech Lab: IAB Tech Lab Unveils Agentic Roadmap for Digital Advertising - https://iabtechlab.com/press-releases/iab-tech-lab-unveils-agentic-roadmap-for-digital-advertising/ Einladung zum Webinar",
+     "b": false
+    },
+    {
+     "t": "h",
+     "text": "7. News und eure Themen"
+    }
+   ]
+  },
+  {
+   "datum": "2025-11-07",
+   "titel": "Statuscall KI",
+   "bloecke": [
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Termine",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Sitzung BVDW Working Group KI 3.12. München",
+     "b": true
+    },
+    {
+     "t": "p",
+     "text": "https://www.bvdw.org/events/sitzung-working-group-kuenstliche-intelligenz/"
+    },
+    {
+     "t": "h",
+     "text": "Anmeldung hier:"
+    },
+    {
+     "t": "p",
+     "text": "https://share-eu1.hsforms.com/1Etn4lml2S4eYrc53xsSf7Qf1ff1?utm_medium=email&_hsenc=p2ANqtz-99DmkLrfJAYL7ypP0ko8XfUASoeXMRy74ri9pMTSnAm0knIa1jkb0OT6Dfbd33TgE_1zM4saIYs92vbwlDI9YuQcciIA&_hsmi=121063223&utm_content=121063223&utm_source=hs_email"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Future of Search:",
+     "b": true
+    },
+    {
+     "t": "p",
+     "text": "Gemeinsame BVDW Initiative – ausgelagert in die FIT EG"
+    },
+    {
+     "t": "p",
+     "text": "Kommenden Donnerstag, 16 – 17 Uhr Statuscall"
+    },
+    {
+     "t": "h",
+     "text": "Wenn ihr hier dabei sein möchtet:"
+    },
+    {
+     "t": "p",
+     "text": "https://share-eu1.hsforms.com/1-4i9wQbJSfmtAdSfTH28Ugf1ff1"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Kooperationsevent.",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "AI Media Leaders in Hamburg",
+     "b": true
+    },
+    {
+     "t": "p",
+     "text": "Wir sind Partner von \"AI Media Leaders 2025\" der [nextMedia.Hamburg](https://www.linkedin.com/company/nextmedia.hamburg/)  \n🗓 27. November 2025\n📍 Mojo Club Hamburg\nDie Konferenz richtet sich an Führungskräfte und KI-Verantwortliche der Medien Branche. \"AI Media Leaders\" ist ein Event von [nextMedia.Hamburg](http://nextmedia.hamburg/), einer Initiative der Hamburg Kreativ Gesellschaft und der Behörde für Kultur und Medien.\nVon frischen Perspektiven bis hin zur Diskussion über Lösungen aktueller Herausforderungen ist alles dabei. Im Fokus stehen zentrale Fragen rund um den Einsatz von KI: Strategische Weichenstellungen, neue Geschäftsmodelle und rechtliche Rahmenbedingungen. Neben Keynotes und Paneldiskussionen auf der Hauptbühne bietet \"AI Media Leaders\" auch branchenspezifische Deep Dives und Raum für gezielten Austausch auf Führungsebene.\n \nIhr möchtet dabei sein? Über unsere Kooperation haben wir eine limitierte Anzahl an Rabattcodes."
+    },
+    {
+     "t": "h",
+     "text": "BVDW15fd8L - Dieser Code ermöglicht 15 % auf das Ticket"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Digital Responsibilty Award",
+     "b": true
+    },
+    {
+     "t": "p",
+     "text": "https://www.bvdw.org/news-und-publikationen/digital-responsibility-award-2026/"
+    },
+    {
+     "t": "p",
+     "text": "Ab sofort können Unternehmen, gemeinnützige Organisationen und öffentliche Einrichtungen aus dem gesamten DACH-Raum einreichen. Der Award zeichnet Projekte und Initiativen aus, die Verantwortung in der Digitalisierung übernehmen und so Vertrauen, Transparenz, Nachhaltigkeit, Innovation und Resilienz fördern."
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Projekte:",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Strategiemeeting Lableitung",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Am 2.12. werden wir im Lableitungskreise Strategie Meeting ansetzen und neue Projekte und Initiativen mit und für euch Starten",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Ich werde vorab ein Formular mit euch teilen, sodass ihr eure Impulse hier mit einfließen lassen könnt, damit auch ihr die Agenda anreichern könnt",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "KI & ETHIK Paper",
+     "b": true
+    },
+    {
+     "t": "p",
+     "text": "Inhaltlich soweit final – Idel vorstellung bei der Sitzgn am 3.12."
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "KI Agenten overall – Finalisierungsphase gestartet",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "IAB EUROPE",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Tobias Kellner (Googe) und ich sind seit einer Woche Co-Lead der IAB EUROPE AI Working Group – Europäische Vernetzung werde ich auch an euch weitergeben",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Katharina & Silicon Valley",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Ich habe die Möglichkeit mit Vertreter*innen von mindestens Open AI & NVIDA zu sprechen:",
+     "b": false
+    },
+    {
+     "t": "p",
+     "text": "Habt ihr Fragen, die ich hier anbringen und Mitbringen kann?"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Developer Programme",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Input Nikos",
+     "b": true
+    },
+    {
+     "t": "p",
+     "text": "Bzgl. der Partnerschaft zwischen Microsoft und OpenAI und dem Erreichen von AGI (Singularität): [The next chapter of the Microsoft–OpenAI partnership - The Official Microsoft Blog](https://blogs.microsoft.com/blog/2025/10/28/the-next-chapter-of-the-microsoft-openai-partnership/)"
+    },
+    {
+     "t": "p",
+     "text": "Bzgl. des großen Copilot \"Herbst Refreshs\" und der Einführung von neuen wichtigen Funktionen, etwa Groups, Memory, Mico, etc: [https://www.linkedin.com/posts/dr-nikos-kotalakidis-458a4b_human-centered-ai-microsoft-copilot-blog…](https://www.linkedin.com/posts/dr-nikos-kotalakidis-458a4b_human-centered-ai-microsoft-copilot-blog-activity-7389211533701988353-Wmjk?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAAniMQBDNDMDnD4w_3k2GOgwPQ6ApyBZpo)"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Input Marcus",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Input Tobias",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "OWM Summit – Bei den Werbetreibenden Wude wenig wenig über AI gesprochen",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Bild zu bekommen / Menti Sentiment Befragung ->",
+     "b": true
+    },
+    {
+     "t": "p",
+     "text": "News Raum, um das Sentiment abzufragen – Menti Abfrage"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "AD CP – Agentic Standard",
+     "b": true
+    },
+    {
+     "t": "p",
+     "text": "Auf die Agenda bringen, Perspektiven auf die Agenda bringen und Marktteilnehmende anfragen"
+    },
+    {
+     "t": "p",
+     "text": "Wie hilft uns das, wie sehr nicht"
+    },
+    {
+     "t": "p",
+     "text": "https://adcontextprotocol.org/"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Impact von KI auf das Thema Beschäftigung – In der Gruppe bearbeiten",
+     "b": true
+    },
+    {
+     "t": "p",
+     "text": "Chart des Schreckens"
+    },
+    {
+     "t": "p",
+     "text": "S&P Dow Jones Indices LLC, Bureu of Labor Statiscis"
+    },
+    {
+     "t": "p",
+     "text": "Weltwirtschaftkrise – Rezession"
+    },
+    {
+     "t": "p",
+     "text": "KI ? Covid?"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Ausbildung von Fachkräften von KI",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Wo sind die Anfängeraufgaben?",
+     "b": false
+    }
+   ]
+  },
+  {
+   "datum": "2025-10-10",
+   "titel": "Statuscall KI",
+   "bloecke": [
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Slides Impuls Fördermittel",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Link: [2025-09-05 Vortrag BVDW Fördermittel für KI.pdf](https://bvdwev.sharepoint.com/:b:/s/RessortKI/EWZS38uTdA9Co0wP7nQEqXIBiZ9NEN8SipnQsuTdaXngUg?e=oLgji7)",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Politik und Regulations Update",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Janek Kuberzig",
+     "b": false
+    },
+    {
+     "t": "p",
+     "text": "[BVDW_Folien politische Entwicklung AI Act.pdf](https://bvdwev.sharepoint.com/:b:/s/RessortKI/EVbp91dXoS5Ej2D1xzEPoBUBUhYNqtF3i89Prl-kf-hmuw?e=36g5hE)"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Was geht und was geht mit dem AI Act –Usecases sammeln – das Paper nochmal angehen",
+     "b": false
+    },
+    {
+     "t": "p",
+     "text": "Visualisieren / Scoring Matrix"
+    },
+    {
+     "t": "p",
+     "text": "Eher auf die Allgemeine Schiene"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Termine",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "23.10. – Präsenzevent zum Thema Future of Search / HH / Pilot",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Hier geht’s zur Anmeldung: [LINK](mailto:https://share-eu1.hsforms.com/1ZyWQgtXeTwqRCpndkHbmDQf1ff1?utm_medium=email&_hsenc=p2ANqtz-9nLerIWMn5QSWv_aW5XrwcPV-GBMFwmXxgVuVj_IQGrdLAy-aRluZSD2YuGfF-JhguabB-h3kXwGi18rV8n9tEIUewTA&_hsmi=2&utm_content=2&utm_source=hs_email)",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Hier geht’s zur begleitenden Befragung: https://forms.office.com/e/SAkFXwQRBc",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "6.11. – Data Matters in Berlin\nhttps://www.bvdw.org/events/datamatters2025/ \n\nIn den Fokus stellen wir die Frage, wie sich aus Daten gesellschaftlicher und wirtschaftlicher Mehrwert schaffen lässt und welche politischen, technologischen und wirtschaftlichen Voraussetzungen dafür erfüllt sein müssen.",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "12.11. – Sitzung der Working Group Immersive Experiences  / HH / Meta",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Hier gehts zur Anmeldung: [LINK](mailto:https://share-eu1.hsforms.com/1IICaZhCsSD6kZEooKHbiMQf1ff1)",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "3.12. – Sitzung der Working Group KI in München bei Serviceplan",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Einladung wird in der kommenden Woche versendet.",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Agendapreview: [Agenda_Sitzung_WG_KI_03.12.25_MUC.docx](https://bvdwev.sharepoint.com/:w:/s/RessortKI/ERLSHJBEnopDi0efDjmj8FUBMLBQHPryJaQY2tcWpbidUQ?e=0f1dS8)",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Kooperationsevent",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "RhAINlanddays in Siegburg",
+     "b": true
+    },
+    {
+     "t": "p",
+     "text": "Am 6. November lädt Just Forward ins RHEIN SIEG FORUM zur KI-Konferenz im Rheinland für Entscheider*innen aus Mittelstand, Politik und Forschung nach Siegburg ein. \nDie Vision des [RhAInland Day](https://www.linkedin.com/company/rhainland-day/)  Einen starken Mittelstand sichern und mit einem Netzwerk zukunftsfähiger KI-Pioniere das Wirtschaftswunder 2.0 im Rheinland gestalten. \nIn der Workshop Session „Smart statt laut – Wie KI das Marketing im Mittelstand neu erfindet“ werden [Daniel Volož](https://www.linkedin.com/in/danielvoloz/), (RTB House), [Florian Hanke](https://www.linkedin.com/in/florian-hanke-9b219213/) (Hybrid Europe) und [Richard Wagner](https://www.linkedin.com/in/richard-wagner-624a1393/) (Beintoo) gemeinsam mit [Katharina Jäger](https://www.linkedin.com/in/katharina-j%C3%A4ger/) (BVDW) mit Live-Demos aufzeigen, wie No-Code und intelligente Automatisierung Workflows beschleunigen und datenbasierte Entscheidungen ermöglichen. \n\nIhr erhaltet 30% Rabatt auf alle Business Tickets. Einfach den Code BVDW30 eingeben und sparen.  👉 https://lnkd.in/er_CTfUE"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "AI Media Leaders in Hamburg",
+     "b": true
+    },
+    {
+     "t": "p",
+     "text": "Wir sind Partner von \"AI Media Leaders 2025\" der [nextMedia.Hamburg](https://www.linkedin.com/company/nextmedia.hamburg/)  \n🗓 27. November 2025\n📍 Mojo Club Hamburg\nDie Konferenz richtet sich an Führungskräfte und KI-Verantwortliche der Medien Branche. \"AI Media Leaders\" ist ein Event von [nextMedia.Hamburg](http://nextmedia.hamburg/), einer Initiative der Hamburg Kreativ Gesellschaft und der Behörde für Kultur und Medien.\nVon frischen Perspektiven bis hin zur Diskussion über Lösungen aktueller Herausforderungen ist alles dabei. Im Fokus stehen zentrale Fragen rund um den Einsatz von KI: Strategische Weichenstellungen, neue Geschäftsmodelle und rechtliche Rahmenbedingungen. Neben Keynotes und Paneldiskussionen auf der Hauptbühne bietet \"AI Media Leaders\" auch branchenspezifische Deep Dives und Raum für gezielten Austausch auf Führungsebene.\n \nIhr möchtet dabei sein?\nÜber unsere Kooperation haben wir eine limitierte Anzahl an Rabattcodes."
+    },
+    {
+     "t": "h",
+     "text": "BVDW15fd8L - Dieser Code ermöglicht 15 % auf das Ticket"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Projekte",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Vorstellung Studie mit dem IAB Europe \nPM: https://iabeurope.eu/iab-europe-releases-first-impact-of-ai-on-digital-advertising-report-revealing-widespread-adoption-rising-investment-and-urgent-calls-for-governance/ \n\nReport: https://iabeurope.eu/wp-content/uploads/IAB-Europe-Impact-of-AI-Report-September-2025.pdf",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Update aus dem Lab AI Technology (Bosse)",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Update aus dem Lab AI Value Chain (Katharina)",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Update aus dem Lab AI & Ethik (Katharina)",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "NEWS ALERT!!!",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Neue Entwicklung im KI-Commerce: Direkter Checkout in ChatGPT",
+     "b": true
+    },
+    {
+     "t": "p",
+     "text": "OpenAI hat in den USA ein neues Feature gestartet: „Buy it in ChatGPT“."
+    },
+    {
+     "t": "p",
+     "text": "Damit können Nutzer Produkte direkt im Chat kaufen, abgewickelt über Stripe und basierend auf dem neuen Agentic Commerce Protocol."
+    },
+    {
+     "t": "p",
+     "text": "Warum spannend:"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Die Dokumentation für Produktfeeds & Protokolle ist bereits öffentlich.",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Retailer können jetzt anfangen, ihre Produktdaten so zu strukturieren, dass sie für KI-Agenten nutzbar sind.",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Hersteller & Marken müssen überlegen, wie sie ihre Produkte in solchen Kanälen sichtbar machen.",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Marktplätze & Payment-Provider (z. B. Stripe, PayPal) spielen eine Schlüsselrolle, Google treibt parallel ein ähnliches Modell mit PayPal voran.",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Retail Media & Werbung: Langfristig könnte hier eine völlig neue Fläche für Produktempfehlungen und Ads entstehen.",
+     "b": false
+    },
+    {
+     "t": "p",
+     "text": "Wer tiefer einsteigen will: https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Neue GPU-Partnerschaft mit AMD\nOpenAI ging eine fünfjährige Partnerschaft mit AMD ein, um sechs Gigawatt Rechenleistung mittels AMD Instinct MI450 bereitzustellen (Ab 2026). Damit soll die Abhängigkeit allein von Nvidia verringert und die Auslastung gesichert werden.\n\nhttps://www.theverge.com/news/792650/amd-openai-five-year-ai-chip-agreement?",
+     "b": false
+    },
+    {
+     "t": "h",
+     "text": "These"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Agentisierung und Automatisierung bringt ein Agenturstreben mit sich.",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Aktualisierung des KI Statuscalls",
+     "b": true
+    }
+   ]
+  },
+  {
+   "datum": "2025-09-05",
+   "titel": "Statuscall KI",
+   "bloecke": [
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Impuls „KI Fördermittel in Deutschland“",
+     "b": false
+    },
+    {
+     "t": "p",
+     "text": "Pascal Schneider, von SCHNEIDER Consulting, der Fördermittelagentur für Unternehmen & Verbände"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Termine",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "DMEXCO",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Masterclasses und Programm DMEXCO 2025",
+     "b": true
+    },
+    {
+     "t": "p",
+     "text": "https://community.dmexco.com/event/dmexco-2025"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Standparty am 17.9. ab 18:30 Uhr am BVDW Stand",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "DMEXCO Pre Event gemeinsam mit Microsoft am 16.9.",
+     "b": true
+    },
+    {
+     "t": "p",
+     "text": "Teilnehmerlisten sind schon sehr voll – wenn ihr noch nicht angemeldet seid, aber dennoch dabei sein möchtet, kommt auf mich zu"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Sitzung",
+     "b": true
+    },
+    {
+     "t": "p",
+     "text": "Mittwoch, 3. Dezember in München im House of Communications, vermutlich 10 – 16 Uhr!"
+    },
+    {
+     "t": "p",
+     "text": "Abends voraussichtlich in einer Weinbar gemeinsames Get Together!"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Wenn ihr Inhalte habt, zögert nicht mich zu informieren! Jeglicher Input ist super!",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Update Ongoing Projekte der Working Group",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "KI Agenten Whitepaper à Diese Woche Inhalte final",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Agentic AI Ethik Paper à Inhalte final",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Gemeinsam Befragung mit dem IAB Europe à Final, Ergebnisse werden am 18.9. auf der DMEXCO vorgestellt, danach verteilt",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "OPEN!  Konsultation der EU-Kommission zu einem European Innovation Act \nDie Europäische Kommission hat eine Konsultation für einen neuen [European Innovation Act](https://d2-qT104.eu1.hubspotlinks.com/Ctc/2N+113/d2-qT104/VWlVQM7pj_gYW7tTnT-7fWY9wW5SJqyG5zXQqxN6YWdsg5kBVzW69t95C6lZ3n1TH5sq5hVYL5W7Wpdx_5-sGcwW2QgVx_4GFNfSW5Z_Mvf304Y8GW4nlGZZ8r5LKcW3Kf-vM1PyMN4W5gmx2f6KL6QZW6KK62r8Rhr5rW1C82nt1t_RCtVLLNGQ5HTyXtW92F3b56__kQ9W2xML7v1hWp1hVTb2rP6BYykBW1bMqQF4kvSH5W7ky43v6FtdlxW3FvX6s3c9p-5W1q6S5j6w5czrW9g0P0G36dGZrW17Qz-M31wfsgW5FfrW_8F9wFGW6KvBC86rM7g9W5tf3Lx3YNLl7N1v2tLDS48VBW1yZ0HL1Yxv9MW2cF5_Q9kYq-FW3lfyyP2nDYDNW47J-b068Y-P_W8gJVWh5Csvx-W6Lkwqy3fhg_PW4sFLSj8jD6jgW2w4X3H2mwBGKVs4jLX8ddZ3DW3YBp0Z8hz-sNW4X0GH-621WV6Vn3ZVS3vVRNMW5C8MwZ3G9-R9f43m3nH04) veröffentlicht. Mit der vorgeschlagenen Verordnung soll ein innovationsfreundliches Umfeld geschaffen werden, mit dem das Wachstum innovativer Unternehmen in der EU gefördert werden soll.",
+     "b": false
+    },
+    {
+     "t": "p",
+     "text": "Den gesamten Fragebogen findest Du [hier](https://d2-qT104.eu1.hubspotlinks.com/Ctc/2N+113/d2-qT104/VWlVQM7pj_gYW7tTnT-7fWY9wW5SJqyG5zXQqxN6YWdtM3m2nnW95jsWP6lZ3lqW1tmHNC61Pv7jW3d1Gxp9cn_kxW737zdh5fwcWWW7vYG5-1YFSWPN2Jl852p70nYW6P0cJ83t_hX8VM-jCR97q02GW1v_C5Z4DJCnZW1Z8WYT93l3MXW97CrWT7SDrVhW2Gw5KD2WrX--VzrrlJ2P4_n9W1VbkVm1-xh77W12J3Rw8lQ8JWW3Cs9sf4r9DC3W5w0bW62f-dNcVKBm1P58rr6LW8G7kH46RB-nDW7Jbwxg5PDYLLW5gql1t9h7vz_W4WSFBB8gSY0_W3DpnGR7HJ_ZVW6ZWLd13p0knrW8CrN8W4mkz36VRSC6K6G_J_bW5mT5Wy5XKLDcW35z_0d331DR7W23R_sG2Y4HzGW6JYlmP14qFYgW1bS30456K9bWf7slpPC04).  (Hier bitte auch reinarbeiten)"
+    },
+    {
+     "t": "p",
+     "text": "Wir würden uns freuen, wenn Du bis zum 5. September eine Rückmeldung gibst, ob und wie der BVDW sich an dieser Konsultation beteiligen sollte. Wenn Du bereits inhaltliches Feedback hast, kannst Du dieses direkt im Doc eintragen oder uns per Mail zukommen lassen."
+    },
+    {
+     "t": "p",
+     "text": "Eine Stellungnahme wird dann ggfs. aus der BVDW-AG Data & (Future) Technology heraus erarbeitet."
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "FOLLOW | Future of Search Befragung über den BVDW Verteiler!",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Ausblick",
+     "b": true
+    },
+    {
+     "t": "h",
+     "text": "Kommender Statuscall am 10. Oktober"
+    },
+    {
+     "t": "p",
+     "text": "Ihr möchtet etwas vorstellen oder habt Wünsche? Meldet euch bei mir!"
+    },
+    {
+     "t": "h",
+     "text": "Tom Keller – Share of Models Vortrag"
+    }
+   ]
+  },
+  {
+   "datum": "2025-08-14",
+   "titel": "Statuscall KI",
+   "bloecke": [
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Vorstellung von Googles Veo3 von Tobias Kellner",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Termine",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "DMEXCO",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Masterclasses und Programm DMEXCO 2025",
+     "b": true
+    },
+    {
+     "t": "p",
+     "text": "https://community.dmexco.com/event/dmexco-2025"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Einladung DMEXCO Pre Event des BVDWs gemeinsam mit Microsoft",
+     "b": true
+    },
+    {
+     "t": "p",
+     "text": "https://msa.eventbuilder.com/event/91847"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Sitzungen",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "4. Dezember in München  à Terminblocker in die Runde",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Wenn ihr Inhalte habt, zögert nicht mich zu informieren! Jeglicher Input ist super!",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Auch wenn ihr eine Location habt",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "3. Und 4. Ist der BVDW AI Officer in München (Zertifizierungskurs)",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "3. Dezember à Gemeinsam mit AI Officer Kurs Abends",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Update Ongoing Projekte der Working Group",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "KI Agenten Whitepaper",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Agentic AI – Autonome KI-Systeme und ethische Herausforderungen à Anknüpfendes Webinar am 3.9 von 14 – 15:30 Uhr",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "KI Agenten und Retail Media – Workshop am 2.9.",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "BVDW Digitalpolitik | EU Innovation Act Stellungnahme",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Konsultation der EU-Kommission zu einem European Innovation Act \nDie Europäische Kommission hat eine Konsultation für einen neuen [European Innovation Act](https://d2-qT104.eu1.hubspotlinks.com/Ctc/2N+113/d2-qT104/VWlVQM7pj_gYW7tTnT-7fWY9wW5SJqyG5zXQqxN6YWdsg5kBVzW69t95C6lZ3n1TH5sq5hVYL5W7Wpdx_5-sGcwW2QgVx_4GFNfSW5Z_Mvf304Y8GW4nlGZZ8r5LKcW3Kf-vM1PyMN4W5gmx2f6KL6QZW6KK62r8Rhr5rW1C82nt1t_RCtVLLNGQ5HTyXtW92F3b56__kQ9W2xML7v1hWp1hVTb2rP6BYykBW1bMqQF4kvSH5W7ky43v6FtdlxW3FvX6s3c9p-5W1q6S5j6w5czrW9g0P0G36dGZrW17Qz-M31wfsgW5FfrW_8F9wFGW6KvBC86rM7g9W5tf3Lx3YNLl7N1v2tLDS48VBW1yZ0HL1Yxv9MW2cF5_Q9kYq-FW3lfyyP2nDYDNW47J-b068Y-P_W8gJVWh5Csvx-W6Lkwqy3fhg_PW4sFLSj8jD6jgW2w4X3H2mwBGKVs4jLX8ddZ3DW3YBp0Z8hz-sNW4X0GH-621WV6Vn3ZVS3vVRNMW5C8MwZ3G9-R9f43m3nH04) veröffentlicht. Mit der vorgeschlagenen Verordnung soll ein innovationsfreundliches Umfeld geschaffen werden, mit dem das Wachstum innovativer Unternehmen in der EU gefördert werden soll.",
+     "b": false
+    },
+    {
+     "t": "p",
+     "text": "Den gesamten Fragebogen findest Du [hier](https://d2-qT104.eu1.hubspotlinks.com/Ctc/2N+113/d2-qT104/VWlVQM7pj_gYW7tTnT-7fWY9wW5SJqyG5zXQqxN6YWdtM3m2nnW95jsWP6lZ3lqW1tmHNC61Pv7jW3d1Gxp9cn_kxW737zdh5fwcWWW7vYG5-1YFSWPN2Jl852p70nYW6P0cJ83t_hX8VM-jCR97q02GW1v_C5Z4DJCnZW1Z8WYT93l3MXW97CrWT7SDrVhW2Gw5KD2WrX--VzrrlJ2P4_n9W1VbkVm1-xh77W12J3Rw8lQ8JWW3Cs9sf4r9DC3W5w0bW62f-dNcVKBm1P58rr6LW8G7kH46RB-nDW7Jbwxg5PDYLLW5gql1t9h7vz_W4WSFBB8gSY0_W3DpnGR7HJ_ZVW6ZWLd13p0knrW8CrN8W4mkz36VRSC6K6G_J_bW5mT5Wy5XKLDcW35z_0d331DR7W23R_sG2Y4HzGW6JYlmP14qFYgW1bS30456K9bWf7slpPC04).  (Hier bitte auch reinarbeiten)"
+    },
+    {
+     "t": "p",
+     "text": "Wir würden uns freuen, wenn Du bis zum 5. September eine Rückmeldung gibst, ob und wie der BVDW sich an dieser Konsultation beteiligen sollte. Wenn Du bereits inhaltliches Feedback hast, kannst Du dieses direkt im Doc eintragen oder uns per Mail zukommen lassen."
+    },
+    {
+     "t": "p",
+     "text": "Eine Stellunganahme wird dann ggfs. aus der BVDW-AG Data & (Future) Technology heraus erarbeitet."
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Thema Future of Search?",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Future of Search (Zukunft der Suche) bezieht sich auf die tiefgreifenden Veränderungen, die derzeit und zukünftig die Art und Weise beeinflussen, wie Menschen Informationen im Internet finden. Insbesondere durch KI-gestützte Systeme wie ChatGPT, multimodale Suchfunktionen, Sprachsuche und Personalisierung verschiebt sich das Suchverhalten und verändert ganze digitale Geschäftsmodelle.",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Für die Digitalwirtschaft ergeben sich daraus viele zentrale Fragen: strategisch, technologisch, ethisch und wirtschaftlich. Dabei sind alle Teilnehmer der digitalen Wertschöpfungskette betroffen: Werbetreibende, Publisher, Agenturen, AdTech- und MarTech-Plattformen, Retailer etc. müssen sich intensiv mit den Veränderungen der Technologie und einem veränderten Nutzerverhalten auseinandersetzen.\nDenn die Art, wie Nutzer Informationen finden, Inhalte konsumieren und mit Marken interagieren, verändert sich grundlegend und damit auch die Regeln für Sichtbarkeit, Reichweite und wirtschaftlichen Erfolg im digitalen Raum.",
+     "b": false
+    },
+    {
+     "t": "h",
+     "text": "Was wir vorhaben!"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "In der FIT Expert Group werden wir uns im kommenden Sprint gremienübergreifend mit allen Mitgliedern aus allen Gruppen diesem Thema widmen. Denn genau das entspricht der DNA der FIT Expert Group: https://www.bvdw.org/future-innovation-technology-fit/",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Dazu wird es Ende Oktober (vermutlich zwischen dem 20. Und 24.10.) in Berlin eine Kick-off-Veranstaltung geben, bei der wir das Thema gezielt und fokussiert aufgreifen. \nUnser Ziel ist es, die verschiedenen Perspektiven aller Gremien entlang der digitalen Wertschöpfungskette einzubeziehen, von Werbetreibenden über Publisher und Agenturen bis hin zu Plattformen und Technologieanbietern.",
+     "b": false
+    },
+    {
+     "t": "p",
+     "text": "Im Anschluss an das Kick-off wird die Arbeit im Digitalem fortgesetzt."
+    },
+    {
+     "t": "p",
+     "text": "Hier brauche ich dann natürlich auch euch und eure Gruppen, um daraus dann, vermutlich in Untergruppen, gezielt Inhalt zu formulieren."
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Weitere Themen",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Gemeinsam Befragung mit dem IAB Europe",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Der IAB Europe hat mit vielen Nationals eine gemeinsame Befragung aufgesetzt",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "https://www.surveymonkey.com/r/7T9NXYH?R6wF9AvbqY=1EC3618750B2E0A8FE9346A3CF086193",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Innovationsreise ins Silicon Valley über die AHK in San Francisco",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Förderprogramm mit dem German Business for the Western United States  DBA German American Chamber of Commerce (GACC) West",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Innovationstour unterstützt deutsche Unternehmen bei der Anwendung von KI und dem Zugang zum Innovationsökosystem im Silicon Valley",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Vom 17. November bis zum 21. November 2025 führt das Delegiertenbüro der deutschen Wirtschaft in San Francisco im Auftrag des Bundesministeriums für Wirtschaft und Energie (BMWE) eine Innovationstour ins Silicon Valley durch.",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Es handelt sich dabei um eine projektbezogene Fördermaßnahme im Rahmen des BMWK-Markterschließungsprogramms für KMU.",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Zielgruppe sind vorwiegend kleine und mittlere deutsche Unternehmen (KMU).  –",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "https://germantech.org/innovationstour-usa-2025-artificial-intelligence/",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Ausblick",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Kommender Statuscall am 5.9.",
+     "b": true
+    },
+    {
+     "t": "p",
+     "text": "Hier kommt ein Fördermittelberater – Pascal wird erzählen, welche Möglichkeiten es gib, Fördermittel zu erhalten."
+    }
+   ]
+  },
+  {
+   "datum": "2025-07-24",
+   "titel": "Statuscall KI",
+   "bloecke": [
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Themen und Projekte Externes",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Gemeinsam Befragung mit dem IAB Europe",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Der IAB Europe hat mit vielen Nationals eine gemeinsame Befragung aufgesetzt",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "https://www.surveymonkey.com/r/7T9NXYH?R6wF9AvbqY=1EC3618750B2E0A8FE9346A3CF086193",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Innovationsreise is Silicon Valley über die AHK in San Francisco",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Förderprogramm mit dem German Business for the Western United States  DBA German American Chamber of Commerce (GACC) West",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Innovationstour unterstützt deutsche Unternehmen bei der Anwendung von KI und dem Zugang zum Innovationsökosystem im Silicon Valley",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Vom 17. November bis zum 21. November 2025 führt das Delegiertenbüro der deutschen Wirtschaft in San Francisco im Auftrag des Bundesministeriums für Wirtschaft und Energie (BMWE) eine Innovationstour ins Silicon Valley durch.",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Es handelt sich dabei um eine projektbezogene Fördermaßnahme im Rahmen des BMWK-Markterschließungsprogramms für KMU.",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Zielgruppe sind vorwiegend kleine und mittlere deutsche Unternehmen (KMU).  –",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "https://germantech.org/innovationstour-usa-2025-artificial-intelligence/",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Kooperationsevent mit AI Media Leaders von Next Media am 27.11. in HH",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Ihr wollt als Speaker mit dabei sein? \nBitte dieses Forms bis zum 22.7. ausfüllen: \nhttps://forms.office.com/Pages/ResponsePage.aspx?id=NLTYK5xfYEyOSIfOV_ixqcJF81yY0y9IkGiSy9F3vktUMFBJNU9NOFlLWkFBMDE0RzQ5RjZEMDU1TC4u",
+     "b": false
+    },
+    {
+     "t": "p",
+     "text": "(Cases haben hier eine höhere Chance)"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Ihr wollt als Besucher mit dabei sein? Wir haben ein limitiertes Kontingent von Rabattcodes. Meldet euch !",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "RhAInlandday in Siegburg am 6.11.",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "https://rhainland-day.de/",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Wenn ihr hier dabei sein wollt – wir haben einen 30 % Code auf das Early Bird Ticket",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "BVDW30",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "DMEXCO",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "World of Experiences",
+     "b": true
+    },
+    {
+     "t": "p",
+     "text": "Hier entsteht ein Raum für innovative Technologien, interaktive Erlebnisse und starke Geschichten, aufbauend auf dem Konzept aus dem letzten Jahr, inhaltlich weiterentwickelt und um weitere Schwerpunkte ergänzt."
+    },
+    {
+     "t": "p",
+     "text": "In der World Of Experience bieten wir Dir die Möglichkeit, Deine Ideen und Projekte rund um KI und Immersive Technologien zu präsentieren, umgeben von weiteren Enthusiast*innen. Direkt dort, wo Entscheider*innen aktiv nach Impulsen suchen und diese erleben wollen, statt sie nur erzählt zu bekommen."
+    },
+    {
+     "t": "p",
+     "text": "https://25260877.fs1.hubspotusercontent-eu1.net/hubfs/25260877/250708_DMEXCO25_World_Of_Experience_.pdf?utm_medium=email&_hsenc=p2ANqtz-_d1nAW4YIrdyfzfgSJarm0_p18C61YTz-KmtGgt03adoEFbx8AyzExRD3VWUizLx4y0u_yqK1S1b9JFniXLa43eJzDRA&_hsmi=112999347&utm_content=112999347&utm_source=hs_email"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Side Event",
+     "b": true
+    },
+    {
+     "t": "p",
+     "text": "Habt ihr Interesse an einem Side Event am Vorabend der DMEXCO – gemeinsam mit allen Future Innovation & KI Enthusiaten im BVDW? \n\nNehmt an der kurzen Survey teil, sodass ich weiß, wie ich was organiseiren kann:"
+    },
+    {
+     "t": "p",
+     "text": "https://forms.office.com/Pages/ResponsePage.aspx?id=NLTYK5xfYEyOSIfOV_ixqcJF81yY0y9IkGiSy9F3vktUODhMWEFVUkVDQ0VLQlVaMk1MNjZNRVdJUC4u"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Termine WG KI",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "19.11 und 20.11. in München",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "19.11. à  Planen ein KI Meet Up",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "20.11. à Planen die Sitzung",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Wenn ihr Inhalte habt, zögert nicht mich zu informieren! Jeglicher Input ist super!",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Projekte",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "KI-Agenten",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Value  Chain & Responsibilty Projekte sind wieder gestartet",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Lab AI Technology",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Mittwoch, alle 3 Wochen von 9 – 9:45 Uhr",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Derzeit: Content Snippets, um Technologische Grundlagen von KI einfach zu erklären",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "LLMs",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "RAGs",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Open Source vy. Closed Source",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "…",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Impuls David",
+     "b": true
+    },
+    {
+     "t": "p",
+     "text": "https://doppelgaenger.beehiiv.com/p/kw28-cloudflare"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Neues aus der Presse / Events / News – habt ihr auch was mitgebracht?",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Whatsapp Channel:",
+     "b": true
+    },
+    {
+     "t": "p",
+     "text": "https://chat.whatsapp.com/F62f2AHE4ak3CPehyAbYZ9"
+    },
+    {
+     "t": "p",
+     "text": "Plane hierüber zeitnah eine Kleine Abstimmungsserie mit Befragungen und Statements zu verschiedensten Themen, daher gerne dazukommen"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Zertifikatskurs AI Officer (KI-Beauftragte*r)",
+     "b": true
+    },
+    {
+     "t": "p",
+     "text": "Für alle aus dem Senior Management, die KI im Unternehmen strategisch verankern wollen."
+    },
+    {
+     "t": "p",
+     "text": "https://www.bvdw.org/campus/ai-officer-ki-beauftragter/?utm_medium=email&_hsenc=p2ANqtz-95qgQgB5KNQeqQn5jXiGegSpBhlrlgExka6zfWaR_j3r__rvUQTS8s40SIK-a5_SwJHVWdYJIK6uipg69EH8QPaPfw4w&_hsmi=113147888&utm_content=113147888&utm_source=hs_email"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "High Rislk KI",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Operative Probleme ans Digitalministerium -> Wie gehen wir intern damit um, dass man sich damit selber ausliefert, deswegen geht es nun auch anoym",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Frage: Wie weit sollten Unternehmen damit rausgehen? A: es hilft der",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "à Frist läuft bis Kommenden Freitag- nur ans Ministerium absenden",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "ChatGPT und Kaufentscheidungen",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Informationsverhalten und Kaufentscheidung der Leute verändert sich",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Niemand blickt durch, wie man das aus Sicht eines Wertbetreibenden beeinflusst",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "OMR Youtube Beitrag State of german Internet",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "So wie man früher für Google Optimiert hat, sollte man derzeit optimieren",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "2025-06_Microsoft A(I)dvertising_The-future-of-search-guide-whitepaper.pdf",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Future of Search",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Beschäftigt die gesamte Customer Journey, deswegen wollen wir hier",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "https://about.ads.microsoft.com/content/dam/sites/msa-about/global/common/content-lib/pdf/the-future-of-search-guide-whitepaper.pdf?s_cid=gl-ob-gct-web-src_msaweb-sub_ins-cam_searchguide-flx_insightspage",
+     "b": false
+    },
+    {
+     "t": "h",
+     "text": "Nächster Call: 15.8"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Share of Model TXT – Tom Keller",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Vorstellung Google VEO 3",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Vorstellung KI Phone der Telekom (vrsl)",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Fördermittelberatungà",
+     "b": true
+    },
+    {
+     "t": "h",
+     "text": "14.8. à"
+    },
+    {
+     "t": "h",
+     "text": "Wenn ihr hier etwas vorstellen wollt – Super gern!"
+    }
+   ]
+  },
+  {
+   "datum": "2025-06-20",
+   "titel": "Statuscall KI",
+   "bloecke": [
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Neues aus der Presse / Events / News – habt ihr auch was mitgebracht?",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "The AI Art Magazine",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Kurz Vorstellung Mike",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "180 Seiten, 50 Werke und Essays, Fadenheftung, international versendet.",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Ein Magazin über künstlerisches Arbeiten mit KI – und darüber, wie Künstlerinnen auf das reagieren, was sich technologisch, gesellschaftlich und ästhetisch verschiebt.",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Für Issue No.2 laden wir wieder zur Einreichung ein. Offen für alle. Die Auswahl trifft eine Jury aus zehn Expertinnen (Adriana Mora, Boris Eldagsen, David Carson, Götz Ulmer, Grit Wolany, Hannah Johnson, Ingo Faecks, Liri Argov, Sara Giusto, Vivien Schulze) und unsere AI Xiaomi.",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Einreichungen sind bis zum 30. Juni möglich, ohne Gebühr.",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Wir freuen uns, wenn ihr den Aufruf teilt.",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "https://art-magazine.ai",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Kai – Weiterer Impuls",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Themen und Projekte",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Gemeinsam Befragung mit dem IAB Europe",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Der IAB Europe hat mit vielen Nationals eine gemeinsame Befragung aufgesetzt",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Werde ich zeitnah über den Offiziellen BVDW-Verteiler mit euch teilen",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "KI Agenten",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Value  Chain & Responsibilty Projekte starten zeitnah wieder",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Lab AI Technology",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Gruppe hat sich gefunden – hier gibt es einen Regeltermin",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Mittwoch, alle 3 Wochen von 9 – 9:45 Uhr",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Derzeit: Content Snippets, um Technologische Grundlagen von KI einfach zu erklären",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "LLMs",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "RAGs",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Open Source vy. Closed Source",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "…",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "BVDW Convention & Sommerfest",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Kommende Woche  findet die MV, Die BVDW Convention und das BVDW Sommerfest anlässlich unseres 30 Jubiläums in Berlin statt",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "https://www.bvdw.org/events/bvdw-convention/",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Wir sind ausgebucht!",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "DMEXCO",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Masterclass Einreichungen befinden sich derzeit in der Abstimmung",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "World of Experiences",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Nächste BVDW KI Sitzung",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Ende November in München geplant",
+     "b": false
+    }
+   ]
+  },
+  {
+   "datum": "2025-06-06",
+   "titel": "Statuscall KI",
+   "bloecke": [
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Neues aus der Presse / Events / News – habt ihr auch was mitgebracht?",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Events vom BVDW / Ressort KI",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Expertenbeirat",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Aus Ressorts, Fachkreisen, Fokusgruppen etc. werden „Working Groups“",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Labs und Initativen bleiben bestehen",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "So vereinfachen wir die Gruppenbezeichnungen und legen keine Wertung rein",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Bedeutet: Zukünftig sind wir auch die Workingroup KI",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Definition KI Agenten",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Whitepaper  hierzu wird am 12.6. veröffentlicht",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Anschließend starten wir in derzeit 2 Parallele Projekte:",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Paper Ethik & KI Agenten",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Value Chain plus Recht und KI Agenten",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "à Beide Projekte haben schon eine Outline – nun startet die Ausarbeitung",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Termine sind noch nicht angesetzt",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Außerdem: Das Thema KI Agenten im Online Handel wird im Bundesministerium für Umwelt, Klimaschutz, Naturschutz und nukleare Sicherheit",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Wenn ihr hier noch dabei sein möchtet, melde euch bei mir.",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Lab AI Technology",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Gruppe hat sich gefunden – hier gibt es einen Regeltermin",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Mittwoch, alle 3 Wochen von 9 – 9:45 Uhr",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Derzeit: Content Snippets, um Technologische Grundlagen von KI einfach zu erklären",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "LLMs",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "RAGs",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Open Source vy. Closed Source",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "…",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Wenn ihr hier noch dabei sein möchtet, melde euch bei mir.",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "BVDW Convention & Sommerfest",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Am 25.6. findet die MV, Die BVDW Convention und das BVDW Sommerfest anlässlich unseres 30 Jubiläums in Berlin statt",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "https://www.bvdw.org/events/bvdw-convention/",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Wenn ihr hier dabei sein möchtet: Hier geht’s zur Anmeldung:",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "https://share-eu1.hsforms.com/1NbLtoZyFSEyhDck8U50yYAf1ff1",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "DMEXCO",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Masterclasses:",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Ihr habt wieder die Chance, Masterclasses für die DMEXCO Einzureichen.",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Die Lableiterinnen haben bereits einige Classes zu unsern Themen erarbeitet und eingereicht.",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Wenn ihr noch Ideen habt, dann könnt ihr diese noch bis Montag einreichen.",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Hier findet ihr nochmal alle Informationen zu den DMEXCO Masterclasses:",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "[ONBORDING DOK](https://25260877.fs1.hubspotusercontent-eu1.net/hubfs/25260877/Onboarding%20Dokument%20-%20BVDW%20Masterclasses%202025.pdf?utm_medium=email&_hsenc=p2ANqtz-8Bh70UieArDcmg8tYkctLKGDDofXrSvEvPIpuwcWjxBpYDWtwTKmBSMDEOjzJLXEucIkc2STv8_WIqq9l9UFWAdKJM-w&_hsmi=2&utm_content=2&utm_source=hs_email)",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Einreichungsformular:",
+     "b": false
+    },
+    {
+     "t": "p",
+     "text": "https://forms.office.com/Pages/ResponsePage.aspx?id=NLTYK5xfYEyOSIfOV_ixqcJF81yY0y9IkGiSy9F3vktUOVYxSDRWRlg3NkpJU000WUJDT01RS0I4UC4u"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Nächste BVDW KI Sitzung",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Ende November in München geplant",
+     "b": false
+    }
+   ]
+  },
+  {
+   "datum": "2025-02-28",
+   "titel": "Statuscall KI",
+   "bloecke": [
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "AI TOOL Tools – Napkin.ai",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Neues aus der Presse – habt ihr auch was mitgebracht?",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Einladung Canne Liones",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Einladung von Nikos von MS – AI-Agenten, Gaming und Generative KI",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Nikos kann die Einladung zukommen",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Cannes  - Juni 10 – 15 à Nikos gibt ein Abriss",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Events vom BVDW / Ressort KI",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Webinar AI Act Kompakt Teil 3 | KI Systeme & KI Kompetenzen\nà 19.3., 14:00 – 15:30 Uhr",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Einladung folgt über den offiziellen BVDW-Verteiler, daher alle nochmal, prüfen, ob ihr diesen abonniert habt https://info.bvdw.org/bvdw-interessensabfrage",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Ressortsitzung am 26.3. in Hamburg bei Mutabor",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "26.03., 9:30 – 15:30 Uhr",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Einladung folgt kommende Woche",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Habt ihr Themen, die ihr Unbedingt auf der Sitzung haben wollt?",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Einen inspirierenden Speaker, den ihr schon immer mal sehen wolltet?",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Selber einen Spannenden Case?",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Kennt ihr ein KI Start Up, das eine Plattform brauch?",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Idee: Für einen Workshop?",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Exkurs: Immersive Experiences",
+     "b": true
+    },
+    {
+     "t": "p",
+     "text": "1.4. – Gemeinsames Event mit dem Frauenhofer HHI\n2.4. – Sitzung FG IX"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Hannovermesse Kooperation (31.3. – 4.4.)",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Wir kooperieren mit der Hannover Messe",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Neben einem Panel besetzt mit BVDW Verterter*innen haben wir die Möglichkeit für Freitickets: https://www.hannovermesse.de/de/?open=ticketRegistration&code=T1Plx",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Marketing Days – München – Wien",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Patricia – Bosse – Fabian",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "https://www.marketing-on-tour.de/",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Habt ihr Events, die ihr teilen wollt? Postet sie in den Chat!",
+     "b": true
+    },
+    {
+     "t": "p",
+     "text": "OMR – MS Preevent, 5. Mai"
+    },
+    {
+     "t": "p",
+     "text": "DAs ist Microsoft's Event am Vorabend der OMR: [Accelerate Roadshow Hamburg 2025 feat. OMR Registration Page](https://msa.eventbuilder.com/event/90131?source=MSAAccelerateRoadshow2025)"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Projektplan",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "[BVDW_Ressort KI_2025.pdf](https://bvdwev.sharepoint.com/:b:/s/RessortKI/EVF6v9KEwTRAr5KdgfeFeVcBy6GLCT3STpz3OSbr4rux9Q?e=jS202y)",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Projekte sind nun ongoing und viele bereits in dieser Woche, oder der kommenden Woche gestartet",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Wenn ihr noch dabei sein wollt: https://forms.office.com/Pages/ResponsePage.aspx?id=NLTYK5xfYEyOSIfOV_ixqcJF81yY0y9IkGiSy9F3vktUQ1FaVkFNUllKU1JWU0VSOFJIWlBXTEgzQS4u",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "AI Officer / AI Select / AI Basic E-Learning",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "https://www.bvdw.org/campus/ai-officer-ki-beauftragter/",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "https://www.bvdw.org/campus/grundlagenkurs-ki-kompetenz/",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "https://www.bvdw.org/campus/ai-select-ki-kompetenz-individuell/",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Reminder:",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Teams Kanal - [Ressort KI | Allgemein | Microsoft Teams](https://teams.microsoft.com/l/team/19%3Axp_7RPp1oXxtsrJw3XB5T8h_O3DiEDD2RanXn11ColA1%40thread.tacv2/conversations?groupId=e107af27-ec5a-4870-acbb-335ec5cce92e&tenantId=2bd8b434-5f9c-4c60-8e48-87ce57f8b1a9)",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Themen: Geopolitik – Amerika / China - Technokratie – Gesellschaftliche Grundordnung und wie bezieht sich das auf KI – Geopolitische Diskussion –",
+     "b": false
+    },
+    {
+     "t": "p",
+     "text": "Wie können wir Menschen Literate machen"
+    }
+   ]
+  },
+  {
+   "datum": "2024-10-11",
+   "titel": "Statuscall KI",
+   "bloecke": [
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Neues aus der Presse – habt ihr auch was mitgebracht?",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "KI-Forschung:",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Nobelpreis für Chemie:",
+     "b": true
+    },
+    {
+     "t": "p",
+     "text": "Verliehen an Hassabis (DeepMind), Jumper (DeepMind) und Baker (University of Washington) für die Entwicklung von Alphafold, einer KI, die Proteinstrukturen präzise vorhersagt. Revolution in Medikamentenforschung und biochemischen Studien"
+    },
+    {
+     "t": "li",
+     "lvl": 4,
+     "text": "Chemie kommt nicht mehr ohne KI aus",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "OpenAI:",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Canvas-Feature:",
+     "b": true
+    },
+    {
+     "t": "p",
+     "text": "Neues Interface ermöglicht direktes Arbeiten an Text- und Coding-Projekten in einem separaten Fenster mit Inline-Vorschlägen und Code-Kommentaren."
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "KI-Startups:",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "EvenUp:",
+     "b": true
+    },
+    {
+     "t": "p",
+     "text": "KI für Dokumentationsaufgaben in Anwaltskanzleien"
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Writer:",
+     "b": true
+    },
+    {
+     "t": "p",
+     "text": "Potenzieller Konkurrent zu OpenAI mit einer Bewertung von 1,9 Mrd US-Dollar. Bietet ein KI-Tool zur Erstellung von personalisierten Texten für Marketing, Produktentwicklung und anderen Bereichen"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Tool:",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "https://chathub.gg/de",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Europa – tbc",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "bestimmte KI-Lösungen werde nicht mehr angeboten",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "für KI Ökosystem in Europa – sehr bedenklich / pessimistisch",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Beaobachtungsphase à Teilnehmer an einen Tisch geben",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Events vom BVDW",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "17.10. – Data:Matters – Google Berlin (https://www.bvdw.org/events/datamatters-2/)",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "12. & 13.11. – BVDW Future Days  in Berlin",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 2,
+     "text": "12.11. – FIT Expert Group – Kick-off",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 2,
+     "text": "13.11. – Ressortsitzung Ressort KI – Berlin",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Hier geht’s zur Anmeldung: [LINK](https://share-eu1.hsforms.com/1eXuAxPvIRsuK89qH6eN8Jwf1ff1?utm_medium=email&_hsenc=p2ANqtz-8jBuW_LiFIB-mw0f_IAkPoXdRX6Q9ndQX10GltLHz4g-lfbkWVlzvSxcnPiR7DqC9nYjro1A_JcDtnQmYSuuxqpz7amA&_hsmi=96521045&utm_content=96521045&utm_source=hs_email)",
+     "b": false
+    },
+    {
+     "t": "p",
+     "text": "Infos:"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "[Hier](https://d2-qT104.eu1.hubspotlinks.com/Ctc/2N+113/d2-qT104/VVW9422h8z0vW4v1-mZ1L-fm9VGwS3m5l-_tcN8064463m2ndW95jsWP6lZ3l-W7Zt02k8Dp1L4W3qwhyy83rWglW8KJrGf3NRDsGW93NZ282fGVrtW2hlnx237yvClW9cBQrj1n1t27N8hyCG1QnvxcW5FTZdB64YD3xW20dQF56L9d8-W35hxJB4ZXR8qW5S4Npw6pdmrBW2sQpbS4sBbCwV-rxlH1tCYHHW2r5WpM84K4J6W6-V6Dq3NNXG9W7hvKXq7xPG_2W5j3cpv2SFVs0N4xdgVDpqd-ZW5WP5Vm7RTBvyW8yLTZt4btMQsW8VFw8P2WjGzlW4xL0gp1jYhk-N5RZgpkGmRNGW8BzfQZ30qCNkW2_CJFG249TmKW3c-YfF6HggkMW1RmH_V1dm7lcW5KT0TR3f7NL-VB6zJ17fJLNhW2dLzGF9f-3KQf14dTbR04)findest Du alle Informationen zur FIT Expert Group.",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Weitere Details findest Du in der [Agenda](https://d2-qT104.eu1.hubspotlinks.com/Ctc/2N+113/d2-qT104/VVW9422h8z0vW4v1-mZ1L-fm9VGwS3m5l-_tcN8064463m2ndW95jsWP6lZ3pNW222spZ4JlVchW941GfX1WSV8yW5VSrGg36h0pKVtNXmG6_RS2xW4LF7dS3s_hfFW6D1fkV4vCvSvW8dsTl91n7CGLW679MH58hVY4NW3SgR7W2Qr1Q1W1TZZH22nJjJdW2v4fd_4BQlFtN40P_KjSshkjW5kYPQT8w99k2W34VfW31_F7pBV5VhC24nKVPJW4-8c7L4BfFK0W6f6HS623vflBW5hK7Nc2s9LFfW5h97vh4_jrrHW951D8312sFl2W8KNx9V5JcR2HW4JP4f1607m5YW64V3sc2yvL2qW2bTGRp4V7mT_W8XmWWM7jsfdhW6SlDtj9cYnrrW30YrxK6bGzsbN6VKW-CW6TFsV6wFf125XYDMW50KKN281xcZnf19KWNv04).",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Agenda Ressortsitzung KI: [Agenda](https://d2-qT104.eu1.hubspotlinks.com/Ctc/2N+113/d2-qT104/VVW9422h8z0vW4v1-mZ1L-fm9VGwS3m5l-_tcN8064225kBVqW50kH_H6lZ3lKW5sqjYw1_sw4JW2ZnJDj3LRQr9W7Wv1HS9m3bV_W7Kr8TY87168BVhnkfx2jgSqsW5tLHp16YrX0jW7XsCqW2bdTD3W1Jc4lp1FMn9FW4ZJXr-6BTytxW3THk_N1sWB-1W6lHM3y3XBcNYN6Cys_9733HFW18fXWN29X68kW2xbr8b3td3YjW4hLkpj84Xs89W4D3v2V2wD6XnN1pG7MyTqHPbW7KCpD06NPwTnW6X7Ypv6YfGd6W7TXfjp7q0BTsN1qCdxQPJFJmW6Zbtw168ZnY1W5pZ32T2lLZzmW2j-D9499tcdcW6kMblM5TBntWW4nCT1d5--BfMW81Tc9m3pkPl1VHsnbB2_YM0gW1Jtqrn3bTLPmW5vJ3rM6rjYc8W3FQ8dX98fzdbW6QL9DL6XXsbSf8WdfH-04)",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Geplante Veröffentlichungen",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 2,
+     "text": "Deepfake – juristische Einordung (kommende Woche)",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 2,
+     "text": "AudioxInnovation – 10 Thesen (Woche drauf)",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 2,
+     "text": "KI gestützte E-Mail Kommunikation (FG E-Mail) – zeitnah",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Projektplan",
+     "b": true
+    },
+    {
+     "t": "h",
+     "text": "Ongoing Projekte"
+    },
+    {
+     "t": "li",
+     "lvl": 3,
+     "text": "Gründung Lab Technology – Befragung an die Mitglieder",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 3,
+     "text": "Content x KI Artikelserie",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 3,
+     "text": "Ethik x KI",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 3,
+     "text": "KI Assistenten",
+     "b": false
+    },
+    {
+     "t": "h",
+     "text": "Offene Projekte"
+    },
+    {
+     "t": "li",
+     "lvl": 3,
+     "text": "Zukunft der Suche durch KI",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 3,
+     "text": "KI Qualitätszertifikate!",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 3,
+     "text": "Erfolgsmessung von Generativer KI – Ergebnisse Workshop Juni",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "[Projektplan Künstliche Intelligenz](https://bvdwev.sharepoint.com/:l:/s/InnovationTech/FNKGC4HPLcJAj2jwJERD82MBbSMAiYBzrg6LXfTcMT5nsQ?e=7MzmgK)",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "AI Officer / Beauftragter nach Art. 4 KI-VO:",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "https://www.bvdw.org/campus/ai-officer-ki-beauftragter/",
+     "b": false
+    },
+    {
+     "t": "h",
+     "text": "Termine & Orte"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "3. & 4. Dezember 2024 in Berlin",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "5. & 6. Februar 2025 in München",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "20. & 21. Februar 2025 in Frankfurt am Main",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "KI Readiness Checker – Personengebunden",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "https://survey.lamapoll.de/KI-Readiness-Checker",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Plan: Einmal im Monat reviewen wir die Fragen",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Any Feedback?",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Reminder:",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Teams Kanal - [Ressort KI | Allgemein | Microsoft Teams](https://teams.microsoft.com/l/team/19%3Axp_7RPp1oXxtsrJw3XB5T8h_O3DiEDD2RanXn11ColA1%40thread.tacv2/conversations?groupId=e107af27-ec5a-4870-acbb-335ec5cce92e&tenantId=2bd8b434-5f9c-4c60-8e48-87ce57f8b1a9)",
+     "b": false
+    }
+   ]
+  },
+  {
+   "datum": "2024-08-16",
+   "titel": "Statuscall KI",
+   "bloecke": [
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Kurze Vorstellung aller neuer Mitglieder heute",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Neues aus der Presse – habt ihr was mitgebracht?",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "EU-Konsultation zu KI: Digitalverbände fordern Fristverlängerung",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Black Forest Labs",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "DMEXCO 2024",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "BVDW Masterclass Programm nun live: [LINK](https://community.dmexco.com/event/dmexco-2024/plannings/RXZlbnRWaWV3XzgyMTMxOQ==?utm_campaign=dmexco_news&utm_medium=email&utm_source=hs_email&utm_content=319260417&hsCtaTracking=eacf7b88-142e-4b8f-a12c-19d151e60d01%7Cff194526-3eeb-403d-be68-e25995097c7a&search=bvdw&aggregationId=eyJkYXRhIjp7ImZpZWxkVmFsdWVJZCI6IlJtbGxiR1JXWVd4MVpWOHlORFF3TmpFMk1BPT0ifX0%3D)",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Guided Tours: Möchte noch jemand Aussteller sein? Meldet euch",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Immersive Experience Area, hier könnte ihr immersive Technologien hautnah erleben",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Mitglieder Get Together mit Drinks und Snacks – 18.9. ab 18 Uhr am BVDW stand",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "AI Officer Fachkräfte Zertifikat",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Fachkräftezertifikat gemeinsam zwischen BVDW & Conreri - Datenschutzbeauftragte des BVDW in Planung",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Das Zertifikat richtet sich an Personen, welche die Befähigung zur KI-Kompetenz nach Art. 4 KI-VO erlangen und zukünftig eine Schlüsselposition im Unternehmen einnehmen möchten.",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Das BVDW-Zertifikat AI Officer ist eine praxisorientierte Fortbildung, die auf die Chancen und Risiken beim Einsatz von Künstlicher Intelligenz im Unternehmen eingeht. Neben technischen Aspekten und den aktuellen Einsatzgebieten, liegt ein weiterer Fokus auf der Entscheidungsfindung, Implementierung und der Verwaltung von Künstlicher Intelligenz, sowie auf den rechtlichen Rahmenbedingungen. Im Kontext der rechtlichen Betrachtung und Compliance, findet ein intensives Auseinandersetzen mit dem Wimmelbild des Datenwirtschaftsrechtes, insbesondere mit der DSGVO, dem Arbeitsrecht, dem Urheberrecht und der KI-VO statt.",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Die Teilnehmer werden dazu befähigt, die Einführung und den Betrieb von KI-gestützten Prozessen und Anwendungen zu begleiten. Zertifizierte Personen dürfen das Siegel tragen, um sich als qualifizierte BVDW AI Officer gegenüber dem eigenen Arbeitgeber, Kunden und Auftraggebern auszuweisen. Ihnen wird damit die Fachkunde nach Art. 4 KI-VO bescheinigt.",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Technologische Grundlagen",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Management und Organisation von Künstlicher Intelligenz",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Rechtliche Rahmenbedingungen und die zukünftige Rolle des AI Officer",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "KI Readiness Checker – Personengebunden",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "20 Fragen – Checker, der die Readiness der Personen testen und entsprechend Maßnahmen / Infos vorschlägt",
+     "b": false
+    },
+    {
+     "t": "p",
+     "text": "Der KI-Readiness-Checker vom Bundesverband Digitale Wirtschaft (BVDW) e.V. zeigt Dir, wie fit Du in Sachen Künstlicher Intelligenz schon bist. Unser Quiz ist für alle geeignet, die sich für KI interessieren. Egal, ob du als Führungskraft nach Ideen für Dein Unternehmen suchst, schon viel darüber weißt oder nur neugierig bist."
+    },
+    {
+     "t": "p",
+     "text": "Was erwartet Dich?"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Eine Selbsteinschätzung: Wie gut kennst Du Deine KI-Fähigkeiten wirklich? Starte mit einer Selbsteinschätzung.",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Drei gehaltvolle Kategorien: Tauche ein in die Bereiche Technologie, Wirtschaft und Recht/Ethik.",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "20 dynamische Fragen, die Dein Verständnis und Dein Wissen über Künstliche Intelligenz auf die Probe stellen.",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Maßgeschneiderte Empfehlungen und Ressourcen, die auf Deine Quiz-Ergebnisse abgestimmt sind und Dir helfen, Dein Wissen weiter zu vertiefen.",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Projektplan",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "[Projektplan Künstliche Intelligenz](https://bvdwev.sharepoint.com/:l:/s/InnovationTech/FNKGC4HPLcJAj2jwJERD82MBbSMAiYBzrg6LXfTcMT5nsQ?e=7MzmgK)",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Konsultation der EU – GP AI Office",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Event vom BVDW",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "10. September – Agency Academy online – Recht und KI – AI Pitfalls",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "18.19.09. – DMEXCO",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "17.10. – Data:Matters – Google Berlin",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "11.11. – Abendevent IX – Berlin",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "12.11. – ZEIT x Zukunft – Berlin – gemeinsames Event zu Emerging Technology gemeinsam mit dem Zeitverlag - https://www.bvdw.org/events/zeit-x-zukunft/",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "13.11. – Ressortsitzung Ressort KI – Berlin",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Reminder:",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Teams Kanal - [Ressort KI | Allgemein | Microsoft Teams](https://teams.microsoft.com/l/team/19%3Axp_7RPp1oXxtsrJw3XB5T8h_O3DiEDD2RanXn11ColA1%40thread.tacv2/conversations?groupId=e107af27-ec5a-4870-acbb-335ec5cce92e&tenantId=2bd8b434-5f9c-4c60-8e48-87ce57f8b1a9)",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Aufruf: Umfrage zu Open Source:",
+     "b": true
+    },
+    {
+     "t": "p",
+     "text": "https://forms.office.com/Pages/ResponsePage.aspx?id=NLTYK5xfYEyOSIfOV_ixqcJF81yY0y9IkGiSy9F3vktUNDYwSzJUSU8wWDhEMURUV1BSVkRENTVJRy4u"
+    }
+   ]
+  },
+  {
+   "datum": "2024-07-19",
+   "titel": "Statuscall KI",
+   "bloecke": [
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Kurze Vorstellung aller neuer Mitglieder heute",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Neues aus der Presse",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Unser KI Playbook wurde veröffentlicht! (ca. 13 Umfangreiche Presseclippings)",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Unser Deepfake Paper wurde veröffentlicht",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "AI Act seit dem 12. Juli im Amtsblatt!",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "PM vom 18.7. Meta wird künftig keine multimodalen KI-Modelle in der EU anbieten",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Was ist euch untergekommen?",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Aufruf: Umfrage zu Open Source:",
+     "b": true
+    },
+    {
+     "t": "p",
+     "text": "https://forms.office.com/Pages/ResponsePage.aspx?id=NLTYK5xfYEyOSIfOV_ixqcJF81yY0y9IkGiSy9F3vktUNDYwSzJUSU8wWDhEMURUV1BSVkRENTVJRy4u"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Labgründungen",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Lab AI Technology – Lead Bosse und Paul",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 2,
+     "text": "Wer möchte dabei sein?",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Lab Audio x Innovation (Querschnittslab mit der FG Digital Audio)",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Projektplan",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Content Marketing Artikelserie",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Weitere Projekte",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "[Projektplan Künstliche Intelligenz](https://bvdwev.sharepoint.com/:l:/s/InnovationTech/FNKGC4HPLcJAj2jwJERD82MBbSMAiYBzrg6LXfTcMT5nsQ?e=7MzmgK)",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Info: Aufbau Educationplattform",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Start mit Thema KI",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Planung von Webinaren – Wir planen mit den Lableitern einen Plan und rufen dann nach Themen auf!",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Termine 2024",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "DMEXCO",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 2,
+     "text": "Get Together am BVDW Stand – 1 Tag/2. Tag?",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 2,
+     "text": "Masterclasses",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Nächste Präsenzsitzung am 13. November in Berlin",
+     "b": true
+    },
+    {
+     "t": "p",
+     "text": "(12. November findet ZEIT x Zukunft statt, unser Event für Emerging Technologies mit dem Zeitverlag)"
+    },
+    {
+     "t": "li",
+     "lvl": 0,
+     "text": "Statuscall",
+     "b": true
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Zukünftig 15 min immer Nutzen, dass jemand von euch seinen/ihren Case hier vorstellen kann",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 2,
+     "text": "Wer möchte im August starten?",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 1,
+     "text": "Reminder:",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 2,
+     "text": "Teams Kanal - [Ressort KI | Allgemein | Microsoft Teams](https://teams.microsoft.com/l/team/19%3Axp_7RPp1oXxtsrJw3XB5T8h_O3DiEDD2RanXn11ColA1%40thread.tacv2/conversations?groupId=e107af27-ec5a-4870-acbb-335ec5cce92e&tenantId=2bd8b434-5f9c-4c60-8e48-87ce57f8b1a9)",
+     "b": false
+    },
+    {
+     "t": "li",
+     "lvl": 2,
+     "text": "WhatsApp Gruppe -",
+     "b": false
+    }
+   ]
+  }
+ ]
+}

@@ -51,6 +51,17 @@ Hier steht der Text. **Fett**, *kursiv*, [Link](https://www.bvdw.org) und Listen
 
 Mit `entwurf: ja` im Kopf bleibt ein Beitrag unveröffentlicht. Bilder: Datei in `blog/` hochladen und mit `![Beschreibung](blog/bild.jpg)` einbinden.
 
+## Statuscall KI – Agenden aktualisieren
+
+Die Seite **Statuscall KI** zeigt alle Agenden aus `data/statuscalls.json`, nach Datum sortiert. Neue Fassung des Word-Dokuments einspielen:
+
+```bash
+pip install python-docx
+python3 .github/scripts/statuscall-import.py Agenda_Statuscall_KI.docx
+```
+
+Jeder fett gesetzte Datums-Absatz im Dokument (z. B. „23.Oktober 2026“) beginnt einen neuen Termin. Den nächsten Termin und den Rhythmus pflegst du in `data/config.json` unter `statuscall`.
+
 ## Eigene BVDW-Subdomain
 
 1. Im Repo unter *Settings → Pages → Custom domain* die Subdomain eintragen (z. B. `ki-hub.bvdw.org`) und speichern.
