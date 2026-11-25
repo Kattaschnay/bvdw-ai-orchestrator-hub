@@ -86,8 +86,10 @@
       "status": "aktiv",
       "kurz": "Technologische und strategische Entwicklung von KI, Transparenz bei Modellen – Brücke zwischen Entwicklung und Anwendung.",
       "aktuell": [
+        "LLM-Atlas / LLM Overview Cards: strukturierte Übersicht der LLM-Landschaft, inkl. Quartettkarten",
         "Entscheidungsbaum zur Einführung von KI-Agenten",
-        "LLM-Atlas: Überblick über Large Language Models nach Leistung, Einsatzgebiet, Verfügbarkeit und Governance"
+        "Content Snippets zu KI-Grundlagen (LLMs, RAG, Open vs. Closed Source)",
+        "Cheat Sheet Token Optimization"
       ],
       "leitung": [
         {
@@ -115,12 +117,21 @@
       "themenfeld": 5,
       "status": "aktiv",
       "kurz": "Interessenvertretung für datenbasierte Technologien wie KI und XR – mit Fokus auf die Umsetzung der KI-Verordnung in EU und Deutschland.",
-      "aktuell": [],
+      "aktuell": [
+        "Umsetzung der KI-Verordnung (AI Act): Transparenzpflichten, Codes of Practice und GPAI-Regulierung",
+        "Digital Omnibus on AI und mögliche Vereinfachungen bei der Anwendung der KI-Regulierung",
+        "Datennutzung und Datenzugang im Zusammenspiel von DSGVO, Data Act und KI-Anwendungen",
+        "Datenschutzrechtliche Rahmenbedingungen für Entwicklung und Nutzung von KI-Systemen"
+      ],
       "leitung": [],
       "bvdw": [
         {
           "name": "Janek Kuberzig",
           "email": "kuberzig@bvdw.org"
+        },
+        {
+          "name": "Katharina Czarnian",
+          "email": "czarnian@bvdw.org"
         }
       ],
       "termine": "",
@@ -142,6 +153,10 @@
         {
           "name": "Katharina Czarnian",
           "email": "czarnian@bvdw.org"
+        },
+        {
+          "name": "Janek Kuberzig",
+          "email": "kuberzig@bvdw.org"
         }
       ],
       "termine": "",
@@ -158,13 +173,20 @@
       "status": "aktiv",
       "kurz": "Auswirkungen von KI/LLMs auf Geschäftsmodelle von Publishern und Vermarktern: Datenabflüsse, Kontrolle gegenüber KI-Crawlern, technologische Souveränität.",
       "aktuell": [
-        "Whitepaper zum Medienwandel durch KI mit Fokus auf GEO und AEO"
+        "Insgesamt 4 Publikationen, u. a. „Vermarkter über die Auswirkungen von KI-Suche auf Publisher-Geschäftsmodelle“ und „So bringen Publisher Kontrolle in KI-Zugriffe“",
+        "Whitepaper zum Medienwandel durch KI mit Fokus auf GEO und AEO",
+        "Content x KI"
       ],
       "hinweis": "Mitarbeit nur für OVK-Mitglieder und Publisher.",
       "leitung": [
         {
           "name": "Alwin Viereck",
           "unternehmen": "VP Product Management, United Internet Media",
+          "rolle": "Lab-Leitung"
+        },
+        {
+          "name": "Björn Kaspring",
+          "unternehmen": "Ströer",
           "rolle": "Lab-Leitung"
         }
       ],
@@ -187,7 +209,9 @@
       "status": "aktiv",
       "kurz": "Wandel von SEO und SEA hin zu KI-Chats, neue Werbemodelle in KI-Systemen und neue Erfolgsmessung.",
       "aktuell": [
-        "„Search im Umbruch – Die 10 wichtigsten GEO-KPIs“"
+        "Whitepaper „Sichtbarkeit im KI-Zeitalter messen: Die neun wichtigsten GEO-KPI“",
+        "Kooperationsstudie mit LARK Digital: empirische Analyse zur Sichtbarkeit von Unternehmen in der KI-Suche",
+        "Search Award in finaler Abstimmung – zur SMX"
       ],
       "leitung": [
         {
@@ -220,7 +244,10 @@
       "themenfeld": 4,
       "status": "aktiv",
       "kurz": "Neue Audiotechnologien erforschen und transparent einordnen – mit Standards für Zugänglichkeit und Nutzerfreundlichkeit.",
-      "aktuell": [],
+      "aktuell": [
+        "Gattungskampagne „Digital Audio – näher als du denkst“ mit KI-generierten Spots",
+        "Weitere Themen in Planung"
+      ],
       "leitung": [
         {
           "name": "Eric Siegmund",
@@ -257,7 +284,8 @@
       "status": "aktiv",
       "kurz": "Verantwortungsvoller KI-Einsatz im Retail Media, Markttransparenz und Wettbewerbsfähigkeit im digitalen Handel.",
       "aktuell": [
-        "Whitepaper „iROAS 2.0“: inkrementellen Wert mit KI messen"
+        "Whitepaper „iROAS 2.0“: inkrementellen Wert mit KI messen",
+        "KI-Agenten im Retail- und Commerce-Media-Ökosystem"
       ],
       "leitung": [
         {
@@ -295,8 +323,30 @@
       "themenfeld": 1,
       "status": "aktiv",
       "kurz": "Technologische Entwicklungen in zukunftsfähige Commerce-Modelle übersetzen – von KI-optimierten Shops bis zu autonomen Einkaufsagenten.",
-      "aktuell": [],
-      "leitung": [],
+      "aktuell": [
+        "Fokus: Wie KI Entscheidungslogiken im Handel neu ordnet",
+        "Webinar „AI Commerce & Recht“ (10.09.2026)",
+        "Gastkommentar im E-Comm Magazin: „Innovation Future: Darum macht AI Commerce den Unterschied“",
+        "Abstimmung der Themenblöcke für 2027",
+        "Dezember 2026: DMEXCO-Masterclass „reloaded“ als Webinar"
+      ],
+      "leitung": [
+        {
+          "name": "Alexander Steenbakkers-Noffke",
+          "unternehmen": "Koddi",
+          "rolle": "Lab-Leitung"
+        },
+        {
+          "name": "Bastian Scherbeck",
+          "unternehmen": "segmenta",
+          "rolle": "Lab-Leitung"
+        },
+        {
+          "name": "Jörg Heinemann",
+          "unternehmen": "OTTO",
+          "rolle": "Lab-Leitung"
+        }
+      ],
       "bvdw": [
         {
           "name": "Irina Schmitz",
@@ -316,8 +366,16 @@
       "themenfeld": 6,
       "status": "aktiv",
       "kurz": "Was KI für Arbeitgeber*innen und Beschäftigte bedeutet: moderne Führung, Reskilling und Upskilling.",
-      "aktuell": [],
-      "leitung": [],
+      "aktuell": [
+        "Befragung „Arbeitsmarktveränderung durch KI“: Arbeitsmarktentwicklung und Veränderung von Jobprofilen – Vorstellung beim KI Meet Up"
+      ],
+      "leitung": [
+        {
+          "name": "Sarah Böhning",
+          "unternehmen": "",
+          "rolle": "Lab-Leitung"
+        }
+      ],
       "bvdw": [
         {
           "name": "Beatriz Bilfinger",
@@ -337,15 +395,28 @@
       "themenfeld": 5,
       "status": "aktiv",
       "kurz": "Verantwortungsvoller und sicherer KI-Einsatz in Unternehmen: Governance, Transparenz, Best Practices.",
-      "aktuell": [],
-      "leitung": [],
+      "aktuell": [
+        "Whitepaper „KI-Knigge“ – veröffentlicht am 05.11.2026"
+      ],
+      "leitung": [
+        {
+          "name": "Maike Scholz",
+          "unternehmen": "",
+          "rolle": "Lab-Leitung"
+        },
+        {
+          "name": "Ivana Radovanovic",
+          "unternehmen": "",
+          "rolle": "Lab-Leitung"
+        }
+      ],
       "bvdw": [
         {
           "name": "Beatriz Bilfinger",
           "email": "bilfinger@bvdw.org"
         }
       ],
-      "termine": "",
+      "termine": "alle zwei Wochen, mittwochs 14 Uhr",
       "hinweis": "",
       "ziele2027": [],
       "roadmap2027": [],
@@ -356,7 +427,7 @@
       "name": "KI in Content Creation & Influencer Marketing",
       "heimat": "Working Group Content Creation & Influencer Marketing",
       "themenfeld": 4,
-      "status": "aktiv",
+      "status": "im Aufbau",
       "kurz": "Die Rolle von KI bei Content-Erstellung, Creator-Auswahl, Kampagnensteuerung und Performance-Messung.",
       "aktuell": [],
       "leitung": [],
@@ -367,7 +438,7 @@
         }
       ],
       "termine": "",
-      "hinweis": "",
+      "hinweis": "Lab in Gründung – erste Themen sind bereits identifiziert. Interessierte melden sich bei Marla Ernst.",
       "ziele2027": [],
       "roadmap2027": [],
       "links": []
@@ -379,8 +450,21 @@
       "themenfeld": 1,
       "status": "aktiv",
       "kurz": "Wie sich Affiliate- und Partner-Marketing im KI-Zeitalter verändert.",
-      "aktuell": [],
-      "leitung": [],
+      "aktuell": [
+        "Projektstart „AI & Partner Marketing“: Whitepaper zu Sichtbarkeit, belastbarer Messung und Tool-Übersichten für Affiliate- und Partner-Marketing im Umfeld KI-gestützter Suche"
+      ],
+      "leitung": [
+        {
+          "name": "Florian Jetzlsperger",
+          "unternehmen": "",
+          "rolle": "Lab-Leitung"
+        },
+        {
+          "name": "Georg Wolf",
+          "unternehmen": "",
+          "rolle": "Lab-Leitung"
+        }
+      ],
       "bvdw": [],
       "termine": "",
       "hinweis": "",
@@ -396,9 +480,20 @@
       "status": "aktiv",
       "kurz": "Agentengetriebener Mediahandel: neue KI-Standards und Protokolle, Folgen für DSPs, SSPs, Messung, Attribution und Fraud-Prevention.",
       "aktuell": [
-        "Panelstudie Agentic Media Buying"
+        "Studie „Agentic Media Buying – Zwischen technischer Reife und struktureller Blockade“: qualitative Panelstudie aus Publisher-, AdTech- und (Media-)Agenturperspektive; Veröffentlichung im November, Vorstellung beim KI Meet Up"
       ],
-      "leitung": [],
+      "leitung": [
+        {
+          "name": "Sven Wegholz",
+          "unternehmen": "Publicis Media",
+          "rolle": "Lab-Leitung"
+        },
+        {
+          "name": "Benedict Gründig",
+          "unternehmen": "Criteo",
+          "rolle": "Lab-Leitung"
+        }
+      ],
       "bvdw": [
         {
           "name": "Katharina Schneeberg",
@@ -422,8 +517,17 @@
       "themenfeld": 7,
       "status": "aktiv",
       "kurz": "KI-gestütztes, personalisiertes und automatisiertes E-Mail-Marketing – mit Blick auf Datenschutz, Barrierefreiheit und Standards.",
-      "aktuell": [],
-      "leitung": [],
+      "aktuell": [
+        "Gastbeitrag „Barrierefreiheit in E-Mails – der unterschätzte AI-Ready-Faktor“",
+        "Weitere Themen in Planung"
+      ],
+      "leitung": [
+        {
+          "name": "Andre Görmer",
+          "unternehmen": "mapp digital",
+          "rolle": "Vorsitz WG E-Mail"
+        }
+      ],
       "bvdw": [
         {
           "name": "Jana Hamalides",
@@ -444,7 +548,18 @@
       "status": "aktiv",
       "kurz": "KI-Regulierung wie die KI-Verordnung an der Schnittstelle von Recht und Technik einordnen – mit Checklisten und Deep Dives.",
       "aktuell": [],
-      "leitung": [],
+      "leitung": [
+        {
+          "name": "Sonja Guhn",
+          "unternehmen": "Ströer",
+          "rolle": "Lab-Leitung"
+        },
+        {
+          "name": "Marian Klingebiel",
+          "unternehmen": "eprivacy",
+          "rolle": "Lab-Leitung"
+        }
+      ],
       "bvdw": [
         {
           "name": "Philipp Hagen",
@@ -456,6 +571,97 @@
       "ziele2027": [],
       "roadmap2027": [],
       "links": []
+    },
+    {
+      "id": "digitalagenturen",
+      "name": "WG Digitalagenturen",
+      "heimat": "Working Group Digitalagenturen",
+      "themenfeld": 4,
+      "status": "aktiv",
+      "kurz": "Wie Digitalagenturen ihre Rolle, Leistungen und Geschäftsmodelle im KI-Zeitalter neu aufstellen – u. a. mit Fokus auf Kreativität.",
+      "aktuell": [
+        "Agenturenbefragung „Agenturen & Marketing im Wandel“ – Veröffentlichung in den kommenden Monaten",
+        "Event „Wenn KI alles liefert, wofür braucht es Agenturen?!“ am 01.12.2026 in Hamburg (auf Einladung, Kontakt: Marla Ernst)",
+        "Agency Academy mit Cases aus dem DDA am 26.11.2026"
+      ],
+      "hinweis": "",
+      "leitung": [
+        {
+          "name": "Jens-Christian Jensen",
+          "unternehmen": "Plan.Net",
+          "rolle": "Vorsitz"
+        },
+        {
+          "name": "Kai Ebert",
+          "unternehmen": "Brainhuggers",
+          "rolle": "Vorsitz"
+        },
+        {
+          "name": "Stefan Mohr",
+          "unternehmen": "antoni",
+          "rolle": "Vorsitz"
+        },
+        {
+          "name": "Anke Herbener",
+          "unternehmen": "digital Changers",
+          "rolle": "Vorsitz"
+        },
+        {
+          "name": "Tina Schaffrzick",
+          "unternehmen": "la red",
+          "rolle": "Vorsitz"
+        }
+      ],
+      "bvdw": [
+        {
+          "name": "Marla Ernst",
+          "email": "ernst@bvdw.org"
+        }
+      ],
+      "termine": "",
+      "ziele2027": [],
+      "roadmap2027": [],
+      "links": []
+    },
+    {
+      "id": "fit-expert-group",
+      "name": "FIT Expert Group – Embodied AI",
+      "heimat": "FIT Expert Group · Sprint 04",
+      "themenfeld": 6,
+      "status": "aktiv",
+      "kurz": "Zukunftsradar in kurzen Sprints – im Sprint 04 geht es um Embodied AI: KI, die in Robotern und Maschinen physisch handelt.",
+      "aktuell": [
+        "Kick-off Sprint 04 „Embodied AI“ am 21.10.2026 in München",
+        "Magazin zum Sprint in Planung"
+      ],
+      "hinweis": "Wer einen Artikel für das Magazin beisteuern möchte, meldet sich bei Katharina Schneeberg.",
+      "leitung": [
+        {
+          "name": "Robin de Brujin",
+          "unternehmen": "denkwerk",
+          "rolle": "Lab-Leitung"
+        }
+      ],
+      "bvdw": [
+        {
+          "name": "Katharina Schneeberg",
+          "email": "schneeberg@bvdw.org"
+        }
+      ],
+      "termine": "alle zwei Wochen, donnerstags 15 Uhr",
+      "ziele2027": [],
+      "roadmap2027": [
+        {
+          "quartal": "Q1",
+          "titel": "Magazin „Embodied AI“",
+          "beschreibung": "Ergebnisse aus Sprint 04 als Magazin, geplante Veröffentlichung im Februar 2027.",
+          "typ": "Publikation",
+          "status": "in Arbeit",
+          "verantwortlich": ""
+        }
+      ],
+      "links": []
     }
-  ]
+  ],
+  "quelle_leitungen": "Agenda Statuscall KI vom 23.10.2026 und bvdw.org"
 }

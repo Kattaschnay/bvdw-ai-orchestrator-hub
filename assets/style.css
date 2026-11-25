@@ -375,3 +375,15 @@ footer .logo { height: 44px; width: 44px; }
 .hero-netz ~ .hero-inhalt h1 { font-size: clamp(38px, 4.6vw, 76px); }
 @media (max-width: 1200px) and (min-width: 901px) { .hero-netz ~ .hero-inhalt { max-width: calc(100% - 380px); } }
 @media (max-width: 900px) { .hero-netz ~ .hero-inhalt { max-width: none; } }
+
+/* Terminplan Statuscall */
+.sc-plan { padding-bottom: 40px; }
+.sc-plan-raster { display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 10px; }
+.sc-plan-termin { border: 2px solid var(--schwarz); border-radius: 12px; padding: 14px 16px; display: flex; flex-direction: column; gap: 4px; }
+.sc-plan-termin.erster { background: var(--blau); border-color: var(--blau); color: var(--weiss); }
+.sc-plan-datum { font-size: 18px; } .sc-plan-datum b { font-size: 26px; color: var(--blau); }
+.sc-plan-termin.erster .sc-plan-datum b { color: var(--weiss); }
+.sc-plan-zeit { font-size: 13px; color: var(--grau); }
+.sc-plan-termin.erster .sc-plan-zeit { color: var(--weiss); opacity: .85; }
+.sc-plan-notiz { font-size: 13px; color: var(--orange); font-weight: 700; margin-top: 2px; }
+.sc-plan-termin.erster .sc-plan-notiz { color: var(--weiss); }

@@ -607,9 +607,27 @@
             ${naechste.length ? `<div class="sc-info naechster"><span class="sc-info-label">Nächster Termin</span><b>${(() => { const d = datumLang(naechste[0].datum); return `${d.wochentag}, ${d.tag}. ${d.monat} ${d.jahr}`; })()}</b></div>` : ""}
             <div class="sc-info"><span class="sc-info-label">Archiv</span><b>${termine.length} Agenden seit ${termine.length ? datumLang(termine[termine.length - 1].datum).jahr : "–"}</b></div>
           </div>
-          ${sc.hinweis ? `<p class="unter" style="margin-top:14px">${esc(sc.hinweis)}</p>` : ""}
         </div>
       </div></header>
+      ${naechste.length ? `
+      <section class="wrap sc-plan">
+        <div class="felder-kopf">
+          <div>
+            <p class="eyebrow">Terminplan</p>
+            <h2>Kommende Termine</h2>
+            ${sc.hinweis ? `<p class="unter">${esc(sc.hinweis)}</p>` : ""}
+          </div>
+          ${sc.ics ? `<a class="btn" href="${esc(sc.ics)}" download>In den Kalender übernehmen (.ics)</a>` : ""}
+        </div>
+        <div class="sc-plan-raster">
+          ${naechste.map((t, i) => { const d = datumLang(t.datum); return `
+            <div class="sc-plan-termin${i === 0 ? " erster" : ""}">
+              <span class="sc-plan-datum"><b>${d.tag}.</b> ${d.monat} ${d.jahr}</span>
+              <span class="sc-plan-zeit">${d.wochentag}, 11:30–12:30 Uhr</span>
+              ${t.notiz ? `<span class="sc-plan-notiz">${esc(t.notiz)}</span>` : ""}
+            </div>`; }).join("")}
+        </div>
+      </section>` : ""}
       <main class="wrap">
         <div class="felder-kopf">
           <div>

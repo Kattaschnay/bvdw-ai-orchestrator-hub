@@ -1,0 +1,120 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//BVDW//AI Orchestrator Hub//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:BVDW Statuscall KI
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:statuscall-ki-20270115@bvdw-ai-hub
+DTSTAMP:20261125T120000Z
+DTSTART;TZID=Europe/Berlin:20270115T113000
+DTEND;TZID=Europe/Berlin:20270115T123000
+SUMMARY:BVDW Statuscall KI
+DESCRIPTION:Monatlicher KI-Statuscall des BVDW – KI-Radar\, Politik-Update\, Veröffentlichungen\, Events und Updates aus den Labs.\nAuftakt 2027
+END:VEVENT
+BEGIN:VEVENT
+UID:statuscall-ki-20270212@bvdw-ai-hub
+DTSTAMP:20261125T120000Z
+DTSTART;TZID=Europe/Berlin:20270212T113000
+DTEND;TZID=Europe/Berlin:20270212T123000
+SUMMARY:BVDW Statuscall KI
+DESCRIPTION:Monatlicher KI-Statuscall des BVDW – KI-Radar\, Politik-Update\, Veröffentlichungen\, Events und Updates aus den Labs.\nnach Karneval (Karnevalsfreitag 05.02. ausgelassen)
+END:VEVENT
+BEGIN:VEVENT
+UID:statuscall-ki-20270312@bvdw-ai-hub
+DTSTAMP:20261125T120000Z
+DTSTART;TZID=Europe/Berlin:20270312T113000
+DTEND;TZID=Europe/Berlin:20270312T123000
+SUMMARY:BVDW Statuscall KI
+DESCRIPTION:Monatlicher KI-Statuscall des BVDW – KI-Radar\, Politik-Update\, Veröffentlichungen\, Events und Updates aus den Labs.\nvor den Osterferien, Karfreitag 26.03. ausgelassen
+END:VEVENT
+BEGIN:VEVENT
+UID:statuscall-ki-20270409@bvdw-ai-hub
+DTSTAMP:20261125T120000Z
+DTSTART;TZID=Europe/Berlin:20270409T113000
+DTEND;TZID=Europe/Berlin:20270409T123000
+SUMMARY:BVDW Statuscall KI
+DESCRIPTION:Monatlicher KI-Statuscall des BVDW – KI-Radar\, Politik-Update\, Veröffentlichungen\, Events und Updates aus den Labs.\nnach Ostern
+END:VEVENT
+BEGIN:VEVENT
+UID:statuscall-ki-20270521@bvdw-ai-hub
+DTSTAMP:20261125T120000Z
+DTSTART;TZID=Europe/Berlin:20270521T113000
+DTEND;TZID=Europe/Berlin:20270521T123000
+SUMMARY:BVDW Statuscall KI
+DESCRIPTION:Monatlicher KI-Statuscall des BVDW – KI-Radar\, Politik-Update\, Veröffentlichungen\, Events und Updates aus den Labs.\nnach Pfingsten – 07.05. (Brückentag nach Christi Himmelfahrt, OMR-Woche) ausgelassen
+END:VEVENT
+BEGIN:VEVENT
+UID:statuscall-ki-20270618@bvdw-ai-hub
+DTSTAMP:20261125T120000Z
+DTSTART;TZID=Europe/Berlin:20270618T113000
+DTEND;TZID=Europe/Berlin:20270618T123000
+SUMMARY:BVDW Statuscall KI
+DESCRIPTION:Monatlicher KI-Statuscall des BVDW – KI-Radar\, Politik-Update\, Veröffentlichungen\, Events und Updates aus den Labs.
+END:VEVENT
+BEGIN:VEVENT
+UID:statuscall-ki-20270716@bvdw-ai-hub
+DTSTAMP:20261125T120000Z
+DTSTART;TZID=Europe/Berlin:20270716T113000
+DTEND;TZID=Europe/Berlin:20270716T123000
+SUMMARY:BVDW Statuscall KI
+DESCRIPTION:Monatlicher KI-Statuscall des BVDW – KI-Radar\, Politik-Update\, Veröffentlichungen\, Events und Updates aus den Labs.
+END:VEVENT
+BEGIN:VEVENT
+UID:statuscall-ki-20270813@bvdw-ai-hub
+DTSTAMP:20261125T120000Z
+DTSTART;TZID=Europe/Berlin:20270813T113000
+DTEND;TZID=Europe/Berlin:20270813T123000
+SUMMARY:BVDW Statuscall KI
+DESCRIPTION:Monatlicher KI-Statuscall des BVDW – KI-Radar\, Politik-Update\, Veröffentlichungen\, Events und Updates aus den Labs.
+END:VEVENT
+BEGIN:VEVENT
+UID:statuscall-ki-20270910@bvdw-ai-hub
+DTSTAMP:20261125T120000Z
+DTSTART;TZID=Europe/Berlin:20270910T113000
+DTEND;TZID=Europe/Berlin:20270910T123000
+SUMMARY:BVDW Statuscall KI
+DESCRIPTION:Monatlicher KI-Statuscall des BVDW – KI-Radar\, Politik-Update\, Veröffentlichungen\, Events und Updates aus den Labs.\nDMEXCO-Vorschau – DMEXCO am 22./23.09.
+END:VEVENT
+BEGIN:VEVENT
+UID:statuscall-ki-20271008@bvdw-ai-hub
+DTSTAMP:20261125T120000Z
+DTSTART;TZID=Europe/Berlin:20271008T113000
+DTEND;TZID=Europe/Berlin:20271008T123000
+SUMMARY:BVDW Statuscall KI
+DESCRIPTION:Monatlicher KI-Statuscall des BVDW – KI-Radar\, Politik-Update\, Veröffentlichungen\, Events und Updates aus den Labs.\nDMEXCO-Rückblick
+END:VEVENT
+BEGIN:VEVENT
+UID:statuscall-ki-20271105@bvdw-ai-hub
+DTSTAMP:20261125T120000Z
+DTSTART;TZID=Europe/Berlin:20271105T113000
+DTEND;TZID=Europe/Berlin:20271105T123000
+SUMMARY:BVDW Statuscall KI
+DESCRIPTION:Monatlicher KI-Statuscall des BVDW – KI-Radar\, Politik-Update\, Veröffentlichungen\, Events und Updates aus den Labs.
+END:VEVENT
+BEGIN:VEVENT
+UID:statuscall-ki-20271210@bvdw-ai-hub
+DTSTAMP:20261125T120000Z
+DTSTART;TZID=Europe/Berlin:20271210T113000
+DTEND;TZID=Europe/Berlin:20271210T123000
+SUMMARY:BVDW Statuscall KI
+DESCRIPTION:Monatlicher KI-Statuscall des BVDW – KI-Radar\, Politik-Update\, Veröffentlichungen\, Events und Updates aus den Labs.\nJahresabschluss, vor den Feiertagen
+END:VEVENT
+END:VCALENDAR

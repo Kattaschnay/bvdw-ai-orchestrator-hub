@@ -73,9 +73,71 @@
     "naechste": [
       {
         "datum": "2026-12-18",
-        "titel": "Statuscall KI"
+        "titel": "Statuscall KI",
+        "notiz": "Letzter Call 2026"
+      },
+      {
+        "datum": "2027-01-15",
+        "titel": "Statuscall KI",
+        "notiz": "Auftakt 2027"
+      },
+      {
+        "datum": "2027-02-12",
+        "titel": "Statuscall KI",
+        "notiz": "nach Karneval (Karnevalsfreitag 05.02. ausgelassen)"
+      },
+      {
+        "datum": "2027-03-12",
+        "titel": "Statuscall KI",
+        "notiz": "vor den Osterferien, Karfreitag 26.03. ausgelassen"
+      },
+      {
+        "datum": "2027-04-09",
+        "titel": "Statuscall KI",
+        "notiz": "nach Ostern"
+      },
+      {
+        "datum": "2027-05-21",
+        "titel": "Statuscall KI",
+        "notiz": "nach Pfingsten – 07.05. (Brückentag nach Christi Himmelfahrt, OMR-Woche) ausgelassen"
+      },
+      {
+        "datum": "2027-06-18",
+        "titel": "Statuscall KI",
+        "notiz": ""
+      },
+      {
+        "datum": "2027-07-16",
+        "titel": "Statuscall KI",
+        "notiz": ""
+      },
+      {
+        "datum": "2027-08-13",
+        "titel": "Statuscall KI",
+        "notiz": ""
+      },
+      {
+        "datum": "2027-09-10",
+        "titel": "Statuscall KI",
+        "notiz": "DMEXCO-Vorschau – DMEXCO am 22./23.09."
+      },
+      {
+        "datum": "2027-10-08",
+        "titel": "Statuscall KI",
+        "notiz": "DMEXCO-Rückblick"
+      },
+      {
+        "datum": "2027-11-05",
+        "titel": "Statuscall KI",
+        "notiz": ""
+      },
+      {
+        "datum": "2027-12-10",
+        "titel": "Statuscall KI",
+        "notiz": "Jahresabschluss, vor den Feiertagen"
       }
     ],
-    "hinweis": "Die Serie für 2027 wird im Dezember neu aufgesetzt."
+    "hinweis": "Alle Termine freitags, 11:30–12:30 Uhr, online. Feiertage, Brückentage, OMR und DMEXCO sind berücksichtigt.",
+    "ics": "assets/statuscall-ki-2027.ics"
   }
 }

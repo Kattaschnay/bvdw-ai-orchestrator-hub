@@ -97,6 +97,21 @@
       ${[0, 1, 2, 3, 4, 5].map((i) => `<rect x="222" y="${172 + i * 20}" width="${i === 0 ? 60 : 86}" height="7" rx="3.5" fill="${i === 0 ? O : B}" opacity="${i === 0 ? 1 : 0.6}"/>`).join("")}
       <g transform="rotate(-38 360 230)"><rect x="320" y="190" width="84" height="40" rx="8" fill="${K}"/><rect x="354" y="230" width="16" height="110" rx="6" fill="${O}"/></g>
       <rect x="320" y="322" width="96" height="16" rx="5" fill="${B}"/>`,
+    "digitalagenturen": () => `
+      <path d="M300 150 a58 58 0 0 1 34 105 v22 h-68 v-22 a58 58 0 0 1 34 -105 Z" fill="${O}"/>
+      <rect x="268" y="283" width="64" height="12" rx="6" fill="${K}"/><rect x="276" y="300" width="48" height="12" rx="6" fill="${K}"/>
+      <path d="M276 190 a30 30 0 0 1 24 -18" fill="none" stroke="${W}" stroke-width="7" stroke-linecap="round"/>
+      ${[[-1, 0], [1, 0]].map(([dx]) => [0, 1, 2].map((i) => { const a = (-150 + i * 30) * Math.PI / 180; const x1 = 300 + dx * Math.cos(a) * 82, y1 = 205 + Math.sin(a) * 82, x2 = 300 + dx * Math.cos(a) * 108, y2 = 205 + Math.sin(a) * 108; return `<line x1="${x1.toFixed(0)}" y1="${y1.toFixed(0)}" x2="${x2.toFixed(0)}" y2="${y2.toFixed(0)}" stroke="${B}" stroke-width="7" stroke-linecap="round"/>`; }).join("")).join("")}
+      ${funke(400, 300, 15, K)}`,
+    "fit-expert-group": () => `
+      <rect x="200" y="300" width="110" height="20" rx="6" fill="${K}"/>
+      <circle cx="255" cy="290" r="20" fill="${B}"/>
+      <rect x="243" y="190" width="24" height="100" rx="12" fill="${B}" transform="rotate(18 255 290)"/>
+      <circle cx="285" cy="198" r="17" fill="${K}"/>
+      <rect x="282" y="176" width="22" height="96" rx="11" fill="${O}" transform="rotate(-68 285 198)"/>
+      <circle cx="372" cy="232" r="13" fill="${K}"/>
+      <path d="M380 228 l26 -16 M380 240 l26 14" stroke="${K}" stroke-width="8" stroke-linecap="round"/>
+      ${funke(410, 160, 15, B)}<circle cx="200" cy="170" r="9" fill="${O}"/>`,
   };
 
   window.labVisual = function (id) {
