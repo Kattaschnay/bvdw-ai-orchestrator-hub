@@ -387,3 +387,31 @@ footer .logo { height: 44px; width: 44px; }
 .sc-plan-termin.erster .sc-plan-zeit { color: var(--weiss); opacity: .85; }
 .sc-plan-notiz { font-size: 13px; color: var(--orange); font-weight: 700; margin-top: 2px; }
 .sc-plan-termin.erster .sc-plan-notiz { color: var(--weiss); }
+
+/* Lab-Updates als Mini-Kacheln */
+.sc-lab-hinweis { font-size: 13px; color: var(--grau); margin: 4px 0 12px !important; }
+.sc-labs { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 12px; margin-bottom: 12px; }
+.sc-lab { display: grid; grid-template-columns: 76px minmax(0, 1fr); gap: 14px; border: 2px solid var(--schwarz); border-left: 8px solid var(--blau); border-radius: 12px; padding: 14px; background: var(--weiss); align-items: start; }
+.sc-lab-bild .mini-visual { width: 76px; height: 76px; display: block; }
+.sc-lab-platzhalter { display: block; width: 76px; height: 76px; border-radius: 50%; background: var(--beige); }
+.sc-lab-text { display: flex; flex-direction: column; gap: 4px; font-size: 14px; line-height: 1.45; }
+.sc-lab-name { font-weight: 700; font-size: 17px; line-height: 1.2; color: var(--blau); text-decoration: none; }
+a.sc-lab-name:hover { text-decoration: underline; }
+.sc-lab-feld { font-size: 11px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: var(--orange); }
+.sc-lab-orig { font-size: 12px; color: var(--grau); }
+.sc-lab-zeile { display: grid; grid-template-columns: 92px minmax(0, 1fr); gap: 8px; padding-top: 6px; border-top: 1px solid #e5e2dc; margin-top: 4px; }
+.sc-lab-zeile:has(> div:only-child) { grid-template-columns: 1fr; }
+.sc-lab-zeile > span { font-weight: 700; font-size: 11px; letter-spacing: 1px; text-transform: uppercase; color: var(--grau); padding-top: 2px; }
+.sc-lab-text p { margin: 2px 0 0 !important; }
+
+/* Personen-Avatare */
+.person { display: flex; gap: 14px; align-items: flex-start; }
+.avatar { flex: none; width: 56px; height: 56px; border-radius: 50%; background: var(--blau); color: var(--weiss); display: grid; place-items: center; font-weight: 700; font-size: 19px; overflow: hidden; }
+.person.bvdw .avatar { background: var(--orange); color: var(--schwarz); }
+.person.leer-person .avatar { background: var(--beige); }
+.avatar.mit-foto { background: var(--beige); }
+.avatar img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.kontakt .avatar { width: 84px; height: 84px; font-size: 28px; background: var(--weiss); color: var(--blau); }
+.person .name { font-size: 18px; line-height: 1.25; }
+.person > div { min-width: 0; overflow-wrap: anywhere; }
+.personen { grid-template-columns: repeat(auto-fill, minmax(270px, 1fr)); }

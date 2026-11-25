@@ -125,6 +125,22 @@
   };
   const leitlinieBild = (titel) => (LEITLINIEN_BILD[slug(titel).replace(/-/g, "")] || (() => ""))();
 
+  /* Personen: Foto aus assets/personen/<name>.jpg, sonst Initialen */
+  const initialen = (name) => String(name || "").replace(/\(.*?\)/g, "").split(/\s+/).filter((w) => /^[A-ZÄÖÜ]/.test(w)).map((w) => w[0]).slice(0, 2).join("") || "·";
+  const avatar = (name) => `<span class="avatar" data-foto="${esc(slug(name))}" aria-hidden="true"><span>${esc(initialen(name))}</span></span>`;
+  function fotosLaden(root) {
+    root.querySelectorAll(".avatar[data-foto]").forEach((el) => {
+      const versuche = (endungen) => {
+        if (!endungen.length) return;
+        const img = new Image();
+        img.onload = () => { el.innerHTML = ""; img.alt = ""; el.appendChild(img); el.classList.add("mit-foto"); };
+        img.onerror = () => versuche(endungen.slice(1));
+        img.src = `assets/personen/${el.dataset.foto}.${endungen[0]}`;
+      };
+      versuche(["jpg", "png", "webp"]);
+    });
+  }
+
   /* ---------- Startseite ---------- */
   function startseite(root, { cfg, labs, felder, stand }) {
     const leitungen = labs.reduce((n, l) => n + (l.leitung || []).length, 0);
@@ -218,7 +234,8 @@
 
       <section class="wrap block" id="kontakt">
         <div class="kontakt">
-          <div>
+          ${avatar(cfg.kontakt?.name)}
+          <div style="flex:1">
             <p class="eyebrow">Kontakt</p>
             <h2>${esc(cfg.kontakt?.name)}</h2>
             <p>${esc(cfg.kontakt?.rolle)}<br>${esc(cfg.kontakt?.telefon)}</p>
@@ -368,11 +385,11 @@
           <h2>Lab-Leitung & Ansprechpersonen</h2>
           <div class="personen">
             ${(lab.leitung || []).map((p) => `
-              <div class="person"><div class="rolle">${esc(p.rolle || "Lab-Leitung")}</div>
-                <div class="name">${esc(p.name)}</div>${p.unternehmen ? `<div class="firma">${esc(p.unternehmen)}</div>` : ""}</div>`).join("")}
+              <div class="person">${avatar(p.name)}<div><div class="rolle">${esc(p.rolle || "Lab-Leitung")}</div>
+                <div class="name">${esc(p.name)}</div>${p.unternehmen ? `<div class="firma">${esc(p.unternehmen)}</div>` : ""}</div></div>`).join("")}
             ${(lab.bvdw || []).map((b) => `
-              <div class="person bvdw"><div class="rolle">Verantwortlich BVDW</div>
-                <div class="name">${esc(b.name)}</div>${b.email ? `<a class="firma" href="mailto:${esc(b.email)}">${esc(b.email)}</a>` : ""}</div>`).join("")}
+              <div class="person bvdw">${avatar(b.name)}<div><div class="rolle">Verantwortlich BVDW</div>
+                <div class="name">${esc(b.name)}</div>${b.email ? `<a class="firma" href="mailto:${esc(b.email)}">${esc(b.email)}</a>` : ""}</div></div>`).join("")}
             ${!(lab.leitung || []).length ? `<div class="person leer-person"><div class="rolle">Lab-Leitung</div><div class="name">Noch nicht hinterlegt</div></div>` : ""}
           </div>
           ${lab.termine ? `<p class="termine"><b>Termine:</b> ${esc(lab.termine)}</p>` : ""}
@@ -560,9 +577,80 @@
       .replace(/^(→|à)\s*/, "→ ")).join("<br>");
   }
 
-  function bloeckeHtml(bloecke) {
+  /* Lab-Updates im Statuscall: Labs erkennen, sortieren, als Mini-Kacheln zeigen */
+  const LAB_SCHLUESSEL = [
+    ["agentic-media-buying", /agentic media buying/i], ["retail-media-ki", /retail media/i], ["responsible-ai", /responsible/i],
+    ["ovk-publisher", /\bovk\b|publisher/i], ["ai-law", /law\s*&|ai law/i], ["ai-value-chain", /value chain/i],
+    ["ai-commerce", /ai commerce|e-commerce/i], ["arbeitsmarkt-leadership", /arbeitsmarkt|arbeitswelten/i],
+    ["ag-data-future-tech", /politische|future\) technology|data & \(future/i], ["ag-data-driven-markets", /data driven markets/i],
+    ["digitalagenturen", /digitalagentur/i], ["content-creator", /content|creator/i], ["ai-technology", /ai technology/i],
+    ["audio", /audio/i], ["fit-expert-group", /fit expert|embodied/i], ["email-ki", /e-?mail/i], ["affiliate-ki", /apmc|affiliate/i],
+    ["ki-search", /search/i],
+  ];
+  const labErkennen = (text) => (LAB_SCHLUESSEL.find(([, re]) => re.test(text)) || [null])[0];
+  const istUpdateStart = (b) => /updates? aus (unseren|den) labs/i.test(b.text || "") && (b.t === "h" || (b.t === "li" && !b.lvl));
+
+  function labUpdatesHtml(abschnitt, modus, labs) {
+    const eintraege = [], intro = [];
+    let akt = null;
+    for (const b of abschnitt) {
+      if (modus === "h") {
+        if (b.t === "tab") {
+          const [kopf, ...rest] = b.zeilen;
+          akt = { titel: kopf.join(" ").replace(/\n/g, " · "), zeilen: rest, extra: [] }; eintraege.push(akt);
+        } else if (akt) akt.extra.push(b.text || ""); else intro.push(b.text || "");
+      } else {
+        if (b.t === "li" && !b.lvl) {
+          const [erste, ...weitere] = String(b.text).split("\n");
+          akt = { titel: erste, zeilen: [], extra: weitere.filter((x) => x.trim()) }; eintraege.push(akt);
+        } else if (akt) akt.extra.push(b.text || "");
+      }
+    }
+    const rang = (e) => { const i = labs.findIndex((l) => l.id === e.id); return i < 0 ? 999 : i; };
+    eintraege.forEach((e, i) => { e.id = labErkennen(e.titel); e.pos = i; });
+    eintraege.sort((a, b) => rang(a) - rang(b) || a.pos - b.pos);
+    const kachel = (e) => {
+      const lab = labs.find((l) => l.id === e.id);
+      const bild = (e.id && window.labVisual ? window.labVisual(e.id) : "")
+        .replace('class="hero-netz lab-visual"', 'class="mini-visual"').replace('viewBox="0 0 460 500"', 'viewBox="140 75 320 320"');
+      const titelSauber = e.titel.replace(/^[A-Z]\s{2,}/, "").replace(/·\s*[A-Z]\s{2,}/, "· ");
+      const zeilen = e.zeilen.filter((z) => z.some((c) => c.trim())).map((z) => z.length > 1
+        ? `<div class="sc-lab-zeile"><span>${textHtml(z[0])}</span><div>${textHtml(z.slice(1).join("\n"))}</div></div>`
+        : `<div class="sc-lab-zeile"><div>${textHtml(z[0])}</div></div>`).join("");
+      const extra = e.extra.filter((x) => x.trim()).map((x) => `<p>${textHtml(x)}</p>`).join("");
+      return `
+        <div class="sc-lab">
+          <div class="sc-lab-bild">${bild || '<span class="sc-lab-platzhalter"></span>'}</div>
+          <div class="sc-lab-text">
+            ${lab ? `<a class="sc-lab-name" href="lab.html?id=${encodeURIComponent(lab.id)}">${esc(lab.name)}</a>` : `<span class="sc-lab-name">${textHtml(titelSauber)}</span>`}
+            ${lab && lab.feld ? `<span class="sc-lab-feld">Themenfeld ${lab.feld.nr} · ${esc(lab.feld.name)}</span>` : ""}
+            ${lab ? `<span class="sc-lab-orig">${textHtml(titelSauber)}</span>` : ""}
+            ${zeilen}${extra}
+          </div>
+        </div>`;
+    };
+    return `${intro.filter(Boolean).map((x) => `<p>${textHtml(x)}</p>`).join("")}
+      <p class="sc-lab-hinweis">${eintraege.length} Labs & Gruppen, sortiert nach Themenfeld</p>
+      <div class="sc-labs">${eintraege.map(kachel).join("")}</div>`;
+  }
+
+  function bloeckeHtml(bloecke, labs = []) {
     let html = "";
-    for (const b of bloecke) {
+    for (let i = 0; i < bloecke.length; i++) {
+      const b = bloecke[i];
+      if (istUpdateStart(b)) {
+        const modus = b.t === "h" ? "h" : "li";
+        let j = i + 1;
+        while (j < bloecke.length) {
+          const x = bloecke[j];
+          if (x.t === "h") break;
+          if (modus === "li" && x.t === "li" && !x.lvl && x.b && !labErkennen(String(x.text).split("\n")[0])) break;
+          j++;
+        }
+        html += `<h3 class="sc-h">${textHtml(b.text)}</h3>` + labUpdatesHtml(bloecke.slice(i + 1, j), modus, labs);
+        i = j - 1;
+        continue;
+      }
       if (b.t === "h") html += `<h3 class="sc-h">${textHtml(b.text)}</h3>`;
       else if (b.t === "p") html += `<p>${textHtml(b.text)}</p>`;
       else if (b.t === "li") html += `<div class="sc-li${b.b ? " fett" : ""}" style="--lvl:${b.lvl || 0}">${textHtml(b.text)}</div>`;
@@ -582,7 +670,7 @@
     return html;
   }
 
-  async function statuscallseite(root, { cfg, stand }) {
+  async function statuscallseite(root, { cfg, stand, labs }) {
     const daten = await fetch("data/statuscalls.json", { cache: "no-store" }).then((r) => r.json()).catch(() => ({ termine: [] }));
     const termine = (daten.termine || []).slice().sort((a, b) => b.datum.localeCompare(a.datum));
     const sc = cfg.statuscall || {};
@@ -667,7 +755,7 @@
             <div class="sc-inhalt" data-i="${termine.indexOf(t)}"></div>
           </details>`;
       }).join("") : `<p class="hinweis">Keine Agenden gefunden.</p>`;
-      const fuellen = (det) => { const c = det.querySelector(".sc-inhalt"); if (!c.dataset.fertig) { c.innerHTML = bloeckeHtml(termine[+c.dataset.i].bloecke); c.dataset.fertig = "1"; } };
+      const fuellen = (det) => { const c = det.querySelector(".sc-inhalt"); if (!c.dataset.fertig) { c.innerHTML = bloeckeHtml(termine[+c.dataset.i].bloecke, labs); c.dataset.fertig = "1"; } };
       liste.querySelectorAll("details").forEach((det) => {
         if (det.open || q) { fuellen(det); if (q) det.open = true; }
         det.addEventListener("toggle", () => det.open && fuellen(det));
@@ -717,6 +805,7 @@
       await ({ lab: labseite, blog: blogseite, statuscall: statuscallseite }[seite] || startseite)(root, d);
       menueEinrichten();
       logoEinsetzen();
+      fotosLaden(document);
     } catch (e) {
       root.innerHTML = `<div class="wrap" style="padding:48px 0"><p class="hinweis">Daten konnten nicht geladen werden (${esc(e.message)}).</p></div>`;
     }
