@@ -13,7 +13,10 @@ permissions:
 
 jobs:
   uebernehmen:
-    if: github.event.label.name == 'freigegeben'
+    # Nur Eingaben von Personen mit Schreibrechten (Owner/Collaborators) werden übernommen.
+    if: >-
+      github.event.label.name == 'freigegeben' &&
+      contains(fromJSON('["OWNER","MEMBER","COLLABORATOR"]'), github.event.issue.author_association)
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

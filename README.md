@@ -2,29 +2,31 @@
 
 Zentrale Übersicht aller KI-Labs des BVDW: Startseite mit Kacheln, je Lab eine Unterseite mit Lab-Leitung, Ansprechpersonen, Zielen und **Roadmap 2027**.
 
-Die Seite läuft ohne Server direkt über **GitHub Pages**. Alle Inhalte stehen in `data/labs.json`. Eingaben kommen über **GitHub-Formulare (Issues)** und werden nach Freigabe automatisch übernommen.
+Die Seite läuft ohne Server direkt über **GitHub Pages**. Alle Inhalte stehen in `data/labs.json`. Gepflegt wird ausschließlich über GitHub – die Seite selbst hat keine Eingabemöglichkeiten.
 
-## So funktioniert die GitHub-Schnittstelle
+## Pflege der Inhalte (nur Bereich KI)
 
-```
-Lab-Leitung / BVDW-Verantwortliche        Bereich KI                          Hub
-────────────────────────────────           ──────────                          ───
-Button „Roadmap-Eintrag vorschlagen“  ──►  prüft Issue, setzt Label     ──►  Action schreibt data/labs.json
-  (Formular auf GitHub)                     „freigegeben“                     und legt Pull Request an
-                                                                        ──►  PR mergen → Seite ist live
-```
+Die öffentliche Seite ist **reine Ansicht** – dort gibt es keine Eingabemöglichkeiten. Gepflegt wird ausschließlich hier im Repo:
 
-Drei Formulare (unter *Issues → New issue*):
+**Variante A – Formular (empfohlen):** *Issues → New issue* → Formular wählen → absenden → Label **`freigegeben`** setzen. Die Action schreibt die Änderung in `data/labs.json` und legt einen Pull Request an. PR mergen → nach ca. 1 Minute live.
 
 | Formular | Wofür |
 |---|---|
 | **Roadmap-Eintrag 2027** | Neuen Meilenstein (Quartal, Titel, Format, Status, Verantwortlich) hinzufügen |
 | **Lab-Infos aktualisieren** | Lab-Leitung, BVDW-Verantwortliche, Termine, aktuelle Projekte, Kurzbeschreibung, Status, Ziele 2027, Links ändern |
-| **Neues Lab anlegen** | Neue Kachel auf der Startseite |
+| **Neues Lab anlegen** | Neue Kachel in einem Themenfeld |
 
-Auf jeder Lab-Seite führen die Buttons direkt ins passende Formular, das Lab ist dort schon vorausgefüllt. Wer eine Eingabe machen möchte, braucht einen (kostenlosen) GitHub-Account mit Zugriff auf das Repo.
+Die Action verarbeitet nur Eingaben von Personen mit Schreibrechten (Owner/Collaborators). Eingaben Dritter werden ignoriert, auch wenn sie das Label bekommen.
 
-**Ohne Formular:** `data/labs.json` lässt sich auch direkt auf GitHub bearbeiten (Stift-Symbol) – nach dem Speichern ist die Änderung nach ca. 1 Minute live.
+**Variante B – direkt:** `data/labs.json` auf GitHub öffnen → Stift-Symbol → ändern → „Commit changes“. Nach ca. 1 Minute live.
+
+**Damit niemand sonst Eingaben machen kann:** Repo auf **Private** stellen (die Seite bleibt öffentlich; GitHub Pages aus privaten Repos braucht GitHub Pro) – oder bei öffentlichem Repo unter *Settings → General → Features* die **Issues** deaktivieren und nur Variante B nutzen.
+
+## Eigene BVDW-Subdomain
+
+1. Im Repo unter *Settings → Pages → Custom domain* die Subdomain eintragen (z. B. `ki-hub.bvdw.org`) und speichern.
+2. BVDW-IT legt im DNS einen **CNAME** an: `ki-hub` → `kattaschnay.github.io`
+3. Nach der DNS-Prüfung „Enforce HTTPS“ aktivieren.
 
 ## Einrichtung (einmalig)
 
@@ -32,8 +34,6 @@ Auf jeder Lab-Seite führen die Buttons direkt ins passende Formular, das Lab is
 2. **Settings → Pages → Build and deployment → Source: „GitHub Actions“.**
 3. **Settings → Actions → General → Workflow permissions:** „Read and write permissions“ und **„Allow GitHub Actions to create and approve pull requests“** aktivieren.
 4. **Issues → Labels:** Label `freigegeben` anlegen (die Labels `eingabe`, `roadmap`, `lab-info`, `neues-lab` legt GitHub beim ersten Formular an – sonst ebenfalls manuell anlegen).
-5. In `data/config.json` den Repo-Namen prüfen (`"repo": "…"`), damit die Formular-Buttons auf das richtige Repo zeigen.
-6. Lab-Leitungen und Programmmanagerinnen als Collaborators einladen (Rolle „Triage“ reicht zum Freigeben, „Write“ zum Mergen).
 
 Die Seite ist dann erreichbar unter `https://<github-name>.github.io/bvdw-ai-orchestrator-hub/`.
 

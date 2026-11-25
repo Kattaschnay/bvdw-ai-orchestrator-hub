@@ -1,5 +1,1 @@
-blank_issues_enabled: true
-contact_links:
-  - name: AI Orchestrator Hub öffnen
-    url: https://kattaschnay.github.io/bvdw-ai-orchestrator-hub/
-    about: Alle Labs und Roadmaps 2027 im Überblick.
+blank_issues_enabled: false

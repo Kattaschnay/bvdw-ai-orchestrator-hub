@@ -21,8 +21,6 @@
     return { cfg, labs, felder, stand: daten.stand };
   }
 
-  const ghUrl = (cfg, pfad) => `https://github.com/${cfg.repo}/${pfad}`;
-  const formUrl = (cfg, vorlage, felder = {}) => ghUrl(cfg, "issues/new?" + new URLSearchParams({ template: vorlage, ...felder }).toString());
 
   const logo = () => `
     <a class="logo-link" href="index.html" aria-label="BVDW AI Orchestrator Hub – Startseite">
@@ -37,20 +35,46 @@
         <a href="index.html#labs">Labs</a>
         <a href="index.html#formate">Formate</a>
         <a href="index.html#publikationen">Publikationen</a>
-        <a href="${esc(formUrl(cfg, "roadmap-eintrag.yml"))}" ${extern}>Eingabe machen</a>
-        <a href="${esc(ghUrl(cfg, "issues"))}" ${extern}>Offene Eingaben</a>
       </nav>
     </div></div>`;
 
   const footer = (cfg, stand) => `
     <footer><div class="wrap">
       <span class="wortmarke">BVDW</span>
-      <span>Bereich KI · Datenstand ${esc(stand || "–")} · Inhalte: <a href="${esc(cfg.quelle)}" ${extern}>bvdw.org</a> ·
-      Änderungen über <a href="${esc(ghUrl(cfg, ""))}" ${extern}>GitHub</a></span>
+      <span>Bereich KI · Datenstand ${esc(stand || "–")} · Inhalte: <a href="${esc(cfg.quelle)}" ${extern}>bvdw.org</a></span>
     </div></footer>`;
 
   const heroBild = () => `<div class="hero-block" aria-hidden="true"></div>
     <img class="hero-bild" src="assets/hero.png" alt="" aria-hidden="true">`;
+
+  /* Visual Startseite: KI im Zentrum, sieben Themenfelder als orchestrierte Knoten */
+  function heroNetz(felder) {
+    const cx = 250, cy = 290, r = 150, n = felder.length || 7;
+    const knoten = Array.from({ length: n }, (_, i) => {
+      const a = -Math.PI / 2 + (i * 2 * Math.PI) / n;
+      return { x: cx + r * Math.cos(a), y: cy + r * Math.sin(a), nr: felder[i]?.nr ?? i + 1 };
+    });
+    const linien = knoten.map((k, i) => `
+      <line x1="${cx}" y1="${cy}" x2="${k.x.toFixed(1)}" y2="${k.y.toFixed(1)}" class="netz-linie"/>
+      <circle r="5" class="netz-puls"><animateMotion dur="${(2.4 + (i % 3) * 0.5).toFixed(1)}s" begin="-${(i * 0.35 + 0.1).toFixed(2)}s" repeatCount="indefinite"
+        path="M${k.x.toFixed(1)},${k.y.toFixed(1)} L${cx},${cy}"/></circle>`).join("");
+    const ring = knoten.map((k, i) => {
+      const m = knoten[(i + 1) % n];
+      return `<line x1="${k.x.toFixed(1)}" y1="${k.y.toFixed(1)}" x2="${m.x.toFixed(1)}" y2="${m.y.toFixed(1)}" class="netz-ring"/>`;
+    }).join("");
+    const punkte = knoten.map((k) => `
+      <g class="netz-knoten" data-feld="${k.nr}"><circle cx="${k.x.toFixed(1)}" cy="${k.y.toFixed(1)}" r="27"/>
+      <text x="${k.x.toFixed(1)}" y="${(k.y + 8).toFixed(1)}">${k.nr}</text></g>`).join("");
+    return `
+      <svg class="hero-netz" viewBox="0 0 460 500" aria-hidden="true">
+        <path d="M150 0 H450 V294 a36 36 0 0 1 -36 36 H186 a36 36 0 0 1 -36 -36 Z" fill="#0045C3"/>
+        ${ring}${linien}
+        <circle cx="${cx}" cy="${cy}" r="58" fill="#FF5833"/>
+        <circle cx="${cx}" cy="${cy}" r="72" class="netz-halo"/>
+        <text x="${cx}" y="${cy + 14}" class="netz-ki">KI</text>
+        ${punkte}
+      </svg>`;
+  }
 
   /* ---------- Startseite ---------- */
   function startseite(root, { cfg, labs, felder, stand }) {
@@ -59,7 +83,7 @@
     root.innerHTML = `
       ${topbar(cfg)}
       <header class="hero"><div class="wrap">
-        ${heroBild()}
+        ${heroNetz(felder)}
         <div class="hero-inhalt">
           <p class="eyebrow">Künstliche Intelligenz im BVDW</p>
           <h1>BVDW<br>${esc(cfg.titel)}</h1>
@@ -80,12 +104,32 @@
       </section>
 
       <main class="wrap" id="labs">
-        <div class="filter" role="toolbar" aria-label="Nach Themenfeld filtern">
-          <button class="chip" data-feld="" aria-pressed="true">Alle Themenfelder</button>
-          ${felder.map((f) => `<button class="chip" data-feld="${f.nr}" aria-pressed="false">${f.nr} · ${esc(f.name)}</button>`).join("")}
-          <input class="suche" type="search" placeholder="Lab, Person oder Unternehmen suchen …" aria-label="Suche">
+        <div class="felder-kopf">
+          <div>
+            <p class="eyebrow">Themenfelder</p>
+            <h2>${felder.length} Themenfelder bündeln ${labs.length} Labs</h2>
+            <p class="unter">Themenfeld anklicken, um die zugehörigen Labs, Working Groups und AGs zu sehen.</p>
+          </div>
+          <input class="suche" type="search" placeholder="Lab, Person oder Unternehmen suchen …" aria-label="Labs durchsuchen">
         </div>
-        <div id="gruppen"></div>
+        <div class="feldkacheln" role="list">
+          ${felder.map((f) => {
+            const n = labs.filter((l) => l.themenfeld === f.nr).length;
+            return `
+            <button class="feldkachel" role="listitem" data-feld="${f.nr}" aria-expanded="false" aria-controls="feldpanel">
+              <span class="feldkachel-nr">${f.nr}</span>
+              <span class="feldkachel-name">${esc(f.name)}</span>
+              <span class="feldkachel-frage">${esc(f.leitfrage)}</span>
+              <span class="feldkachel-fuss"><span>${n} ${n === 1 ? "Lab" : "Labs"}</span><span class="pfeil" aria-hidden="true">↓</span></span>
+            </button>`;
+          }).join("")}
+          <button class="feldkachel alle" data-feld="alle" aria-expanded="false" aria-controls="feldpanel">
+            <span class="feldkachel-name">Alle ${labs.length} Labs</span>
+            <span class="feldkachel-frage">Der Bereich KI orchestriert alle Themenfelder im Querschnitt.</span>
+            <span class="feldkachel-fuss"><span>Gesamtübersicht</span><span class="pfeil" aria-hidden="true">↓</span></span>
+          </button>
+        </div>
+        <section id="feldpanel" class="feldpanel" hidden></section>
       </main>
 
       <section class="wrap block" id="formate">
@@ -125,11 +169,12 @@
       ${footer(cfg, stand)}`;
 
     let aktivesFeld = "", suchbegriff = "";
-    const ziel = root.querySelector("#gruppen");
+    const panel = root.querySelector("#feldpanel");
+    const feldKacheln = [...root.querySelectorAll(".feldkachel")];
 
     const kachel = (l) => {
       const namen = (l.leitung || []).map((p) => p.name).join(", ");
-      const projekte = (l.aktuell || []).length + (l.roadmap2027 || []).length;
+      const bvdw = (l.bvdw || []).map((b) => b.name).join(", ");
       return `
         <a class="kachel" href="lab.html?id=${encodeURIComponent(l.id)}">
           <div class="kopf"><span class="nr">${l.nr}</span>${badge(l.status)}</div>
@@ -137,42 +182,69 @@
           <p class="heimat">${esc(l.heimat)}</p>
           <p class="kurz">${esc(l.kurz)}</p>
           <div class="fuss">
-            <span>${namen ? "Lab-Leitung: " + esc(namen) : (l.bvdw || []).length ? "BVDW: " + esc(l.bvdw.map((b) => b.name).join(", ")) : ""}</span>
+            <span>${namen ? "Lab-Leitung: " + esc(namen) : bvdw ? "BVDW: " + esc(bvdw) : ""}</span>
             <span class="pfeil" aria-hidden="true">→</span>
           </div>
         </a>`;
     };
 
-    function zeichnen() {
-      const q = suchbegriff.toLowerCase();
-      const passt = (l) => {
-        if (aktivesFeld && String(l.themenfeld) !== aktivesFeld) return false;
-        if (!q) return true;
-        return [l.name, l.kurz, l.heimat, ...(l.leitung || []).map((p) => `${p.name} ${p.unternehmen}`), ...(l.bvdw || []).map((b) => b.name)]
-          .join(" ").toLowerCase().includes(q);
-      };
-      const html = felder.map((f) => {
-        const treffer = labs.filter((l) => l.themenfeld === f.nr && passt(l));
-        if (!treffer.length) return "";
-        return `
-          <section class="feldgruppe">
-            <div class="feldkopf"><div>
-              <h2><span class="feldnr">${f.nr}</span> · ${esc(f.name)}</h2>
-              <p>${esc(f.leitfrage)}</p>
-            </div></div>
-            <div class="kacheln">${treffer.map(kachel).join("")}</div>
-          </section>`;
-      }).join("");
-      ziel.innerHTML = html || `<p class="hinweis" style="margin-top:32px">Keine Labs gefunden.</p>`;
+    const passt = (l, q) => !q || [l.name, l.kurz, l.heimat, ...(l.leitung || []).map((p) => `${p.name} ${p.unternehmen}`), ...(l.bvdw || []).map((b) => b.name)]
+      .join(" ").toLowerCase().includes(q);
+
+    function zeichnen(scrollen) {
+      const q = suchbegriff.trim().toLowerCase();
+      feldKacheln.forEach((k) => {
+        const an = !q && k.dataset.feld === aktivesFeld;
+        k.classList.toggle("aktiv", an);
+        k.setAttribute("aria-expanded", String(an));
+        if (q) {
+          const nr = k.dataset.feld;
+          const n = labs.filter((l) => (nr === "alle" || String(l.themenfeld) === nr) && passt(l, q)).length;
+          k.classList.toggle("treffer", n > 0);
+          k.classList.toggle("gedimmt", n === 0);
+        } else k.classList.remove("treffer", "gedimmt");
+      });
+
+      if (!q && !aktivesFeld) { panel.hidden = true; panel.innerHTML = ""; return; }
+
+      let titel, unter, liste;
+      if (q) {
+        liste = labs.filter((l) => passt(l, q));
+        titel = `${liste.length} Treffer für „${esc(suchbegriff.trim())}“`;
+        unter = "Suche über alle Themenfelder";
+      } else if (aktivesFeld === "alle") {
+        liste = labs; titel = `Alle ${labs.length} Labs`; unter = "Sortiert nach Themenfeld";
+      } else {
+        const f = felder.find((x) => String(x.nr) === aktivesFeld);
+        liste = labs.filter((l) => String(l.themenfeld) === aktivesFeld);
+        titel = `<span class="feldnr">${f.nr}</span> · ${esc(f.name)}`; unter = esc(f.leitfrage);
+      }
+      panel.hidden = false;
+      panel.innerHTML = `
+        <div class="feldkopf">
+          <div><h2>${titel}</h2><p>${unter}</p></div>
+          <button class="schliessen" type="button" aria-label="Schließen">Schließen ×</button>
+        </div>
+        ${liste.length ? `<div class="kacheln">${liste.map(kachel).join("")}</div>` : `<p class="hinweis">Keine Labs gefunden.</p>`}`;
+      panel.querySelector(".schliessen").addEventListener("click", () => {
+        aktivesFeld = ""; suchbegriff = ""; root.querySelector(".suche").value = "";
+        history.replaceState(null, "", location.pathname + location.search + "#labs");
+        zeichnen();
+        root.querySelector("#labs").scrollIntoView({ behavior: "smooth", block: "start" });
+      });
+      if (scrollen) panel.scrollIntoView({ behavior: "smooth", block: "start" });
     }
 
-    root.querySelectorAll(".chip").forEach((b) => b.addEventListener("click", () => {
-      aktivesFeld = b.dataset.feld;
-      root.querySelectorAll(".chip").forEach((x) => x.setAttribute("aria-pressed", String(x === b)));
-      zeichnen();
+    feldKacheln.forEach((k) => k.addEventListener("click", () => {
+      suchbegriff = ""; root.querySelector(".suche").value = "";
+      aktivesFeld = aktivesFeld === k.dataset.feld ? "" : k.dataset.feld;
+      history.replaceState(null, "", location.pathname + location.search + (aktivesFeld ? `#feld-${aktivesFeld}` : "#labs"));
+      zeichnen(!!aktivesFeld);
     }));
     root.querySelector(".suche").addEventListener("input", (e) => { suchbegriff = e.target.value; zeichnen(); });
-    zeichnen();
+
+    const m = location.hash.match(/^#feld-(\d+|alle)$/);
+    if (m) { aktivesFeld = m[1]; zeichnen(true); }
   }
 
   /* ---------- Lab-Seite ---------- */
@@ -198,28 +270,22 @@
               <div class="titel">${esc(m.titel)}</div>
               ${m.beschreibung ? `<p>${esc(m.beschreibung)}</p>` : ""}
               ${badge(m.status || "geplant")} ${m.verantwortlich ? `<span class="wer">· ${esc(m.verantwortlich)}</span>` : ""}
-            </div>`).join("") : `<p class="leer">Noch keine Einträge.</p>`}
+            </div>`).join("") : `<p class="leer">Noch keine Meilensteine.</p>`}
         </div>`;
     }).join("");
 
-    const roadmapLink = esc(formUrl(cfg, "roadmap-eintrag.yml", { lab: lab.id, title: `[Roadmap] ${lab.name}: ` }));
-    const infoLink = esc(formUrl(cfg, "lab-info.yml", { lab: lab.id, title: `[Lab-Info] ${lab.name}` }));
 
     root.innerHTML = `
       ${topbar(cfg)}
       <header class="hero"><div class="wrap">
         ${heroBild()}
         <div class="hero-inhalt">
-          <a class="zurueck" href="index.html#labs">← Alle Labs</a>
+          <a class="zurueck" href="index.html#feld-${lab.themenfeld}">← Themenfeld ${lab.feld ? esc(lab.feld.name) : ""}</a>
           <p class="eyebrow">Themenfeld ${lab.feld ? `${lab.feld.nr} · ${esc(lab.feld.name)}` : ""}</p>
           <h1>${esc(lab.name)}</h1>
           <div class="lab-meta"><span>${esc(lab.heimat)}</span>${badge(lab.status)}</div>
           <p class="lead" style="margin-top:22px">${esc(lab.kurz)}</p>
           ${lab.hinweis ? `<p class="hinweis" style="margin-top:20px">${esc(lab.hinweis)}</p>` : ""}
-          <div class="aktionen">
-            <a class="btn" ${extern} href="${roadmapLink}">+ Roadmap-Eintrag vorschlagen</a>
-            <a class="btn sekundaer" ${extern} href="${infoLink}">Lab-Infos aktualisieren</a>
-          </div>
         </div>
       </div></header>
 
@@ -234,8 +300,7 @@
             ${(lab.bvdw || []).map((b) => `
               <div class="person bvdw"><div class="rolle">Verantwortlich BVDW</div>
                 <div class="name">${esc(b.name)}</div>${b.email ? `<a class="firma" href="mailto:${esc(b.email)}">${esc(b.email)}</a>` : ""}</div>`).join("")}
-            ${!(lab.leitung || []).length ? `<div class="person leer-person"><div class="rolle">Lab-Leitung</div><div class="name">Noch nicht hinterlegt</div>
-              <a class="firma" ${extern} href="${infoLink}">Jetzt ergänzen →</a></div>` : ""}
+            ${!(lab.leitung || []).length ? `<div class="person leer-person"><div class="rolle">Lab-Leitung</div><div class="name">Noch nicht hinterlegt</div></div>` : ""}
           </div>
           ${lab.termine ? `<p class="termine"><b>Termine:</b> ${esc(lab.termine)}</p>` : ""}
         </section>
@@ -252,15 +317,14 @@
           <h2>Ziele 2027</h2>
           ${(lab.ziele2027 || []).length
             ? `<ul class="ziele">${lab.ziele2027.map((z) => `<li>${esc(z)}</li>`).join("")}</ul>`
-            : `<p class="hinweis">Noch keine Ziele 2027 hinterlegt. <a href="${infoLink}" ${extern}>Ziele ergänzen →</a></p>`}
+            : `<p class="hinweis">Die Ziele 2027 werden aktuell mit der Lab-Leitung abgestimmt.</p>`}
         </section>
 
         <section class="block">
           <p class="eyebrow">Roadmap</p>
           <h2>Roadmap 2027</h2>
-          <p class="unter">Meilensteine pro Quartal. Neue Einträge kommen über das Formular und erscheinen nach Freigabe durch den Bereich KI.</p>
+          <p class="unter">Meilensteine pro Quartal.</p>
           <div class="roadmap">${spalten}</div>
-          <div class="aktionen"><a class="btn" ${extern} href="${roadmapLink}">+ Roadmap-Eintrag vorschlagen</a></div>
         </section>
 
         ${(lab.links || []).length ? `
