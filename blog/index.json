@@ -1,0 +1,37 @@
+[
+  {
+    "slug": "2026-11-25-willkommen-im-ai-orchestrator-hub",
+    "titel": "Willkommen im AI Orchestrator Hub",
+    "datum": "2026-11-25",
+    "autor": "Katharina Schneeberg",
+    "teaser": "Alle KI-Labs, Working Groups und Initiativen des BVDW an einem Ort – sortiert nach sieben Themenfeldern, mit Lab-Leitungen und Roadmap 2027.",
+    "tags": [
+      "Bereich KI",
+      "Hub"
+    ],
+    "entwurf": false
+  },
+  {
+    "slug": "2026-11-24-ai-value-framework",
+    "titel": "Leitfaden „KI-Wertbeitrag messen“ ist erschienen",
+    "datum": "2026-11-24",
+    "autor": "Bereich KI",
+    "teaser": "Das Lab AI Value Chain hat das erste AI Value Framework des BVDW veröffentlicht.",
+    "tags": [
+      "Lab AI Value Chain",
+      "Publikation"
+    ],
+    "entwurf": false
+  },
+  {
+    "slug": "2026-11-05-ki-knigge",
+    "titel": "Der erste KI-Knigge des BVDW",
+    "datum": "2026-11-05",
+    "autor": "Bereich KI",
+    "teaser": "Ein Whitepaper zum ersten KI-Knigge des BVDW ist erschienen.",
+    "tags": [
+      "Publikation"
+    ],
+    "entwurf": false
+  }
+]

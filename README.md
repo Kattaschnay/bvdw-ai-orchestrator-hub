@@ -22,6 +22,35 @@ Die Action verarbeitet nur Eingaben von Personen mit Schreibrechten (Owner/Colla
 
 **Damit niemand sonst Eingaben machen kann:** Repo auf **Private** stellen (die Seite bleibt öffentlich; GitHub Pages aus privaten Repos braucht GitHub Pro) – oder bei öffentlichem Repo unter *Settings → General → Features* die **Issues** deaktivieren und nur Variante B nutzen.
 
+## AI Blog – neuen Beitrag schreiben
+
+1. Im Repo den Ordner `blog/` öffnen → **Add file → Create new file**.
+2. Dateiname: `JJJJ-MM-TT-kurzer-titel.md`, z. B. `2026-12-03-neues-lab-ai-media.md`
+3. Inhalt nach diesem Muster:
+
+```markdown
+---
+titel: Überschrift des Beitrags
+datum: 2026-12-03
+autor: Katharina Schneeberg
+teaser: Ein bis zwei Sätze für die Übersicht.
+tags: Lab AI Technology, Publikation
+---
+
+Hier steht der Text. **Fett**, *kursiv*, [Link](https://www.bvdw.org) und Listen:
+
+- Punkt eins
+- Punkt zwei
+
+## Zwischenüberschrift
+
+> Ein Zitat wird als Kasten hervorgehoben.
+```
+
+4. **Commit changes** – nach ca. 1 Minute ist der Beitrag im AI Blog und auf der Startseite.
+
+Mit `entwurf: ja` im Kopf bleibt ein Beitrag unveröffentlicht. Bilder: Datei in `blog/` hochladen und mit `![Beschreibung](blog/bild.jpg)` einbinden.
+
 ## Eigene BVDW-Subdomain
 
 1. Im Repo unter *Settings → Pages → Custom domain* die Subdomain eintragen (z. B. `ki-hub.bvdw.org`) und speichern.

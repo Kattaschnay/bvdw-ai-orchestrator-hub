@@ -46,6 +46,7 @@
       <nav id="sidebar-nav" class="sidebar-nav" aria-label="Hauptnavigation">
         <ul class="nav-haupt">
           <li><a href="index.html#start"${aktiv.seite === "start" ? ' class="aktiv"' : ""}>Übersicht</a></li>
+          <li><a href="blog.html"${aktiv.seite === "blog" ? ' class="aktiv"' : ""}>AI Blog</a></li>
         </ul>
         <p class="nav-titel">Themenfelder</p>
         <ul class="nav-felder">
@@ -182,6 +183,14 @@
         <section id="feldpanel" class="feldpanel" hidden></section>
       </main>
 
+      <section class="wrap block" id="blog-teaser" hidden>
+        <div class="felder-kopf">
+          <div><p class="eyebrow">AI Blog</p><h2>Neues aus dem Bereich KI</h2></div>
+          <a class="btn sekundaer" href="blog.html">Alle Beiträge</a>
+        </div>
+        <div class="blogliste" id="blog-neu"></div>
+      </section>
+
       <section class="wrap block" id="formate">
         <p class="eyebrow">Mitmachen</p>
         <h2>Formate & Einstieg</h2>
@@ -297,6 +306,12 @@
     }));
     root.querySelector(".suche").addEventListener("input", (e) => { suchbegriff = e.target.value; zeichnen(); });
 
+    blogLaden().then((liste) => {
+      if (!liste.length) return;
+      root.querySelector("#blog-neu").innerHTML = liste.slice(0, 3).map(blogKarte).join("");
+      root.querySelector("#blog-teaser").hidden = false;
+    });
+
     const ausHash = () => {
       const m = location.hash.match(/^#feld-(\d+|alle)$/);
       if (m) { suchbegriff = ""; root.querySelector(".suche").value = ""; aktivesFeld = m[1]; zeichnen(true); }
@@ -410,6 +425,125 @@
     versuche(["assets/bvdw-logo.png"]);
   }
 
+  /* ---------- AI Blog ---------- */
+  const datumDE = (d) => {
+    const m = String(d || "").match(/^(\d{4})-(\d{2})-(\d{2})/);
+    return m ? `${m[3]}.${m[2]}.${m[1]}` : esc(d);
+  };
+  const sichereUrl = (u) => (/^(https?:\/\/|mailto:|[\w./?=&#%-]+$)/i.test(u) && !/^javascript:/i.test(u) ? u : "#");
+
+  function inline(t) {
+    return esc(t)
+      .replace(/!\[([^\]]*)\]\(([^)\s]+)\)/g, (_, alt, u) => `<img src="${sichereUrl(u)}" alt="${alt}">`)
+      .replace(/\[([^\]]+)\]\(([^)\s]+)\)/g, (_, txt, u) => {
+        const url = sichereUrl(u.replace(/&amp;/g, "&"));
+        const ext = /^https?:/i.test(url) ? ` ${extern}` : "";
+        return `<a href="${esc(url)}"${ext}>${txt}</a>`;
+      })
+      .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>")
+      .replace(/(^|[^*])\*([^*\s][^*]*)\*/g, "$1<em>$2</em>")
+      .replace(/`([^`]+)`/g, "<code>$1</code>");
+  }
+
+  function markdown(md) {
+    const zeilen = String(md).replace(/\r\n/g, "\n").split("\n");
+    let html = "", absatz = [], liste = null;
+    const absatzEnde = () => { if (absatz.length) { html += `<p>${inline(absatz.join(" "))}</p>`; absatz = []; } };
+    const listeEnde = () => { if (liste) { html += `</${liste}>`; liste = null; } };
+    for (const roh of zeilen) {
+      const z = roh.trimEnd();
+      let m;
+      if (!z.trim()) { absatzEnde(); listeEnde(); continue; }
+      if ((m = z.match(/^(#{1,3})\s+(.*)$/))) { absatzEnde(); listeEnde(); const e = m[1].length + 1; html += `<h${e}>${inline(m[2])}</h${e}>`; continue; }
+      if ((m = z.match(/^\s*[-*]\s+(.*)$/))) { absatzEnde(); if (liste !== "ul") { listeEnde(); html += "<ul>"; liste = "ul"; } html += `<li>${inline(m[1])}</li>`; continue; }
+      if ((m = z.match(/^\s*\d+[.)]\s+(.*)$/))) { absatzEnde(); if (liste !== "ol") { listeEnde(); html += "<ol>"; liste = "ol"; } html += `<li>${inline(m[1])}</li>`; continue; }
+      if ((m = z.match(/^>\s?(.*)$/))) { absatzEnde(); listeEnde(); html += `<blockquote>${inline(m[1])}</blockquote>`; continue; }
+      listeEnde(); absatz.push(z.trim());
+    }
+    absatzEnde(); listeEnde();
+    return html;
+  }
+
+  function trennen(text) {
+    const t = String(text).replace(/\r\n/g, "\n");
+    const m = t.match(/^---\n([\s\S]*?)\n---\n?/);
+    const kopf = {};
+    if (m) m[1].split("\n").forEach((z) => { const i = z.indexOf(":"); if (i > 0) kopf[z.slice(0, i).trim().toLowerCase()] = z.slice(i + 1).trim(); });
+    return { kopf, text: m ? t.slice(m[0].length) : t };
+  }
+
+  const blogLaden = () => fetch("blog/index.json", { cache: "no-store" }).then((r) => (r.ok ? r.json() : [])).catch(() => []);
+
+  const blogKarte = (b) => `
+    <a class="blogkarte" href="blog.html?id=${encodeURIComponent(b.slug)}">
+      <span class="blog-datum">${datumDE(b.datum)}</span>
+      <h3>${esc(b.titel)}</h3>
+      ${b.teaser ? `<p>${esc(b.teaser)}</p>` : ""}
+      <span class="blog-fuss"><span>${esc(b.autor)}</span><span class="pfeil" aria-hidden="true">→</span></span>
+      ${(b.tags || []).length ? `<span class="blog-tags">${b.tags.map((t) => `<span class="tag">${esc(t)}</span>`).join("")}</span>` : ""}
+    </a>`;
+
+  async function blogseite(root, { cfg, stand }) {
+    const id = new URLSearchParams(location.search).get("id");
+    const liste = await blogLaden();
+
+    if (!id) {
+      const tags = [...new Set(liste.flatMap((b) => b.tags || []))];
+      root.innerHTML = `
+        <header class="hero blog-hero"><div class="wrap">
+          <div class="hero-inhalt">
+            <p class="eyebrow">AI Blog</p>
+            <h1>Neues aus dem Bereich KI</h1>
+            <p class="lead">Berichte aus den Labs, neue Publikationen und Einordnungen zur KI-Agenda des BVDW.</p>
+          </div>
+        </div></header>
+        <main class="wrap">
+          ${tags.length ? `<div class="blog-filter" role="toolbar" aria-label="Nach Thema filtern">
+            <button class="chip" data-tag="" aria-pressed="true">Alle</button>
+            ${tags.map((t) => `<button class="chip" data-tag="${esc(t)}" aria-pressed="false">${esc(t)}</button>`).join("")}
+          </div>` : ""}
+          <div class="blogliste" id="blogliste"></div>
+        </main>
+        ${footer(cfg, stand)}`;
+      const ziel = root.querySelector("#blogliste");
+      const zeigen = (tag) => {
+        const auswahl = tag ? liste.filter((b) => (b.tags || []).includes(tag)) : liste;
+        ziel.innerHTML = auswahl.length ? auswahl.map(blogKarte).join("") : `<p class="hinweis">Noch keine Beiträge.</p>`;
+      };
+      root.querySelectorAll(".blog-filter .chip").forEach((c) => c.addEventListener("click", () => {
+        root.querySelectorAll(".blog-filter .chip").forEach((x) => x.setAttribute("aria-pressed", String(x === c)));
+        zeigen(c.dataset.tag);
+      }));
+      zeigen("");
+      return;
+    }
+
+    const meta = liste.find((b) => b.slug === id);
+    const antwort = /^[\w-]+$/.test(id) ? await fetch(`blog/${id}.md`, { cache: "no-store" }).catch(() => null) : null;
+    if (!antwort || !antwort.ok) {
+      root.innerHTML = `<header class="hero"><div class="wrap"><h1>Beitrag nicht gefunden</h1>
+        <div class="aktionen"><a class="btn" href="blog.html">Zum AI Blog</a></div></div></header>`;
+      return;
+    }
+    const { kopf, text } = trennen(await antwort.text());
+    const titel = kopf.titel || meta?.titel || id;
+    document.title = `${titel} · AI Blog · BVDW`;
+    const idx = liste.findIndex((b) => b.slug === id);
+    const weitere = liste.filter((b) => b.slug !== id).slice(0, 3);
+    root.innerHTML = `
+      <article class="wrap beitrag">
+        <a class="zurueck" href="blog.html">← AI Blog</a>
+        <p class="eyebrow">${datumDE(kopf.datum || meta?.datum)} · ${esc(kopf.autor || meta?.autor || "Bereich KI")}</p>
+        <h1>${esc(titel)}</h1>
+        ${kopf.teaser ? `<p class="lead">${esc(kopf.teaser)}</p>` : ""}
+        <div class="beitrag-text">${markdown(text)}</div>
+        ${(meta?.tags || []).length ? `<p class="blog-tags">${meta.tags.map((t) => `<span class="tag">${esc(t)}</span>`).join("")}</p>` : ""}
+      </article>
+      ${weitere.length ? `<section class="wrap block"><p class="eyebrow">Weiterlesen</p><h2>Mehr aus dem AI Blog</h2>
+        <div class="blogliste">${weitere.map(blogKarte).join("")}</div></section>` : ""}
+      ${footer(cfg, stand)}`;
+  }
+
   /* Mobil: Menü auf- und zuklappen */
   function menueEinrichten() {
     const knopf = document.querySelector(".menue-knopf");
@@ -431,14 +565,15 @@
     const root = document.getElementById("inhalt");
     try {
       const d = await laden();
-      const istLab = document.body.dataset.seite === "lab";
-      let aktiv = { seite: "start" };
+      const seite = document.body.dataset.seite;
+      const istLab = seite === "lab";
+      let aktiv = { seite: seite === "blog" ? "blog" : "start" };
       if (istLab) {
         const lab = d.labs.find((l) => l.id === new URLSearchParams(location.search).get("id"));
         aktiv = { seite: "lab", feld: lab?.themenfeld, lab: lab?.id, zeigeLabs: true };
       }
       document.getElementById("sidebar").innerHTML = sidebar(d, aktiv);
-      (istLab ? labseite : startseite)(root, d);
+      await ({ lab: labseite, blog: blogseite }[seite] || startseite)(root, d);
       menueEinrichten();
       logoEinsetzen();
     } catch (e) {

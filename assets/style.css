@@ -152,7 +152,7 @@ footer a { color: var(--weiss); }
 
 /* Blöcke Startseite */
 section.block > h2, .block h2 { font-size: 38px; line-height: 1.1; margin: 0 0 22px; }
-.formate { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
+.formate { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
 .format { position: relative; display: flex; flex-direction: column; gap: 6px; text-decoration: none; border: 2px solid var(--schwarz); border-radius: 12px; padding: 18px 20px 40px; }
 .format h3 { margin: 0; font-size: 19px; color: var(--blau); }
 .format p { margin: 0; font-size: 15px; color: #333; }
@@ -291,3 +291,33 @@ a.format:hover { box-shadow: 6px 6px 0 var(--blau); }
 @media (max-width: 700px) { .leitlinien { grid-template-columns: 1fr; } }
 body { overflow-x: clip; }
 footer .logo { height: 44px; width: 44px; }
+
+/* ---------- AI Blog ---------- */
+.blog-hero { padding-bottom: 32px; }
+.blog-filter { display: flex; gap: 8px; flex-wrap: wrap; padding: 20px 0; border-top: 2px solid var(--schwarz); margin-bottom: 20px; }
+.blogliste { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.blogkarte { display: flex; flex-direction: column; gap: 8px; text-decoration: none; border: 2px solid var(--schwarz); border-radius: 12px; padding: 20px 22px; min-height: 220px; transition: transform .15s ease, box-shadow .15s ease; }
+.blogkarte:hover, .blogkarte:focus-visible { transform: translateY(-3px); box-shadow: 6px 6px 0 var(--orange); outline: none; }
+.blog-datum { font-weight: 700; font-size: 13px; letter-spacing: 1.5px; color: var(--orange); }
+.blogkarte h3 { margin: 0; font-size: 22px; line-height: 1.15; color: var(--blau); }
+.blogkarte p { margin: 0; font-size: 15px; color: #333; }
+.blog-fuss { margin-top: auto; display: flex; justify-content: space-between; align-items: center; padding-top: 10px; border-top: 1px solid #ddd; font-size: 13px; color: var(--grau); }
+.blog-tags { display: flex; gap: 6px; flex-wrap: wrap; }
+.tag { font-size: 12px; padding: 3px 10px; border-radius: 999px; background: var(--beige); color: #333; }
+.beitrag { padding-top: 56px; max-width: 820px; margin-left: 0; }
+.beitrag h1 { font-size: clamp(36px, 5vw, 60px); }
+.beitrag .lead { margin-bottom: 8px; }
+.beitrag-text { font-size: 18px; line-height: 1.65; padding-top: 24px; margin-top: 24px; border-top: 2px solid var(--schwarz); }
+.beitrag-text h2 { font-size: 30px; color: var(--blau); margin: 36px 0 10px; line-height: 1.15; }
+.beitrag-text h3 { font-size: 22px; margin: 28px 0 8px; }
+.beitrag-text h4 { font-size: 18px; margin: 22px 0 6px; }
+.beitrag-text a { color: var(--blau); }
+.beitrag-text ul, .beitrag-text ol { padding-left: 22px; }
+.beitrag-text li { margin: 6px 0; }
+.beitrag-text li::marker { color: var(--orange); }
+.beitrag-text blockquote { margin: 24px 0; padding: 14px 22px; border-left: 6px solid var(--orange); background: var(--beige); border-radius: 0 12px 12px 0; font-size: 20px; }
+.beitrag-text img { max-width: 100%; border-radius: 12px; }
+.beitrag-text code { background: var(--grau-hell); padding: 1px 6px; border-radius: 4px; font-size: .9em; }
+.beitrag .blog-tags { margin-top: 32px; }
+@media (max-width: 1000px) { .blogliste { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 600px) { .blogliste, .formate { grid-template-columns: 1fr; } }
